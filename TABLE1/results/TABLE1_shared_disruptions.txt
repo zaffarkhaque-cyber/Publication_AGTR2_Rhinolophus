@@ -1,0 +1,17 @@
+AGTR2 DISRUPTIONS ON HUMAN AGTR2 COORDINATES (NP_000677.2; stops: exact position; frame changes: within 3 aa)
+  FRAME_CHANGE at 85-103    in 2 species: Hipposideros_armiger, Hipposideros_larvatus
+  STOP         at 163       in 2 species: Hipposideros_armiger, Hipposideros_larvatus
+  FRAME_CHANGE at 167-168   in 2 species: Hipposideros_armiger, Hipposideros_larvatus
+  STOP         at 182       in 2 species: Hipposideros_armiger, Hipposideros_larvatus
+  FRAME_CHANGE at 214-215   in 2 species: Hipposideros_armiger, Hipposideros_larvatus
+  STOP         at 244       in 2 species: Aselliscus_stoliczkanus, Hipposideros_larvatus
+  STOP         at 314       in 2 species: Hipposideros_armiger, Hipposideros_larvatus
+  STOP         at 334       in 2 species: Hipposideros_armiger, Hipposideros_larvatus
+  FRAME_CHANGE at 132-133   in 1 species: Aselliscus_stoliczkanus
+  STOP         at 158       in 1 species: Aselliscus_stoliczkanus
+  STOP         at 246       in 1 species: Hipposideros_larvatus
+  FRAME_CHANGE at 303-304   in 1 species: Aselliscus_stoliczkanus
+  STOP         at 327       in 1 species: Aselliscus_stoliczkanus
+  FRAME_CHANGE at 347-348   in 1 species: Hipposideros_armiger
+  STOP         at 350       in 1 species: Hipposideros_larvatus
+  NEGATIVE CONTROL (species expected to have intact AGTR2): 16 of 16 show no stop codon or frame change PASS

@@ -1,0 +1,16 @@
+event	human position	human residue	Aselliscus_stoliczkanus	Hipposideros_armiger	Hipposideros_larvatus	shared by
+FRAME_CHANGE	85-103	N	no (N)	frameshift	frameshift	2
+FRAME_CHANGE	132-133	I	frameshift	no (I)	no (I)	1
+STOP	158	W	TAG	no (C)	no (C)	1
+STOP	163	I	no (-)	TAG	TAG	2
+FRAME_CHANGE	167-168	V	no (V)	frameshift	frameshift	2
+STOP	182	R	no (K)	TGA	TGA	2
+FRAME_CHANGE	214-215	M	no (M)	frameshift	frameshift	2
+STOP	244	Y	TAG	no (Y)	TAG	2
+STOP	246	K	no (K)	no (K)	TAG	1
+FRAME_CHANGE	303-304	A	frameshift	no (A)	no (A)	1
+STOP	314	N	no (N)	TAA	TAA	2
+STOP	327	Q	TAG	no (T)	no (T)	1
+STOP	334	R	no (G)	TAG	TAG	2
+FRAME_CHANGE	347-348	M	no (V)	frameshift	no (V)	1
+STOP	350	R	no (L)	no (-)	TGA	1

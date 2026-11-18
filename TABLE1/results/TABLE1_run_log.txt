@@ -1,0 +1,75 @@
+TABLE1.py md5 c716ff3158718a07cf6061019daba8d7
+started 2026-11-18T08:52:59 finished 2026-11-18T08:59:40
+Python 3.14.7, Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43
+tblastn: 2.17.0+
+command: TABLE1.py --reference <PATH>/OneDrive/Desktop/BATCH GENOMES/Group 12/COMPLETE_Homo-Sapiens_ncbi_dataset.zip --genomes genomes.tsv --out results --db-dir <PATH>/bat_promoter_blast_databases --proteome-db-dir <PATH>/blastdb --threads 8
+reference <PATH>/OneDrive/Desktop/BATCH GENOMES/Group 12/COMPLETE_Homo-Sapiens_ncbi_dataset.zip md5 0f1435cfe64a0428be1d684ac6849495
+genome list genomes.tsv md5 17036c5d3dcf6d82f17eb06d7d587088
+parameters: tblastn E < 1e-5; max intron 1000000 bp; min coverage 0.60
+queries: AGTR2 NP_000677.2, PLS3 NP_001129497.1, SLC6A14 NP_009162.1, AGTR1 NP_000676.1
+
+Rhinolophus_ferrumequinum    GCF_004115265.2_mRhiFer1_v1.p_genomic.fna (from Rhinolophus_ferrumequinum_ncbi_dataset.zip, 1328488184 bytes)
+Rhinolophus_hipposideros     GCF_964194185.1_mRhiHip2.hap1.1_genomic.fna (from Rhinolophus_hipposideros_ncbi_dataset 1.zip, 1356811590 bytes)
+Rhinolophus_sinicus          GCF_057876585.1_RSI-T2T_genomic.fna (from Rhinolophus_sinicus_ncbi_dataset.zip, 1343095446 bytes)
+Rhinolophus_affinis          GCA_043728065.1_ASM4372806v1_genomic.fna (from Rhinolophus_affinis_ncbi_dataset.zip, 688654566 bytes)
+Aselliscus_stoliczkanus      GCA_043727835.1_ASM4372783v1_genomic.fna (from Aselliscus_stoliczkanus_ncbi_dataset.zip, 711195308 bytes)
+Hipposideros_armiger         GCF_001890085.2_ASM189008v1_genomic.fna (from Hipposideros_armiger_great_roundleaf_bat_ncbi_dataset.zip, 1275083950 bytes)
+Hipposideros_larvatus        GCA_031876335.1_mHipLar1.pri_genomic.fna (from Hipposideros_larvatus_ncbi_dataset.zip, 704309550 bytes)
+Megaderma_spasma             GCA_043880595.1_ASM4388059v1_genomic.fna (from Megaderma_spasma_ncbi_dataset.zip, 659278506 bytes)
+Macroderma_gigas             GCA_055471755.1_mMacGig1.2_20250303_genomic.fna (from Macroderma_gigas_ncbi_dataset.zip, 626128144 bytes)
+Pteropus_alecto              GCF_000325575.1_ASM32557v1_genomic.fna (from Pteropus_alecto_ncbi_dataset 1.zip, 1253390898 bytes)
+Rousettus_aegyptiacus        GCF_014176215.1_mRouAeg1.p_genomic.fna (from Rousettus_aegyptiacius_whole_ncbi_dataset.zip, 2958227744 bytes)
+Artibeus_jamaicensis         GCF_021234435.1_CSHL_Jam_final_genomic.fna (from Artibeus_jamaicensis_ncbi_dataset.zip, 1348350699 bytes)
+Phyllostomus_discolor        GCF_004126475.2_mPhyDis1.pri.v3_genomic.fna (from Phyllostomus_discolor_ncbi_dataset.zip, 1340890163 bytes)
+Molossus_molossus            GCA_014108415.2_mMolMol1.pri_genomic.fna (from Molossus_Molossus_ncbi_dataset.zip, 717440479 bytes)
+Myotis_myotis                GCA_014108235.2_mMyoMyo1.pri_genomic.fna (from Myotis_myotis_ncbi_dataset.zip, 628495278 bytes)
+Nyctalus_leisleri            GCA_964264875.2_mNycLei1.hap1.2_genomic.fna (from Nyctalus_leisleri_lesser_noctule_ncbi_dataset.zip, 663397451 bytes)
+Pipistrellus_kuhlii          GCA_014108245.2_mPipKuh1.pri_genomic.fna (from Pipistrellus_kuhlii_ncbi_dataset.zip, 561191816 bytes)
+Plecotus_auritus             GCF_963455305.1_mPleAur1.1_genomic.fna (from Plecotus_auritus_ncbi_dataset.zip, 1356826297 bytes)
+Cnephaeus_nilssonii          GCF_951640355.1_mEptNil1.1_genomic.fna (from Cnephaeus_nilssonii_ncbi_dataset.zip, 1281785822 bytes)
+Homo_sapiens                 GCF_000001405.40_GRCh38.p14_genomic.fna (from homo_sapiens_ncbi_dataset.zip, 1945951019 bytes)
+Camelus_dromedarius          GCF_036321535.1_mCamDro1.pat_genomic.fna (from Camelus_dromedarius_ncbi_dataset.zip, 1359725498 bytes)
+Archilochus_colubris         GCA_023079485.1_ASM2307948v1_genomic.fna (from Archilocus_colubrus_ncbi_dataset.zip, 342409438 bytes)
+Calypte_anna                 GCF_003957555.1_bCalAnn1_v1.p_genomic.fna (from Calypte_anna_ncbi_dataset 1.zip, 657373130 bytes)
+Heliangelus_exortis          GCF_036169615.1_bHelExo1.hap1_genomic.fna (from Heliangelus_exortis_ncbi_dataset.zip, 653592673 bytes)
+Apus_apus                    GCF_020740795.1_bApuApu2.pri.cur_genomic.fna (from Apus_apus_ncbi_dataset.zip, 694916396 bytes)
+Taeniopygia_guttata          GCF_048771995.1_bTaeGut7.mat_genomic.fna (from Taeniopygia_guttata_ncbi_dataset.zip, 690736492 bytes)
+
+CONTROLS (expected_AGTR2 column of genomes.tsv)
+  Megaderma_spasma             expected present  got FOUND      PASS
+  Macroderma_gigas             expected present  got FOUND      PASS
+  Pteropus_alecto              expected present  got FOUND      PASS
+  Rousettus_aegyptiacus        expected present  got FOUND      PASS
+  Artibeus_jamaicensis         expected present  got FOUND      PASS
+  Phyllostomus_discolor        expected present  got FOUND      PASS
+  Molossus_molossus            expected present  got FOUND      PASS
+  Myotis_myotis                expected present  got FOUND      PASS
+  Nyctalus_leisleri            expected present  got FOUND      PASS
+  Pipistrellus_kuhlii          expected present  got FOUND      PASS
+  Plecotus_auritus             expected present  got FOUND      PASS
+  Cnephaeus_nilssonii          expected present  got FOUND      PASS
+  Homo_sapiens                 expected present  got FOUND      PASS
+  Camelus_dromedarius          expected present  got FOUND      PASS
+  Archilochus_colubris         expected absent   got NOT_FOUND  PASS
+  Calypte_anna                 expected absent   got NOT_FOUND  PASS
+  Heliangelus_exortis          expected absent   got NOT_FOUND  PASS
+  Apus_apus                    expected present  got FOUND      PASS
+  Taeniopygia_guttata          expected present  got FOUND      PASS
+
+AGTR2 DISRUPTIONS ON HUMAN AGTR2 COORDINATES (NP_000677.2; stops: exact position; frame changes: within 3 aa)
+  FRAME_CHANGE at 85-103    in 2 species: Hipposideros_armiger, Hipposideros_larvatus
+  STOP         at 163       in 2 species: Hipposideros_armiger, Hipposideros_larvatus
+  FRAME_CHANGE at 167-168   in 2 species: Hipposideros_armiger, Hipposideros_larvatus
+  STOP         at 182       in 2 species: Hipposideros_armiger, Hipposideros_larvatus
+  FRAME_CHANGE at 214-215   in 2 species: Hipposideros_armiger, Hipposideros_larvatus
+  STOP         at 244       in 2 species: Aselliscus_stoliczkanus, Hipposideros_larvatus
+  STOP         at 314       in 2 species: Hipposideros_armiger, Hipposideros_larvatus
+  STOP         at 334       in 2 species: Hipposideros_armiger, Hipposideros_larvatus
+  FRAME_CHANGE at 132-133   in 1 species: Aselliscus_stoliczkanus
+  STOP         at 158       in 1 species: Aselliscus_stoliczkanus
+  STOP         at 246       in 1 species: Hipposideros_larvatus
+  FRAME_CHANGE at 303-304   in 1 species: Aselliscus_stoliczkanus
+  STOP         at 327       in 1 species: Aselliscus_stoliczkanus
+  FRAME_CHANGE at 347-348   in 1 species: Hipposideros_armiger
+  STOP         at 350       in 1 species: Hipposideros_larvatus
+  NEGATIVE CONTROL (species expected to have intact AGTR2): 16 of 16 show no stop codon or frame change PASS

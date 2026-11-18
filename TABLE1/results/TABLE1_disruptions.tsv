@@ -1,0 +1,40 @@
+species	AGTR2 call	event	human AGTR2 position (NP_000677.2)	genome coordinate of codon	codon	note
+Aselliscus_stoliczkanus	FOUND_DISRUPTED	STOP	327	45927010	TAG	inside hit
+Aselliscus_stoliczkanus	FOUND_DISRUPTED	STOP	158	45927488	TAG	inside hit
+Aselliscus_stoliczkanus	FOUND_DISRUPTED	STOP	244	45927260	TAG	inside hit
+Aselliscus_stoliczkanus	FOUND_DISRUPTED	FRAME_CHANGE	132-133	-	-	reading frame -1 -> -2
+Aselliscus_stoliczkanus	FOUND_DISRUPTED	FRAME_CHANGE	303-304	-	-	reading frame -2 -> -1
+Hipposideros_armiger	FOUND_DISRUPTED	STOP	314	100195	TAA	inside hit
+Hipposideros_armiger	FOUND_DISRUPTED	STOP	334	100135	TAG	inside hit
+Hipposideros_armiger	FOUND_DISRUPTED	STOP	163	100646	TAG	inside hit
+Hipposideros_armiger	FOUND_DISRUPTED	STOP	182	100589	TGA	inside hit
+Hipposideros_armiger	FOUND_DISRUPTED	FRAME_CHANGE	85-103	-	-	reading frame -2 -> -0
+Hipposideros_armiger	FOUND_DISRUPTED	FRAME_CHANGE	167-168	-	-	reading frame -0 -> -2
+Hipposideros_armiger	FOUND_DISRUPTED	FRAME_CHANGE	214-215	-	-	reading frame -2 -> -1
+Hipposideros_armiger	FOUND_DISRUPTED	FRAME_CHANGE	347-348	-	-	reading frame -1 -> -0
+Hipposideros_larvatus	FOUND_DISRUPTED	STOP	244	62463542	TAG	inside hit
+Hipposideros_larvatus	FOUND_DISRUPTED	STOP	246	62463548	TAG	inside hit
+Hipposideros_larvatus	FOUND_DISRUPTED	STOP	314	62463749	TAA	inside hit
+Hipposideros_larvatus	FOUND_DISRUPTED	STOP	334	62463809	TAG	inside hit
+Hipposideros_larvatus	FOUND_DISRUPTED	STOP	350	62463857	TGA	inside hit
+Hipposideros_larvatus	FOUND_DISRUPTED	STOP	163	62463298	TAG	inside hit
+Hipposideros_larvatus	FOUND_DISRUPTED	STOP	182	62463355	TGA	inside hit
+Hipposideros_larvatus	FOUND_DISRUPTED	FRAME_CHANGE	85-103	-	-	reading frame +1 -> +0
+Hipposideros_larvatus	FOUND_DISRUPTED	FRAME_CHANGE	167-168	-	-	reading frame +0 -> +1
+Hipposideros_larvatus	FOUND_DISRUPTED	FRAME_CHANGE	214-215	-	-	reading frame +1 -> +2
+Megaderma_spasma	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Macroderma_gigas	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Pteropus_alecto	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Rousettus_aegyptiacus	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Artibeus_jamaicensis	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Phyllostomus_discolor	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Molossus_molossus	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Myotis_myotis	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Nyctalus_leisleri	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Pipistrellus_kuhlii	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Plecotus_auritus	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Cnephaeus_nilssonii	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Homo_sapiens	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Camelus_dromedarius	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Apus_apus	FOUND	none	-	-	-	continuous reading frame, no stop codon
+Taeniopygia_guttata	FOUND	none	-	-	-	continuous reading frame, no stop codon

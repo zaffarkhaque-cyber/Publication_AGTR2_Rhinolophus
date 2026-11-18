@@ -1,0 +1,26 @@
+CONTROLS
+  INTACT  (intact AGTR2 lies in this interval; the scan must find it)
+      Myotis_myotis                Myotis 362 (floor 15), Apus 190 (floor 0)  PASS
+      Apus_apus                    Myotis 189 (floor 13), Apus 372 (floor 21)  PASS
+  REMNANT (an AGTR2 pseudogene lies in this interval; the scan must still find it)
+      Aselliscus_stoliczkanus      Myotis 122 (floor 22), Apus 83 (floor 0)  PASS
+  SCANNED, NO AGTR2 IN THE INTERVAL
+      Hipposideros_larvatus        Myotis 13 (floor 0), Apus 0 (floor 20)  no remnant above floor
+      Rhinolophus_ferrumequinum    Myotis 0 (floor 15), Apus 0 (floor 0)  no remnant above floor
+      Rhinolophus_sinicus          Myotis 0 (floor 14), Apus 0 (floor 14)  no remnant above floor
+      Rhinolophus_hipposideros     Myotis 0 (floor 17), Apus 0 (floor 10)  no remnant above floor
+      Rhinolophus_affinis          Myotis 0 (floor 18), Apus 0 (floor 16)  no remnant above floor
+      Calypte_anna                 Myotis 0 (floor 11), Apus 0 (floor 11)  no remnant above floor
+  DETECTION LIMIT (what a negative excludes)
+      Myotis_lucifugus             a remnant up to 40% diverged from this bait would have been detected
+      Apus_apus                    a remnant up to 40% diverged from this bait would have been detected
+  ASSEMBLY GAPS (an absence inside a gap would not count)
+      Myotis_myotis                588,981 bp interval, 20321 N, longest run 20321
+      Hipposideros_larvatus        2,021,575 bp interval, 0 N, longest run 0
+      Aselliscus_stoliczkanus      749,615 bp interval, 240 N, longest run 240
+      Rhinolophus_ferrumequinum    352,408 bp interval, 100 N, longest run 100
+      Rhinolophus_sinicus          414,831 bp interval, 0 N, longest run 0
+      Rhinolophus_hipposideros     381,062 bp interval, 400 N, longest run 200
+      Rhinolophus_affinis          308,230 bp interval, 500 N, longest run 500
+      Apus_apus                    50,345 bp interval, 0 N, longest run 0
+      Calypte_anna                 41,438 bp interval, 0 N, longest run 0

@@ -1,0 +1,40 @@
+MATERIALS AND METHODS
+Assembled 2026-11-18 by MATERIALS_AND_METHODS.py from the text each analysis wrote about its own run.
+
+====================================================================================================
+1. Identification of AGTR2 and its flanking genes across genomes (Table 1)
+====================================================================================================
+Genome assemblies. 26 genome assemblies were screened (NCBI accessions in TABLE1.tsv, column 'assembly accession'). No genome annotation was used.
+
+Gene identification. The human RefSeq proteins AGTR2 (NP_000677.2), PLS3 (NP_001129497.1), SLC6A14 (NP_009162.1), AGTR1 (NP_000676.1) (assembly GCF_000001405.40) were searched against each assembly with tblastn (tblastn: 2.17.0+; E < 1e-5). High-scoring segment pairs were chained into collinear gene models on a single scaffold and strand, allowing introns of up to 1,000,000 bp. Orthology was assigned by reciprocal best hit: the conceptual translation of each gene model, and of each exon hit within it, was searched with blastp against the complete human RefSeq proteome, and a model was accepted as the orthologue only if its best match was the query gene itself; otherwise it is reported under the gene it matched (TABLE1_gene_models.tsv lists every model and its assignment). Models recovering at least 60% of the query protein were called present.
+
+Absence. AGTR2 was called absent when no orthologous model was recovered. For each assembly the PLS3-SLC6A14 interval was located, and its length, total N content and longest run of N were measured directly from the assembly (blastdbcmd). Where AGTR2 was absent, the best remaining AGTR2-query hit is reported with the gene its translation matched and whether it coincides with the AGTR1 orthologue locus.
+
+Disruption. In-frame stop codons lying at least 10 residues from both ends of an exon hit, and changes of reading frame between consecutively aligned residues, were recorded on human AGTR2 coordinates, with each stop codon read back from the genome. Lesions were counted as shared between species when stop codons fell at the identical residue and frame changes within 3 residues.
+
+Controls. Species with an AGTR2 orthologue reported in the literature were required to return an intact gene, and species with published loss to return none: 19 of 19 passed. As a negative control for disruption calling, every species with an intact AGTR2 was required to show no stop codon and no frame change: 16 of 16 passed.
+
+Software versions, parameters and the checksums of the script and every input file for this analysis are recorded in results/TABLE1_run_log.txt.
+
+====================================================================================================
+2. Scan of the PLS3-SLC6A14 intergenic region for residual AGTR2 sequence
+====================================================================================================
+The PLS3-SLC6A14 intergenic region was located in each assembly without using its annotation: the human RefSeq proteins PLS3 (NP_001129497.1) and SLC6A14 (NP_009162.1) were searched with tblastn (tblastn: 2.17.0+), hits were chained into collinear gene models, and orthology was assigned by reciprocal best hit against the complete human proteome. Where both flanking orthologues lay on one scaffold, the DNA between them was read directly from the assembly, and its length, total N content and longest run of N recorded.
+
+Baits.
+  Myotis_lucifugus: supplied by the user in my_baits.faa (362 aa, md5 83ff31ed96d25df1c455e884e8666f70)
+  Apus_apus: supplied by the user in my_baits.faa (372 aa, md5 0390d33e81b3cc3a5e0b9bb1e7f44ed2)
+Each bait was searched against each interval with tblastn (protein against translated DNA), which retains sensitivity to diverged remnants that nucleotide comparison loses. The score plotted is the number of identical amino acids in the best alignment; bit scores, E-values and alignment lengths are in INTERGENIC.tsv.
+
+Criterion for a remnant. A hit was counted as a remnant only if it both exceeded the noise floor defined below AND had E < 0.001; either test on its own admits chance alignments in a long interval. The noise floor was measured rather than assumed: each interval was shuffled 20 times, preserving its length and base composition, and rescanned. The floor is the greater of the highest score obtained from shuffled sequence and the mean plus three standard deviations of those scores, so that a limited number of replicates does not understate the tail (Myotis_lucifugus 22 identical residues, Apus_apus 21 identical residues). Per-interval shuffled means, standard deviations and maxima are in INTERGENIC.tsv.
+
+Detection limit. Each bait's coding sequence was mutated at rates of 10%, 20%, 30%, 40%, 50%, 60%, embedded in shuffled sequence and put through the same scan and the same criterion: a remnant up to 40% diverged from either bait would have been detected. Because the baits were supplied as protein, the simulated remnant was reverse-translated from each bait with one fixed codon per residue; the simulation measures tolerated divergence, which does not depend on the starting synonymous codons.
+
+Controls. Species whose AGTR2 is intact and species whose AGTR2 is a pseudogene were both required to meet the criterion; the pseudogene species establish that the scan detects decayed sequence, without which a negative result would be uninterpretable.
+
+Software versions, parameters and the checksums of the script and every input file for this analysis are recorded in results/INTERGENIC_run_log.txt.
+
+====================================================================================================
+Data and code availability
+====================================================================================================
+All analysis code, the genome list with NCBI assembly accessions, and the output of the runs described above are available at <REPOSITORY URL>. The analyses use only publicly available genome assemblies; each assembly's accession is given in TABLE1.tsv.

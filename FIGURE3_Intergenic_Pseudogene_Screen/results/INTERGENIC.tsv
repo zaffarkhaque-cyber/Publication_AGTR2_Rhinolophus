@@ -1,0 +1,10 @@
+species	assembly accession	scaffold	interval start	interval end	interval bp	N in interval	longest N run	AGTR2 in this interval	Myotis_lucifugus: identical residues	Myotis_lucifugus: bit score	Myotis_lucifugus: E-value	Myotis_lucifugus: % identity	Myotis_lucifugus: aligned aa	Myotis_lucifugus: noise floor	Myotis_lucifugus: shuffled mean	Myotis_lucifugus: shuffled SD	Myotis_lucifugus: shuffled max	Myotis_lucifugus: above floor	Apus_apus: identical residues	Apus_apus: bit score	Apus_apus: E-value	Apus_apus: % identity	Apus_apus: aligned aa	Apus_apus: noise floor	Apus_apus: shuffled mean	Apus_apus: shuffled SD	Apus_apus: shuffled max	Apus_apus: above floor
+Myotis_myotis	GCA_014108235.2	CM138265	44696332	45285312	588981	20321	20321	yes (CM138265:44910671-44911756)	362	706	0	100.0	362	15	0.8	3.4	15	yes	190	331	3e-103	57.9	328	0	0.0	0.0	0	yes
+Hipposideros_larvatus	GCA_031876335.1	CM063105	62778747	64800321	2021575	0	0	no	13	28	2	41.9	31	0	0.0	0.0	0	no	0	0	-	0.0	0	20	2.4	5.8	17	no
+Aselliscus_stoliczkanus	GCA_043727835.1	CM093061	45502978	46252592	749615	240	240	yes (CM093061:45926909-45927955)	122	220	2e-132	70.5	173	22	1.1	4.9	22	yes	83	132	9e-64	48.5	171	0	0.0	0.0	0	yes
+Rhinolophus_ferrumequinum	GCF_004115265.2	NC_046284	39571534	39923941	352408	100	100	no	0	0	-	0.0	0	15	1.8	4.3	13	no	0	0	-	0.0	0	0	0.0	0.0	0	no
+Rhinolophus_sinicus	GCF_057876585.1	NC_142518	79150506	79565336	414831	0	0	no	0	0	-	0.0	0	14	0.7	3.1	14	no	0	0	-	0.0	0	14	1.7	4.2	12	no
+Rhinolophus_hipposideros	GCF_964194185.1	NC_138046	37773972	38155033	381062	400	200	no	0	0	-	0.0	0	17	2.0	4.9	15	no	0	0	-	0.0	0	10	0.5	2.2	10	no
+Rhinolophus_affinis	GCA_043728065.1	CM093093	82189919	82498148	308230	500	500	no	0	0	-	0.0	0	18	2.1	5.4	17	no	0	0	-	0.0	0	16	1.9	4.6	15	no
+Apus_apus	GCF_020740795.1	NC_067293	3689427	3739771	50345	0	0	yes (NC_067293:3724210-3725289)	189	354	2e-111	58.0	326	13	1.6	3.8	12	yes	372	696	0	100.0	372	21	3.3	5.9	16	yes
+Calypte_anna	GCF_003957555.1	NC_044247	4523818	4565255	41438	0	0	no	0	0	-	0.0	0	11	0.6	2.5	11	no	0	0	-	0.0	0	11	0.9	3.0	11	no

@@ -1,0 +1,43 @@
+INTERGENIC.py md5 bab81073fe824f536b61f79796556f77
+TABLE1.py md5 c716ff3158718a07cf6061019daba8d7 (<PATH>/OneDrive/Desktop/FIGURE3_Intergenic_AGTR2_PSEUDOGENE_SCreen/TABLE1.py)
+started 2026-11-18T09:18:20 finished 2026-11-18T09:21:02
+tblastn: 2.17.0+
+command: INTERGENIC.py --reference <PATH>/OneDrive/Desktop/BATCH GENOMES/Group 12/COMPLETE_Homo-Sapiens_ncbi_dataset.zip --genomes genomes.tsv --out results --db-dir <PATH>/bat_promoter_blast_databases --proteome-db-dir <PATH>/blastdb --baits my_baits.faa --species Myotis_myotis,Hipposideros_larvatus,Aselliscus_stoliczkanus,Rhinolophus_ferrumequinum,Rhinolophus_sinicus,Rhinolophus_hipposideros,Rhinolophus_affinis,Apus_apus,Calypte_anna --threads 8
+seed 20261117, shuffles 20
+
+Myotis_myotis                GCA_014108235.2 CM138265:44696332-45285312
+Hipposideros_larvatus        GCA_031876335.1 CM063105:62778747-64800321
+Aselliscus_stoliczkanus      GCA_043727835.1 CM093061:45502978-46252592
+Rhinolophus_ferrumequinum    GCF_004115265.2 NC_046284:39571534-39923941
+Rhinolophus_sinicus          GCF_057876585.1 NC_142518:79150506-79565336
+Rhinolophus_hipposideros     GCF_964194185.1 NC_138046:37773972-38155033
+Rhinolophus_affinis          GCA_043728065.1 CM093093:82189919-82498148
+Apus_apus                    GCF_020740795.1 NC_067293:3689427-3739771
+Calypte_anna                 GCF_003957555.1 NC_044247:4523818-4565255
+
+CONTROLS
+  INTACT  (intact AGTR2 lies in this interval; the scan must find it)
+      Myotis_myotis                Myotis 362 (floor 15), Apus 190 (floor 0)  PASS
+      Apus_apus                    Myotis 189 (floor 13), Apus 372 (floor 21)  PASS
+  REMNANT (an AGTR2 pseudogene lies in this interval; the scan must still find it)
+      Aselliscus_stoliczkanus      Myotis 122 (floor 22), Apus 83 (floor 0)  PASS
+  SCANNED, NO AGTR2 IN THE INTERVAL
+      Hipposideros_larvatus        Myotis 13 (floor 0), Apus 0 (floor 20)  no remnant above floor
+      Rhinolophus_ferrumequinum    Myotis 0 (floor 15), Apus 0 (floor 0)  no remnant above floor
+      Rhinolophus_sinicus          Myotis 0 (floor 14), Apus 0 (floor 14)  no remnant above floor
+      Rhinolophus_hipposideros     Myotis 0 (floor 17), Apus 0 (floor 10)  no remnant above floor
+      Rhinolophus_affinis          Myotis 0 (floor 18), Apus 0 (floor 16)  no remnant above floor
+      Calypte_anna                 Myotis 0 (floor 11), Apus 0 (floor 11)  no remnant above floor
+  DETECTION LIMIT (what a negative excludes)
+      Myotis_lucifugus             a remnant up to 40% diverged from this bait would have been detected
+      Apus_apus                    a remnant up to 40% diverged from this bait would have been detected
+  ASSEMBLY GAPS (an absence inside a gap would not count)
+      Myotis_myotis                588,981 bp interval, 20321 N, longest run 20321
+      Hipposideros_larvatus        2,021,575 bp interval, 0 N, longest run 0
+      Aselliscus_stoliczkanus      749,615 bp interval, 240 N, longest run 240
+      Rhinolophus_ferrumequinum    352,408 bp interval, 100 N, longest run 100
+      Rhinolophus_sinicus          414,831 bp interval, 0 N, longest run 0
+      Rhinolophus_hipposideros     381,062 bp interval, 400 N, longest run 200
+      Rhinolophus_affinis          308,230 bp interval, 500 N, longest run 500
+      Apus_apus                    50,345 bp interval, 0 N, longest run 0
+      Calypte_anna                 41,438 bp interval, 0 N, longest run 0

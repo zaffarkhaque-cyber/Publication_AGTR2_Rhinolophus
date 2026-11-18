@@ -1,0 +1,20 @@
+CONTROLS (expected_AGTR2 column of genomes.tsv)
+  Megaderma_spasma             expected present  got FOUND      PASS
+  Macroderma_gigas             expected present  got FOUND      PASS
+  Pteropus_alecto              expected present  got FOUND      PASS
+  Rousettus_aegyptiacus        expected present  got FOUND      PASS
+  Artibeus_jamaicensis         expected present  got FOUND      PASS
+  Phyllostomus_discolor        expected present  got FOUND      PASS
+  Molossus_molossus            expected present  got FOUND      PASS
+  Myotis_myotis                expected present  got FOUND      PASS
+  Nyctalus_leisleri            expected present  got FOUND      PASS
+  Pipistrellus_kuhlii          expected present  got FOUND      PASS
+  Plecotus_auritus             expected present  got FOUND      PASS
+  Cnephaeus_nilssonii          expected present  got FOUND      PASS
+  Homo_sapiens                 expected present  got FOUND      PASS
+  Camelus_dromedarius          expected present  got FOUND      PASS
+  Archilochus_colubris         expected absent   got NOT_FOUND  PASS
+  Calypte_anna                 expected absent   got NOT_FOUND  PASS
+  Heliangelus_exortis          expected absent   got NOT_FOUND  PASS
+  Apus_apus                    expected present  got FOUND      PASS
+  Taeniopygia_guttata          expected present  got FOUND      PASS

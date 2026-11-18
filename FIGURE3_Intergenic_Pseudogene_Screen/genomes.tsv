@@ -1,0 +1,37 @@
+# TABLE1 genome list.
+# species <TAB> group <TAB> expected_AGTR2 <TAB> NCBI assembly accession <TAB> path to the NCBI zip
+#
+# The accession is the permanent identifier: download that assembly from NCBI Datasets
+#   (https://www.ncbi.nlm.nih.gov/datasets/genome/<accession>/), choosing 'Genome sequences (FASTA)',
+#   then put the path to the downloaded zip in the last column.
+# TABLE1.py checks that the file really contains the accession listed here and stops if it does not.
+# expected_AGTR2: present = AGTR2 reported in the literature (control, must be found);
+#                 absent  = published loss (control, must not be found);
+#                 test    = the species being asked about.
+# The last column assumes each assembly was downloaded to genomes/<accession>.zip - edit it to suit.
+Rhinolophus_ferrumequinum	Rhinolophus	test	GCF_004115265.2	genomes/GCF_004115265.2.zip
+Rhinolophus_hipposideros	Rhinolophus	test	GCF_964194185.1	genomes/GCF_964194185.1.zip
+Rhinolophus_sinicus	Rhinolophus	test	GCF_057876585.1	genomes/GCF_057876585.1.zip
+Rhinolophus_affinis	Rhinolophus	test	GCA_043728065.1	genomes/GCA_043728065.1.zip
+Aselliscus_stoliczkanus	Hipposideridae	test	GCA_043727835.1	genomes/GCA_043727835.1.zip
+Hipposideros_armiger	Hipposideridae	test	GCF_001890085.2	genomes/GCF_001890085.2.zip
+Hipposideros_larvatus	Hipposideridae	test	GCA_031876335.1	genomes/GCA_031876335.1.zip
+Megaderma_spasma	Other bats	present	GCA_043880595.1	genomes/GCA_043880595.1.zip
+Macroderma_gigas	Other bats	present	GCA_055471755.1	genomes/GCA_055471755.1.zip
+Pteropus_alecto	Other bats	present	GCF_000325575.1	genomes/GCF_000325575.1.zip
+Rousettus_aegyptiacus	Other bats	present	GCF_014176215.1	genomes/GCF_014176215.1.zip
+Artibeus_jamaicensis	Other bats	present	GCF_021234435.1	genomes/GCF_021234435.1.zip
+Phyllostomus_discolor	Other bats	present	GCF_004126475.2	genomes/GCF_004126475.2.zip
+Molossus_molossus	Other bats	present	GCA_014108415.2	genomes/GCA_014108415.2.zip
+Myotis_myotis	Other bats	present	GCA_014108235.2	genomes/GCA_014108235.2.zip
+Nyctalus_leisleri	Other bats	present	GCA_964264875.2	genomes/GCA_964264875.2.zip
+Pipistrellus_kuhlii	Other bats	present	GCA_014108245.2	genomes/GCA_014108245.2.zip
+Plecotus_auritus	Other bats	present	GCF_963455305.1	genomes/GCF_963455305.1.zip
+Cnephaeus_nilssonii	Other bats	present	GCF_951640355.1	genomes/GCF_951640355.1.zip
+Homo_sapiens	Mammals	present	GCF_000001405.40	genomes/GCF_000001405.40.zip
+Camelus_dromedarius	Mammals	present	GCF_036321535.1	genomes/GCF_036321535.1.zip
+Archilochus_colubris	Hummingbirds	absent	GCA_023079485.1	genomes/GCA_023079485.1.zip
+Calypte_anna	Hummingbirds	absent	GCF_003957555.1	genomes/GCF_003957555.1.zip
+Heliangelus_exortis	Hummingbirds	absent	GCF_036169615.1	genomes/GCF_036169615.1.zip
+Apus_apus	Other birds	present	GCF_020740795.1	genomes/GCF_020740795.1.zip
+Taeniopygia_guttata	Other birds	present	GCF_048771995.1	genomes/GCF_048771995.1.zip

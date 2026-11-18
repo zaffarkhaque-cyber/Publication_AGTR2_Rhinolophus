@@ -1,0 +1,15 @@
+bait	divergence from bait (%)	identical residues	bit score	E-value	above global noise floor
+Myotis_lucifugus	0	362	706	0	yes
+Myotis_lucifugus	10	278	504	6e-164	yes
+Myotis_lucifugus	20	221	382	1e-121	yes
+Myotis_lucifugus	30	161	243	3e-73	yes
+Myotis_lucifugus	40	119	149	6e-41	yes
+Myotis_lucifugus	50	9	26	3	no
+Myotis_lucifugus	60	9	26	3	no
+Apus_apus	0	361	670	0	yes
+Apus_apus	10	288	514	2e-167	yes
+Apus_apus	20	218	351	1e-110	yes
+Apus_apus	30	166	238	2e-71	yes
+Apus_apus	40	100	119	2e-30	yes
+Apus_apus	50	21	31	0.06	no
+Apus_apus	60	20	32	0.03	no

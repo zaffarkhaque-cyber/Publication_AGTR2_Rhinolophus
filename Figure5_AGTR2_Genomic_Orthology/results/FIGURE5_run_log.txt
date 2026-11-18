@@ -1,0 +1,88 @@
+FIGURE5.py md5 c1f46441754dd88696c197245ca048b4
+TABLE1.py md5 c716ff3158718a07cf6061019daba8d7 (<PATH>/OneDrive/Desktop/Figure5_AGTR2_Genomic_Orthology/TABLE1.py)
+started 2026-11-18T08:11:51 finished 2026-11-18T08:15:32
+tblastn: 2.17.0+
+command: FIGURE5.py --reference <PATH>/OneDrive/Desktop/BATCH GENOMES/Group 12/COMPLETE_Homo-Sapiens_ncbi_dataset.zip --genomes genomes.tsv --out results --db-dir <PATH>/bat_promoter_blast_databases --proteome-db-dir <PATH>/blastdb --baits my_baits.faa --species Homo_sapiens,Myotis_myotis,Pteropus_alecto,Megaderma_spasma,Hipposideros_armiger,Hipposideros_larvatus,Aselliscus_stoliczkanus,Rhinolophus_ferrumequinum,Rhinolophus_sinicus,Rhinolophus_hipposideros,Rhinolophus_affinis,Apus_apus,Archilochus_colubris,Calypte_anna,Heliangelus_exortis --threads 8
+bait: Myotis_lucifugus, 362 aa
+
+Homo_sapiens                 GCF_000001405.40_GRCh38.p14_genomic.fna (from homo_sapiens_ncbi_dataset.zip, 1945951019 bytes)
+Myotis_myotis                GCA_014108235.2_mMyoMyo1.pri_genomic.fna (from Myotis_myotis_ncbi_dataset.zip, 628495278 bytes)
+Pteropus_alecto              GCF_000325575.1_ASM32557v1_genomic.fna (from Pteropus_alecto_ncbi_dataset 1.zip, 1253390898 bytes)
+Megaderma_spasma             GCA_043880595.1_ASM4388059v1_genomic.fna (from Megaderma_spasma_ncbi_dataset.zip, 659278506 bytes)
+Hipposideros_armiger         GCF_001890085.2_ASM189008v1_genomic.fna (from Hipposideros_armiger_great_roundleaf_bat_ncbi_dataset.zip, 1275083950 bytes)
+Hipposideros_larvatus        GCA_031876335.1_mHipLar1.pri_genomic.fna (from Hipposideros_larvatus_ncbi_dataset.zip, 704309550 bytes)
+Aselliscus_stoliczkanus      GCA_043727835.1_ASM4372783v1_genomic.fna (from Aselliscus_stoliczkanus_ncbi_dataset.zip, 711195308 bytes)
+Rhinolophus_ferrumequinum    GCF_004115265.2_mRhiFer1_v1.p_genomic.fna (from Rhinolophus_ferrumequinum_ncbi_dataset.zip, 1328488184 bytes)
+Rhinolophus_sinicus          GCF_057876585.1_RSI-T2T_genomic.fna (from Rhinolophus_sinicus_ncbi_dataset.zip, 1343095446 bytes)
+Rhinolophus_hipposideros     GCF_964194185.1_mRhiHip2.hap1.1_genomic.fna (from Rhinolophus_hipposideros_ncbi_dataset 1.zip, 1356811590 bytes)
+Rhinolophus_affinis          GCA_043728065.1_ASM4372806v1_genomic.fna (from Rhinolophus_affinis_ncbi_dataset.zip, 688654566 bytes)
+Apus_apus                    GCF_020740795.1_bApuApu2.pri.cur_genomic.fna (from Apus_apus_ncbi_dataset.zip, 694916396 bytes)
+Archilochus_colubris         GCA_023079485.1_ASM2307948v1_genomic.fna (from Archilocus_colubrus_ncbi_dataset.zip, 342409438 bytes)
+Calypte_anna                 GCF_003957555.1_bCalAnn1_v1.p_genomic.fna (from Calypte_anna_ncbi_dataset 1.zip, 657373130 bytes)
+Heliangelus_exortis          GCF_036169615.1_bHelExo1.hap1_genomic.fna (from Heliangelus_exortis_ncbi_dataset.zip, 653592673 bytes)
+
+CONTROLS
+  PRESENT (AGTR2 reported in the literature; the screen must call it INTACT)
+      Homo_sapiens                 INTACT      PASS
+      Myotis_myotis                INTACT      PASS
+      Pteropus_alecto              INTACT      PASS
+      Megaderma_spasma             INTACT      PASS
+      Apus_apus                    INTACT      PASS
+  ABSENT (published loss; the screen must call it NO_AGTR2)
+      Archilochus_colubris         NO_AGTR2    PASS
+      Calypte_anna                 NO_AGTR2    PASS
+      Heliangelus_exortis          NO_AGTR2    PASS
+  AGTR1 FOUND (AGTR1 exists in every vertebrate; if the screen cannot find it, the screen is
+  not working in that genome and its AGTR2 result means nothing)
+      Homo_sapiens                 AGTR1 181 bits, 36.7% id at NC_000003
+      Myotis_myotis                AGTR1 186 bits, 38.3% id at CM138245
+      Pteropus_alecto              AGTR1 183 bits, 37.0% id at NW_006440638
+      Megaderma_spasma             AGTR1 182 bits, 37.0% id at CM093797
+      Hipposideros_armiger         AGTR1 187 bits, 36.1% id at NW_017732345
+      Hipposideros_larvatus        AGTR1 187 bits, 36.1% id at CM063089
+      Aselliscus_stoliczkanus      AGTR1 187 bits, 38.5% id at CM093049
+      Rhinolophus_ferrumequinum    AGTR1 186 bits, 37.3% id at NC_046285
+      Rhinolophus_sinicus          AGTR1 184 bits, 37.0% id at NC_142517
+      Rhinolophus_hipposideros     AGTR1 184 bits, 37.0% id at NC_138048
+      Rhinolophus_affinis          AGTR1 185 bits, 37.0% id at CM093065
+      Apus_apus                    AGTR1 171 bits, 37.7% id at NC_067289
+      Archilochus_colubris         AGTR1 169 bits, 37.0% id at CM041094
+      Calypte_anna                 AGTR1 167 bits, 37.0% id at NC_044255
+      Heliangelus_exortis          AGTR1 169 bits, 37.0% id at NC_092430
+  MEASURED PARALOGUE FLOOR (highest bit score of any NON-AGTR2 model in this run)
+      187 bits  - a bar at or below this is a paralogue, not AGTR2
+  SEARCH DEPTH (a NO_AGTR2 call means 'not among the models examined', so how far down the
+  screen looked has to be stated. Either the list ran out before the --max-models cap - in
+  which case nothing was cut off - or the lowest model examined must score BELOW the
+  paralogue floor, so the search did not stop while a hit could still have been AGTR2.)
+      Homo_sapiens                 25 model(s), lowest 113 bits  below the 187-bit floor
+      Myotis_myotis                25 model(s), lowest 110 bits  below the 187-bit floor
+      Pteropus_alecto              25 model(s), lowest 110 bits  below the 187-bit floor
+      Megaderma_spasma             25 model(s), lowest 113 bits  below the 187-bit floor
+      Hipposideros_armiger         25 model(s), lowest 116 bits  below the 187-bit floor
+      Hipposideros_larvatus        25 model(s), lowest 116 bits  below the 187-bit floor
+      Aselliscus_stoliczkanus      25 model(s), lowest 113 bits  below the 187-bit floor
+      Rhinolophus_ferrumequinum    25 model(s), lowest 117 bits  below the 187-bit floor
+      Rhinolophus_sinicus          25 model(s), lowest 116 bits  below the 187-bit floor
+      Rhinolophus_hipposideros     25 model(s), lowest 115 bits  below the 187-bit floor
+      Rhinolophus_affinis          25 model(s), lowest 114 bits  below the 187-bit floor
+      Apus_apus                    25 model(s), lowest 114 bits  below the 187-bit floor
+      Archilochus_colubris         25 model(s), lowest 118 bits  below the 187-bit floor
+      Calypte_anna                 25 model(s), lowest 114 bits  below the 187-bit floor
+      Heliangelus_exortis          25 model(s), lowest 116 bits  below the 187-bit floor
+  CALLS
+      Homo_sapiens                 INTACT      AGTR2 665 bits, 94.2% id, 100% cov, 1 piece(s), 0 stop(s)
+      Myotis_myotis                INTACT      AGTR2 706 bits, 100.0% id, 100% cov, 1 piece(s), 0 stop(s)
+      Pteropus_alecto              INTACT      AGTR2 664 bits, 93.6% id, 100% cov, 1 piece(s), 0 stop(s)
+      Megaderma_spasma             INTACT      AGTR2 666 bits, 93.9% id, 100% cov, 1 piece(s), 0 stop(s)
+      Hipposideros_armiger         PSEUDOGENE  AGTR2 433 bits, 78.0% id, 78% cov, 3 piece(s), 2 stop(s)
+      Hipposideros_larvatus        PSEUDOGENE  AGTR2 447 bits, 78.2% id, 82% cov, 3 piece(s), 5 stop(s)
+      Aselliscus_stoliczkanus      PSEUDOGENE  AGTR2 511 bits, 77.1% id, 99% cov, 3 piece(s), 3 stop(s)
+      Rhinolophus_ferrumequinum    NO_AGTR2    no AGTR2 anywhere; best hit is AGTR1 at 186 bits (37.3% id)
+      Rhinolophus_sinicus          NO_AGTR2    no AGTR2 anywhere; best hit is AGTR1 at 184 bits (37.0% id)
+      Rhinolophus_hipposideros     NO_AGTR2    no AGTR2 anywhere; best hit is AGTR1 at 184 bits (37.0% id)
+      Rhinolophus_affinis          NO_AGTR2    no AGTR2 anywhere; best hit is AGTR1 at 185 bits (37.0% id)
+      Apus_apus                    INTACT      AGTR2 354 bits, 58.0% id, 90% cov, 1 piece(s), 0 stop(s)
+      Archilochus_colubris         NO_AGTR2    no AGTR2 anywhere; best hit is AGTR1 at 169 bits (37.0% id)
+      Calypte_anna                 NO_AGTR2    no AGTR2 anywhere; best hit is AGTR1 at 167 bits (37.0% id)
+      Heliangelus_exortis          NO_AGTR2    no AGTR2 anywhere; best hit is AGTR1 at 169 bits (37.0% id)
