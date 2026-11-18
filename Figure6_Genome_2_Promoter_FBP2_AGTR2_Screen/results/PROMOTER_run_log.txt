@@ -1,4 +1,4 @@
-PROMOTER.py md5 c3757e323b16c03fe07b8a073bd067d7
+PROMOTER.py md5 04b3c1ee9f33856659c64c42059d6d51
 TABLE1.py md5 c716ff3158718a07cf6061019daba8d7 (<PATH>/OneDrive/Desktop/Figure6_Genome_2_Promoter_FBP2_AGTR2_Screen/TABLE1.py)
 query AGTR2_promoter_bat_supplied md5 082c0dbaf2b4a0e4ba23d05e0f114cfb  supplied: AGTR2_promoter_Myotis_myotis.fna (1001 bp), claimed source Myotis_myotis
 query AGTR2_promoter_bat_recut md5 38fb0434f051498c62912424a110f9a4  Myotis_myotis GCA_014108235.2 CM138265:44911757-44912756 (1000 bp upstream of AGTR2 (- strand))
@@ -10,7 +10,7 @@ query FBP2_promoter_bird md5 e261fdd95a8e9b30e9af12c96a05b49f  supplied: FBP2_pr
 query FBP2_promoter_bird_noncoding md5 3e97c13424fa6fecc57652cdbf7e6acb  supplied: FBP2_promoter_Apus_apus_noncoding.fna (874 bp), claimed source Apus_apus
 command: PROMOTER.py --reference <PATH>/OneDrive/Desktop/BATCH GENOMES/Group 12/COMPLETE_Homo-Sapiens_ncbi_dataset.zip --genomes genomes.tsv --queries queries.tsv --out results --db-dir <PATH>/bat_promoter_blast_databases --proteome-db-dir <PATH>/blastdb --threads 8
 random seed 20261118, 20 shuffles, floor = max(shuffled) or mean + 3 SD
-started 2026-11-18T17:09:28, finished 2026-11-18T17:29:24
+started 2026-11-18T18:15:49, finished 2026-11-18T18:33:43
 Megaderma_spasma           GCA_043880595.1  GCA_043880595.1_ASM4388059v1_genomic.fna (from Megaderma_spasma_ncbi_dataset.zip, 659278506 bytes)
 Macroderma_gigas           GCA_055471755.1  GCA_055471755.1_mMacGig1.2_20250303_genomic.fna (from Macroderma_gigas_ncbi_dataset.zip, 626128144 bytes)
 Rhinolophus_ferrumequinum  GCF_004115265.2  GCF_004115265.2_mRhiFer1_v1.p_genomic.fna (from Rhinolophus_ferrumequinum_ncbi_dataset.zip, 1328488184 bytes)
