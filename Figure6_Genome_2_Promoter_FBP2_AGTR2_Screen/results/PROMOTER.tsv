@@ -1,0 +1,113 @@
+species	group	role	assembly	promoter	call	aligned bp	query bp	% of query	identity %	bit score	E-value	noise floor (bits)	pieces	anchor	scaffold	interval start	interval end	interval bp	N in interval	longest N run
+Megaderma_spasma	Megadermatidae	control	GCA_043880595.1	AGTR2_promoter_bat_supplied	DETECTED	999	1001	100%	77.3	829	0	0	1	10000 bp upstream of AGTR2 (+ strand)	CM093798	16474346	16484345	10000	0	0
+Megaderma_spasma	Megadermatidae	control	GCA_043880595.1	AGTR2_promoter_bat_recut	DETECTED	970	1000	97%	75.2	702	0	0	1	10000 bp upstream of AGTR2 (+ strand)	CM093798	16474346	16484345	10000	0	0
+Megaderma_spasma	Megadermatidae	control	GCA_043880595.1	AGTR2_promoter_bat_myotis	DETECTED	1013	1015	100%	77.2	838	0	0	1	10000 bp upstream of AGTR2 (+ strand)	CM093798	16474346	16484345	10000	0	0
+Megaderma_spasma	Megadermatidae	control	GCA_043880595.1	AGTR2_promoter_bird_supplied	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	10000 bp upstream of AGTR2 (+ strand)	CM093798	16474346	16484345	10000	0	0
+Megaderma_spasma	Megadermatidae	control	GCA_043880595.1	AGTR2_promoter_bird_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	10000 bp upstream of AGTR2 (+ strand)	CM093798	16474346	16484345	10000	0	0
+Megaderma_spasma	Megadermatidae	control	GCA_043880595.1	FBP2_promoter_bat	DETECTED	556	1000	56%	75.0	387	9e-71	0	2	whole genome, best locus CM093793:20911015-20911590	CM093793	20911015	20911590	0	0	0
+Megaderma_spasma	Megadermatidae	control	GCA_043880595.1	FBP2_promoter_bird	NOT_DETECTED	0	1000	0%	0.0	0	1	57	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Megaderma_spasma	Megadermatidae	control	GCA_043880595.1	FBP2_promoter_bird_noncoding	NOT_DETECTED	0	874	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Macroderma_gigas	Megadermatidae	control	GCA_055471755.1	AGTR2_promoter_bat_supplied	DETECTED	999	1001	100%	78.6	911	0	0	1	10000 bp upstream of AGTR2 (+ strand)	JBQVVY010000006	15002169	15012168	10000	0	0
+Macroderma_gigas	Megadermatidae	control	GCA_055471755.1	AGTR2_promoter_bat_recut	DETECTED	989	1000	99%	77.5	818	0	0	1	10000 bp upstream of AGTR2 (+ strand)	JBQVVY010000006	15002169	15012168	10000	0	0
+Macroderma_gigas	Megadermatidae	control	GCA_055471755.1	AGTR2_promoter_bat_myotis	DETECTED	1013	1015	100%	78.4	903	0	0	1	10000 bp upstream of AGTR2 (+ strand)	JBQVVY010000006	15002169	15012168	10000	0	0
+Macroderma_gigas	Megadermatidae	control	GCA_055471755.1	AGTR2_promoter_bird_supplied	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	10000 bp upstream of AGTR2 (+ strand)	JBQVVY010000006	15002169	15012168	10000	0	0
+Macroderma_gigas	Megadermatidae	control	GCA_055471755.1	AGTR2_promoter_bird_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	10000 bp upstream of AGTR2 (+ strand)	JBQVVY010000006	15002169	15012168	10000	0	0
+Macroderma_gigas	Megadermatidae	control	GCA_055471755.1	FBP2_promoter_bat	DETECTED	633	1000	63%	72.9	376	2e-67	0	2	whole genome, best locus JBQVVY010000015:8163991-8164636	JBQVVY010000015	8163991	8164636	0	0	0
+Macroderma_gigas	Megadermatidae	control	GCA_055471755.1	FBP2_promoter_bird	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Macroderma_gigas	Megadermatidae	control	GCA_055471755.1	FBP2_promoter_bird_noncoding	NOT_DETECTED	0	874	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Rhinolophus_ferrumequinum	Rhinolophus	test	GCF_004115265.2	AGTR2_promoter_bat_supplied	NOT_DETECTED	0	1001	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_046284	39571534	39923941	352408	100	100
+Rhinolophus_ferrumequinum	Rhinolophus	test	GCF_004115265.2	AGTR2_promoter_bat_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_046284	39571534	39923941	352408	100	100
+Rhinolophus_ferrumequinum	Rhinolophus	test	GCF_004115265.2	AGTR2_promoter_bat_myotis	NOT_DETECTED	0	1015	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_046284	39571534	39923941	352408	100	100
+Rhinolophus_ferrumequinum	Rhinolophus	test	GCF_004115265.2	AGTR2_promoter_bird_supplied	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_046284	39571534	39923941	352408	100	100
+Rhinolophus_ferrumequinum	Rhinolophus	test	GCF_004115265.2	AGTR2_promoter_bird_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_046284	39571534	39923941	352408	100	100
+Rhinolophus_ferrumequinum	Rhinolophus	test	GCF_004115265.2	FBP2_promoter_bat	DETECTED	644	1000	64%	77.2	507	2e-104	0	2	whole genome, best locus NC_046295:7013941-7014619	NC_046295	7013941	7014619	0	0	0
+Rhinolophus_ferrumequinum	Rhinolophus	test	GCF_004115265.2	FBP2_promoter_bird	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Rhinolophus_ferrumequinum	Rhinolophus	test	GCF_004115265.2	FBP2_promoter_bird_noncoding	NOT_DETECTED	0	874	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Rhinolophus_hipposideros	Rhinolophus	test	GCF_964194185.1	AGTR2_promoter_bat_supplied	NOT_DETECTED	0	1001	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_138046	37773972	38155033	381062	400	200
+Rhinolophus_hipposideros	Rhinolophus	test	GCF_964194185.1	AGTR2_promoter_bat_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_138046	37773972	38155033	381062	400	200
+Rhinolophus_hipposideros	Rhinolophus	test	GCF_964194185.1	AGTR2_promoter_bat_myotis	NOT_DETECTED	0	1015	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_138046	37773972	38155033	381062	400	200
+Rhinolophus_hipposideros	Rhinolophus	test	GCF_964194185.1	AGTR2_promoter_bird_supplied	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_138046	37773972	38155033	381062	400	200
+Rhinolophus_hipposideros	Rhinolophus	test	GCF_964194185.1	AGTR2_promoter_bird_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_138046	37773972	38155033	381062	400	200
+Rhinolophus_hipposideros	Rhinolophus	test	GCF_964194185.1	FBP2_promoter_bat	DETECTED	644	1000	64%	76.3	475	5e-93	0	2	whole genome, best locus NC_138057:6803251-6803925	NC_138057	6803251	6803925	0	0	0
+Rhinolophus_hipposideros	Rhinolophus	test	GCF_964194185.1	FBP2_promoter_bird	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Rhinolophus_hipposideros	Rhinolophus	test	GCF_964194185.1	FBP2_promoter_bird_noncoding	NOT_DETECTED	0	874	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Rhinolophus_sinicus	Rhinolophus	test	GCF_057876585.1	AGTR2_promoter_bat_supplied	NOT_DETECTED	77	1001	8%	75.6	50	4e-07	0	1	between PLS3 and SLC6A14	NC_142518	79150506	79565336	414831	0	0
+Rhinolophus_sinicus	Rhinolophus	test	GCF_057876585.1	AGTR2_promoter_bat_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_142518	79150506	79565336	414831	0	0
+Rhinolophus_sinicus	Rhinolophus	test	GCF_057876585.1	AGTR2_promoter_bat_myotis	NOT_DETECTED	0	1015	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_142518	79150506	79565336	414831	0	0
+Rhinolophus_sinicus	Rhinolophus	test	GCF_057876585.1	AGTR2_promoter_bird_supplied	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_142518	79150506	79565336	414831	0	0
+Rhinolophus_sinicus	Rhinolophus	test	GCF_057876585.1	AGTR2_promoter_bird_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_142518	79150506	79565336	414831	0	0
+Rhinolophus_sinicus	Rhinolophus	test	GCF_057876585.1	FBP2_promoter_bat	DETECTED	644	1000	64%	77.3	510	8e-103	0	2	whole genome, best locus NC_142516:77375075-77375751	NC_142516	77375075	77375751	0	0	0
+Rhinolophus_sinicus	Rhinolophus	test	GCF_057876585.1	FBP2_promoter_bird	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Rhinolophus_sinicus	Rhinolophus	test	GCF_057876585.1	FBP2_promoter_bird_noncoding	NOT_DETECTED	0	874	0%	0.0	0	1	54	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Rhinolophus_affinis	Rhinolophus	test	GCA_043728065.1	AGTR2_promoter_bat_supplied	NOT_DETECTED	77	1001	8%	75.6	50	3e-07	0	1	between PLS3 and SLC6A14	CM093093	82189919	82498148	308230	500	500
+Rhinolophus_affinis	Rhinolophus	test	GCA_043728065.1	AGTR2_promoter_bat_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	39	0	between PLS3 and SLC6A14	CM093093	82189919	82498148	308230	500	500
+Rhinolophus_affinis	Rhinolophus	test	GCA_043728065.1	AGTR2_promoter_bat_myotis	NOT_DETECTED	0	1015	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	CM093093	82189919	82498148	308230	500	500
+Rhinolophus_affinis	Rhinolophus	test	GCA_043728065.1	AGTR2_promoter_bird_supplied	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	CM093093	82189919	82498148	308230	500	500
+Rhinolophus_affinis	Rhinolophus	test	GCA_043728065.1	AGTR2_promoter_bird_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	CM093093	82189919	82498148	308230	500	500
+Rhinolophus_affinis	Rhinolophus	test	GCA_043728065.1	FBP2_promoter_bat	DETECTED	644	1000	64%	76.7	495	3e-96	0	2	whole genome, best locus CM093073:77555688-77556365	CM093073	77555688	77556365	0	0	0
+Rhinolophus_affinis	Rhinolophus	test	GCA_043728065.1	FBP2_promoter_bird	NOT_DETECTED	0	1000	0%	0.0	0	1	57	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Rhinolophus_affinis	Rhinolophus	test	GCA_043728065.1	FBP2_promoter_bird_noncoding	NOT_DETECTED	0	874	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Aselliscus_stoliczkanus	Hipposideridae	test	GCA_043727835.1	AGTR2_promoter_bat_supplied	DETECTED	801	1001	80%	82.3	817	5e-164	0	2	10000 bp upstream of AGTR2 (- strand)	CM093061	45927956	45937955	10000	0	0
+Aselliscus_stoliczkanus	Hipposideridae	test	GCA_043727835.1	AGTR2_promoter_bat_recut	DETECTED	727	1000	73%	81.3	676	7e-99	0	3	10000 bp upstream of AGTR2 (- strand)	CM093061	45927956	45937955	10000	0	0
+Aselliscus_stoliczkanus	Hipposideridae	test	GCA_043727835.1	AGTR2_promoter_bat_myotis	DETECTED	815	1015	80%	82.2	816	2e-162	0	2	10000 bp upstream of AGTR2 (- strand)	CM093061	45927956	45937955	10000	0	0
+Aselliscus_stoliczkanus	Hipposideridae	test	GCA_043727835.1	AGTR2_promoter_bird_supplied	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	10000 bp upstream of AGTR2 (- strand)	CM093061	45927956	45937955	10000	0	0
+Aselliscus_stoliczkanus	Hipposideridae	test	GCA_043727835.1	AGTR2_promoter_bird_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	10000 bp upstream of AGTR2 (- strand)	CM093061	45927956	45937955	10000	0	0
+Aselliscus_stoliczkanus	Hipposideridae	test	GCA_043727835.1	FBP2_promoter_bat	DETECTED	644	1000	64%	75.9	456	3e-89	0	2	whole genome, best locus CM093048:79807070-79807737	CM093048	79807070	79807737	0	0	0
+Aselliscus_stoliczkanus	Hipposideridae	test	GCA_043727835.1	FBP2_promoter_bird	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Aselliscus_stoliczkanus	Hipposideridae	test	GCA_043727835.1	FBP2_promoter_bird_noncoding	NOT_DETECTED	0	874	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Hipposideros_armiger	Hipposideridae	test	GCF_001890085.2	AGTR2_promoter_bat_supplied	DETECTED	696	1001	70%	83.6	736	0	0	1	10000 bp upstream of AGTR2 (- strand)	NW_017733068	101124	111123	10000	2161	2161
+Hipposideros_armiger	Hipposideridae	test	GCF_001890085.2	AGTR2_promoter_bat_recut	DETECTED	988	1000	99%	81.4	976	0	0	1	10000 bp upstream of AGTR2 (- strand)	NW_017733068	101124	111123	10000	2161	2161
+Hipposideros_armiger	Hipposideridae	test	GCF_001890085.2	AGTR2_promoter_bat_myotis	DETECTED	709	1015	70%	83.6	733	0	0	1	10000 bp upstream of AGTR2 (- strand)	NW_017733068	101124	111123	10000	2161	2161
+Hipposideros_armiger	Hipposideridae	test	GCF_001890085.2	AGTR2_promoter_bird_supplied	NOT_READABLE	0	1000	0%	0.0	0	1	0	0	10000 bp upstream of AGTR2 (- strand)	NW_017733068	101124	111123	10000	2161	2161
+Hipposideros_armiger	Hipposideridae	test	GCF_001890085.2	AGTR2_promoter_bird_recut	NOT_READABLE	0	1000	0%	0.0	0	1	0	0	10000 bp upstream of AGTR2 (- strand)	NW_017733068	101124	111123	10000	2161	2161
+Hipposideros_armiger	Hipposideridae	test	GCF_001890085.2	FBP2_promoter_bat	DETECTED	644	1000	64%	77.5	519	2e-105	0	2	whole genome, best locus NW_017731889:182018-182693	NW_017731889	182018	182693	0	0	0
+Hipposideros_armiger	Hipposideridae	test	GCF_001890085.2	FBP2_promoter_bird	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Hipposideros_armiger	Hipposideridae	test	GCF_001890085.2	FBP2_promoter_bird_noncoding	NOT_DETECTED	0	874	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Hipposideros_larvatus	Hipposideridae	test	GCA_031876335.1	AGTR2_promoter_bat_supplied	DETECTED	696	1001	70%	83.7	732	0	0	1	10000 bp upstream of AGTR2 (+ strand)	CM063105	62452821	62462820	10000	0	0
+Hipposideros_larvatus	Hipposideridae	test	GCA_031876335.1	AGTR2_promoter_bat_recut	DETECTED	988	1000	99%	81.0	966	0	0	1	10000 bp upstream of AGTR2 (+ strand)	CM063105	62452821	62462820	10000	0	0
+Hipposideros_larvatus	Hipposideridae	test	GCA_031876335.1	AGTR2_promoter_bat_myotis	DETECTED	709	1015	70%	83.5	731	0	0	1	10000 bp upstream of AGTR2 (+ strand)	CM063105	62452821	62462820	10000	0	0
+Hipposideros_larvatus	Hipposideridae	test	GCA_031876335.1	AGTR2_promoter_bird_supplied	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	10000 bp upstream of AGTR2 (+ strand)	CM063105	62452821	62462820	10000	0	0
+Hipposideros_larvatus	Hipposideridae	test	GCA_031876335.1	AGTR2_promoter_bird_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	10000 bp upstream of AGTR2 (+ strand)	CM063105	62452821	62462820	10000	0	0
+Hipposideros_larvatus	Hipposideridae	test	GCA_031876335.1	FBP2_promoter_bat	DETECTED	644	1000	64%	78.4	537	7e-111	0	2	whole genome, best locus CM063091:121582225-121582900	CM063091	121582225	121582900	0	0	0
+Hipposideros_larvatus	Hipposideridae	test	GCA_031876335.1	FBP2_promoter_bird	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Hipposideros_larvatus	Hipposideridae	test	GCA_031876335.1	FBP2_promoter_bird_noncoding	NOT_DETECTED	0	874	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Myotis_myotis	Other bats	source	GCA_014108235.2	AGTR2_promoter_bat_supplied	DETECTED	1001	1001	100%	96.7	1681	0	0	1	10000 bp upstream of AGTR2 (- strand)	CM138265	44911757	44921756	10000	0	0
+Myotis_myotis	Other bats	source	GCA_014108235.2	AGTR2_promoter_bat_recut	DETECTED	1000	1000	100%	100.0	1804	0	0	1	10000 bp upstream of AGTR2 (- strand)	CM138265	44911757	44921756	10000	0	0
+Myotis_myotis	Other bats	source	GCA_014108235.2	AGTR2_promoter_bat_myotis	DETECTED	1015	1015	100%	100.0	1831	0	0	1	10000 bp upstream of AGTR2 (- strand)	CM138265	44911757	44921756	10000	0	0
+Myotis_myotis	Other bats	source	GCA_014108235.2	AGTR2_promoter_bird_supplied	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	10000 bp upstream of AGTR2 (- strand)	CM138265	44911757	44921756	10000	0	0
+Myotis_myotis	Other bats	source	GCA_014108235.2	AGTR2_promoter_bird_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	10000 bp upstream of AGTR2 (- strand)	CM138265	44911757	44921756	10000	0	0
+Myotis_myotis	Other bats	source	GCA_014108235.2	FBP2_promoter_bat	DETECTED	1000	1000	100%	100.0	1804	0	0	1	whole genome, best locus CM138254:5997284-5998283	CM138254	5997284	5998283	0	0	0
+Myotis_myotis	Other bats	source	GCA_014108235.2	FBP2_promoter_bird	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Myotis_myotis	Other bats	source	GCA_014108235.2	FBP2_promoter_bird_noncoding	NOT_DETECTED	0	874	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Archilochus_colubris	Hummingbirds	control	GCA_023079485.1	AGTR2_promoter_bat_supplied	NOT_DETECTED	0	1001	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	CM041086	4814970	4858098	43129	0	0
+Archilochus_colubris	Hummingbirds	control	GCA_023079485.1	AGTR2_promoter_bat_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	CM041086	4814970	4858098	43129	0	0
+Archilochus_colubris	Hummingbirds	control	GCA_023079485.1	AGTR2_promoter_bat_myotis	NOT_DETECTED	0	1015	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	CM041086	4814970	4858098	43129	0	0
+Archilochus_colubris	Hummingbirds	control	GCA_023079485.1	AGTR2_promoter_bird_supplied	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	CM041086	4814970	4858098	43129	0	0
+Archilochus_colubris	Hummingbirds	control	GCA_023079485.1	AGTR2_promoter_bird_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	CM041086	4814970	4858098	43129	0	0
+Archilochus_colubris	Hummingbirds	control	GCA_023079485.1	FBP2_promoter_bat	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Archilochus_colubris	Hummingbirds	control	GCA_023079485.1	FBP2_promoter_bird	DETECTED	983	1000	98%	78.1	837	0	0	1	whole genome, best locus CM041115:30685412-30686399	CM041115	30685412	30686399	0	0	0
+Archilochus_colubris	Hummingbirds	control	GCA_023079485.1	FBP2_promoter_bird_noncoding	DETECTED	857	874	98%	75.9	645	0	0	1	whole genome, best locus CM041115:30685538-30686399	CM041115	30685538	30686399	0	0	0
+Calypte_anna	Hummingbirds	control	GCF_003957555.1	AGTR2_promoter_bat_supplied	NOT_DETECTED	0	1001	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_044247	4523818	4565255	41438	0	0
+Calypte_anna	Hummingbirds	control	GCF_003957555.1	AGTR2_promoter_bat_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_044247	4523818	4565255	41438	0	0
+Calypte_anna	Hummingbirds	control	GCF_003957555.1	AGTR2_promoter_bat_myotis	NOT_DETECTED	0	1015	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_044247	4523818	4565255	41438	0	0
+Calypte_anna	Hummingbirds	control	GCF_003957555.1	AGTR2_promoter_bird_supplied	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_044247	4523818	4565255	41438	0	0
+Calypte_anna	Hummingbirds	control	GCF_003957555.1	AGTR2_promoter_bird_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_044247	4523818	4565255	41438	0	0
+Calypte_anna	Hummingbirds	control	GCF_003957555.1	FBP2_promoter_bat	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Calypte_anna	Hummingbirds	control	GCF_003957555.1	FBP2_promoter_bird	DETECTED	983	1000	98%	78.4	847	0	55	1	whole genome, best locus NC_044274:33588932-33589918	NC_044274	33588932	33589918	0	0	0
+Calypte_anna	Hummingbirds	control	GCF_003957555.1	FBP2_promoter_bird_noncoding	DETECTED	857	874	98%	76.2	655	0	0	1	whole genome, best locus NC_044274:33589058-33589918	NC_044274	33589058	33589918	0	0	0
+Heliangelus_exortis	Hummingbirds	control	GCF_036169615.1	AGTR2_promoter_bat_supplied	NOT_DETECTED	0	1001	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_092435	4604322	4649438	45117	0	0
+Heliangelus_exortis	Hummingbirds	control	GCF_036169615.1	AGTR2_promoter_bat_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	36	0	between PLS3 and SLC6A14	NC_092435	4604322	4649438	45117	0	0
+Heliangelus_exortis	Hummingbirds	control	GCF_036169615.1	AGTR2_promoter_bat_myotis	NOT_DETECTED	0	1015	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_092435	4604322	4649438	45117	0	0
+Heliangelus_exortis	Hummingbirds	control	GCF_036169615.1	AGTR2_promoter_bird_supplied	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_092435	4604322	4649438	45117	0	0
+Heliangelus_exortis	Hummingbirds	control	GCF_036169615.1	AGTR2_promoter_bird_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	between PLS3 and SLC6A14	NC_092435	4604322	4649438	45117	0	0
+Heliangelus_exortis	Hummingbirds	control	GCF_036169615.1	FBP2_promoter_bat	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Heliangelus_exortis	Hummingbirds	control	GCF_036169615.1	FBP2_promoter_bird	DETECTED	983	1000	98%	78.3	842	0	0	1	whole genome, best locus NC_092454:32927910-32928897	NC_092454	32927910	32928897	0	0	0
+Heliangelus_exortis	Hummingbirds	control	GCF_036169615.1	FBP2_promoter_bird_noncoding	DETECTED	857	874	98%	76.0	646	0	52	1	whole genome, best locus NC_092454:32928036-32928897	NC_092454	32928036	32928897	0	0	0
+Apus_apus	Other birds	source	GCF_020740795.1	AGTR2_promoter_bat_supplied	NOT_DETECTED	89	1001	9%	71.9	51	9e-09	0	1	10000 bp upstream of AGTR2 (- strand)	NC_067293	3725290	3735289	10000	0	0
+Apus_apus	Other birds	source	GCF_020740795.1	AGTR2_promoter_bat_recut	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	10000 bp upstream of AGTR2 (- strand)	NC_067293	3725290	3735289	10000	0	0
+Apus_apus	Other birds	source	GCF_020740795.1	AGTR2_promoter_bat_myotis	NOT_DETECTED	59	1015	6%	78.0	49	3e-08	0	1	10000 bp upstream of AGTR2 (- strand)	NC_067293	3725290	3735289	10000	0	0
+Apus_apus	Other birds	source	GCF_020740795.1	AGTR2_promoter_bird_supplied	DETECTED	1000	1000	100%	100.0	1804	0	0	1	10000 bp upstream of AGTR2 (- strand)	NC_067293	3725290	3735289	10000	0	0
+Apus_apus	Other birds	source	GCF_020740795.1	AGTR2_promoter_bird_recut	DETECTED	1000	1000	100%	100.0	1804	0	0	1	10000 bp upstream of AGTR2 (- strand)	NC_067293	3725290	3735289	10000	0	0
+Apus_apus	Other birds	source	GCF_020740795.1	FBP2_promoter_bat	NOT_DETECTED	0	1000	0%	0.0	0	1	0	0	whole genome, best locus -:0-0	-	0	0	0	0	0
+Apus_apus	Other birds	source	GCF_020740795.1	FBP2_promoter_bird	DETECTED	1000	1000	100%	100.0	1804	0	0	1	whole genome, best locus NC_067312:47351228-47352227	NC_067312	47351228	47352227	0	0	0
+Apus_apus	Other birds	source	GCF_020740795.1	FBP2_promoter_bird_noncoding	DETECTED	874	874	100%	100.0	1577	0	0	1	whole genome, best locus NC_067312:47351354-47352227	NC_067312	47351354	47352227	0	0	0

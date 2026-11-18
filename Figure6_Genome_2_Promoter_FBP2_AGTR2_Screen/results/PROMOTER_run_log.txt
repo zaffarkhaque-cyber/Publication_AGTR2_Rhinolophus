@@ -1,0 +1,27 @@
+PROMOTER.py md5 c3757e323b16c03fe07b8a073bd067d7
+TABLE1.py md5 c716ff3158718a07cf6061019daba8d7 (<PATH>/OneDrive/Desktop/Figure6_Genome_2_Promoter_FBP2_AGTR2_Screen/TABLE1.py)
+query AGTR2_promoter_bat_supplied md5 082c0dbaf2b4a0e4ba23d05e0f114cfb  supplied: AGTR2_promoter_Myotis_myotis.fna (1001 bp), claimed source Myotis_myotis
+query AGTR2_promoter_bat_recut md5 38fb0434f051498c62912424a110f9a4  Myotis_myotis GCA_014108235.2 CM138265:44911757-44912756 (1000 bp upstream of AGTR2 (- strand))
+query AGTR2_promoter_bat_myotis md5 280b8b7f4627ba5b5366379388e3fa6a  supplied: AGTR2_promoter_Myotis_myotis_TRUE.fna (1015 bp), claimed source Myotis_myotis
+query AGTR2_promoter_bird_supplied md5 b0023187d63c5a34c3787d5eee7d1bea  supplied: AGTR2_promoter_Apus_apus.fna (1000 bp), claimed source Apus_apus
+query AGTR2_promoter_bird_recut md5 c5dd91ff70567890a27ba2556fc3a6e0  Apus_apus GCF_020740795.1 NC_067293:3725290-3726289 (1000 bp upstream of AGTR2 (- strand))
+query FBP2_promoter_bat md5 74a9c2d0e17e9a6cb796e22cdc917b0d  supplied: FBP2_promoter_Myotis_myotis.fna (1000 bp), claimed source Myotis_myotis
+query FBP2_promoter_bird md5 e261fdd95a8e9b30e9af12c96a05b49f  supplied: FBP2_promoter_Apus_apus.fna (1000 bp), claimed source Apus_apus
+query FBP2_promoter_bird_noncoding md5 3e97c13424fa6fecc57652cdbf7e6acb  supplied: FBP2_promoter_Apus_apus_noncoding.fna (874 bp), claimed source Apus_apus
+command: PROMOTER.py --reference <PATH>/OneDrive/Desktop/BATCH GENOMES/Group 12/COMPLETE_Homo-Sapiens_ncbi_dataset.zip --genomes genomes.tsv --queries queries.tsv --out results --db-dir <PATH>/bat_promoter_blast_databases --proteome-db-dir <PATH>/blastdb --threads 8
+random seed 20261118, 20 shuffles, floor = max(shuffled) or mean + 3 SD
+started 2026-11-18T17:09:28, finished 2026-11-18T17:29:24
+Megaderma_spasma           GCA_043880595.1  GCA_043880595.1_ASM4388059v1_genomic.fna (from Megaderma_spasma_ncbi_dataset.zip, 659278506 bytes)
+Macroderma_gigas           GCA_055471755.1  GCA_055471755.1_mMacGig1.2_20250303_genomic.fna (from Macroderma_gigas_ncbi_dataset.zip, 626128144 bytes)
+Rhinolophus_ferrumequinum  GCF_004115265.2  GCF_004115265.2_mRhiFer1_v1.p_genomic.fna (from Rhinolophus_ferrumequinum_ncbi_dataset.zip, 1328488184 bytes)
+Rhinolophus_hipposideros   GCF_964194185.1  GCF_964194185.1_mRhiHip2.hap1.1_genomic.fna (from Rhinolophus_hipposideros_ncbi_dataset 1.zip, 1356811590 bytes)
+Rhinolophus_sinicus        GCF_057876585.1  GCF_057876585.1_RSI-T2T_genomic.fna (from Rhinolophus_sinicus_ncbi_dataset.zip, 1343095446 bytes)
+Rhinolophus_affinis        GCA_043728065.1  GCA_043728065.1_ASM4372806v1_genomic.fna (from Rhinolophus_affinis_ncbi_dataset.zip, 688654566 bytes)
+Aselliscus_stoliczkanus    GCA_043727835.1  GCA_043727835.1_ASM4372783v1_genomic.fna (from Aselliscus_stoliczkanus_ncbi_dataset.zip, 711195308 bytes)
+Hipposideros_armiger       GCF_001890085.2  GCF_001890085.2_ASM189008v1_genomic.fna (from Hipposideros_armiger_great_roundleaf_bat_ncbi_dataset.zip, 1275083950 bytes)
+Hipposideros_larvatus      GCA_031876335.1  GCA_031876335.1_mHipLar1.pri_genomic.fna (from Hipposideros_larvatus_ncbi_dataset.zip, 704309550 bytes)
+Myotis_myotis              GCA_014108235.2  GCA_014108235.2_mMyoMyo1.pri_genomic.fna (from Myotis_myotis_ncbi_dataset.zip, 628495278 bytes)
+Archilochus_colubris       GCA_023079485.1  GCA_023079485.1_ASM2307948v1_genomic.fna (from Archilocus_colubrus_ncbi_dataset.zip, 342409438 bytes)
+Calypte_anna               GCF_003957555.1  GCF_003957555.1_bCalAnn1_v1.p_genomic.fna (from Calypte_anna_ncbi_dataset 1.zip, 657373130 bytes)
+Heliangelus_exortis        GCF_036169615.1  GCF_036169615.1_bHelExo1.hap1_genomic.fna (from Heliangelus_exortis_ncbi_dataset.zip, 653592673 bytes)
+Apus_apus                  GCF_020740795.1  GCF_020740795.1_bApuApu2.pri.cur_genomic.fna (from Apus_apus_ncbi_dataset.zip, 694916396 bytes)

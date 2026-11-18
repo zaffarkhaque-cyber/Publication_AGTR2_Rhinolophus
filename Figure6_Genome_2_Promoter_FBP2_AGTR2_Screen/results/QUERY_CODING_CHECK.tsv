@@ -1,0 +1,8 @@
+query	query bp	verdict	best protein	coding bp in query	% of query coding	query range	E-value
+AGTR2_promoter_bat_supplied	1001	CLEAN	-	0	0	-	-
+AGTR2_promoter_bat_recut	1000	CLEAN	-	0	0	-	-
+AGTR2_promoter_bat_myotis	1015	CLEAN	-	0	0	-	-
+AGTR2_promoter_bird_supplied	1000	CLEAN	-	0	0	-	-
+AGTR2_promoter_bird_recut	1000	CLEAN	-	0	0	-	-
+FBP2_promoter_bat	1000	CLEAN	-	0	0	-	-
+FBP2_promoter_bird	1000	CODING	FBP1	126	13	1-126	2e-11

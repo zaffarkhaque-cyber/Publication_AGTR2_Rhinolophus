@@ -1,0 +1,47 @@
+# Promoter queries.
+#
+# label <TAB> search anchor (json) <TAB> source species <TAB> sequence source <TAB> bp
+#
+# search anchor   {"between": [geneA, geneB]}  look in the interval between two orthologues. Used for
+#                                              AGTR2, whose own locus is deleted in the test species, so
+#                                              there is nothing to measure "upstream of".
+#                 {"upstream_of": gene}        look immediately upstream of an orthologue.
+#
+# source species  the species the sequence is claimed to come from. The SELF-HIT control searches the
+#                 query against THIS genome and requires it to recover ~100% of itself at ~100% identity.
+#                 A sequence labelled as one species but taken from another cannot pass that.
+#
+# sequence source either a FASTA path (your own sequence, used exactly as given), or a json anchor such
+#                 as {"upstream_of": "AGTR2"} telling the program to cut it from the source genome itself.
+#
+# The four sequences below were supplied by the user in OneDrive\AGTR2\AGTR2_FBP2_Promoter.txt and split
+# into one FASTA each by split_promoters.py, which prints the length and md5 of every file it writes.
+#
+# FBP2 is the control: it is present in every species here, so its promoter should show ordinary
+# divergence and nothing more. If FBP2 falls where AGTR2 falls, the screen is measuring divergence rather
+# than deletion and neither result means anything.
+# VERIFIED BY NCBI BLAST AGAINST GCA_014108235.2 (Myotis myotis mMyoMyo1), 18 Nov 2026:
+#   FBP2 promoter   1000/1000 = 100.00%  CM138254.1:5997284-5998283 (chr 11, plus strand)  -> is M. myotis
+#   AGTR2 promoter  100% cover, 96.65%   CM138265.1 (chr X)                                -> is NOT M. myotis
+# The AGTR2 promoter therefore comes from another Myotis (M. lucifugus is the likely source: it has the
+# RefSeq annotation needed to locate a TSS, which GCA_014108235.2 does not). Both rows below are kept and
+# both are run: the supplied sequence, whose self-hit control will report the 96.65% rather than hide it,
+# and the same 1 kb re-cut from M. myotis itself so that the AGTR2 and FBP2 panels share a source species.
+# If the pattern holds with either query, it is robust to the source species - which is worth more than
+# quietly using one of them.
+AGTR2_promoter_bat_supplied	{"upstream_of_or_between": {"gene": "AGTR2", "flanks": ["PLS3", "SLC6A14"]}}	Myotis_myotis	queries/AGTR2_promoter_Myotis_myotis.fna	0
+AGTR2_promoter_bat_recut	{"upstream_of_or_between": {"gene": "AGTR2", "flanks": ["PLS3", "SLC6A14"]}}	Myotis_myotis	{"upstream_of": "AGTR2"}	1000
+# The TRUE M. myotis promoter, reconstructed from the Sbjct lines of the user's NCBI blastn alignment
+# (NW_023416346.1:44913327-44914341, minus strand). Checked against the report rather than trusted: it is
+# 1015 bp, which is exactly the range span, and it matches the supplied query at exactly 982 positions,
+# which is exactly the identity count NCBI returned. It should self-hit at 100%, and the _recut row above
+# should reproduce it independently from the genome - if those two disagree, one of them is wrong.
+AGTR2_promoter_bat_myotis	{"upstream_of_or_between": {"gene": "AGTR2", "flanks": ["PLS3", "SLC6A14"]}}	Myotis_myotis	queries/AGTR2_promoter_Myotis_myotis_TRUE.fna	0
+AGTR2_promoter_bird_supplied	{"upstream_of_or_between": {"gene": "AGTR2", "flanks": ["PLS3", "SLC6A14"]}}	Apus_apus	queries/AGTR2_promoter_Apus_apus.fna	0
+AGTR2_promoter_bird_recut	{"upstream_of_or_between": {"gene": "AGTR2", "flanks": ["PLS3", "SLC6A14"]}}	Apus_apus	{"upstream_of": "AGTR2"}	1000
+FBP2_promoter_bat	{"genome": true}	Myotis_myotis	queries/FBP2_promoter_Myotis_myotis.fna	0
+# The supplied 1000 bp Apus FBP2 window begins with 126 exonic bases (blastx: FBP1 E=2e-11, FBP2
+# E=2e-09). FBP1 is present in hummingbirds, so that fragment would light up there regardless of FBP2's
+# fate. Both versions are run: the original, and the same window with those 126 bases removed.
+FBP2_promoter_bird	{"genome": true}	Apus_apus	queries/FBP2_promoter_Apus_apus.fna	0
+FBP2_promoter_bird_noncoding	{"genome": true}	Apus_apus	queries/FBP2_promoter_Apus_apus_noncoding.fna	0

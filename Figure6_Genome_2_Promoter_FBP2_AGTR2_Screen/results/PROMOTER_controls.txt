@@ -1,0 +1,355 @@
+CONTROLS
+====================================================================================================
+
+SELF-HIT (a query must recover itself, in full, in its OWN genome; anything less means the
+query did not come from the assembly its label claims - this is the control that catches a
+query taken from one species and labelled as another)
+    AGTR2_promoter_bat_supplied Myotis_myotis: 100% of the query at 96.7% identity   FAIL - the query is not from this assembly
+    AGTR2_promoter_bat_recut   Myotis_myotis: 100% of the query at 100.0% identity   PASS
+    AGTR2_promoter_bat_myotis  Myotis_myotis: 100% of the query at 100.0% identity   PASS
+    AGTR2_promoter_bird_supplied Apus_apus: 100% of the query at 100.0% identity   PASS
+    AGTR2_promoter_bird_recut  Apus_apus: 100% of the query at 100.0% identity   PASS
+    FBP2_promoter_bat          Myotis_myotis: 100% of the query at 100.0% identity   PASS
+    FBP2_promoter_bird         Apus_apus: 100% of the query at 100.0% identity   PASS
+    FBP2_promoter_bird_noncoding Apus_apus: 100% of the query at 100.0% identity   PASS
+
+CROSS-CLASS SPECIFICITY (a bat promoter must NOT be found in a bird genome, nor the
+reverse; any detection here means the assay returns a positive for sequence that cannot
+be present)
+    AGTR2_promoter_bat_supplied    mammal  query vs  4 opposite-class genome(s): all negative  PASS
+    AGTR2_promoter_bat_recut       mammal  query vs  4 opposite-class genome(s): all negative  PASS
+    AGTR2_promoter_bat_myotis      mammal  query vs  4 opposite-class genome(s): all negative  PASS
+    AGTR2_promoter_bird_supplied   bird    query vs 10 opposite-class genome(s): all negative  PASS
+    AGTR2_promoter_bird_recut      bird    query vs 10 opposite-class genome(s): all negative  PASS
+    FBP2_promoter_bat              mammal  query vs  4 opposite-class genome(s): all negative  PASS
+    FBP2_promoter_bird             bird    query vs 10 opposite-class genome(s): all negative  PASS
+    FBP2_promoter_bird_noncoding   bird    query vs 10 opposite-class genome(s): all negative  PASS
+    every cross-class search negative
+
+NOISE FLOOR (per interval, from 20 shuffles preserving length and dinucleotide composition; a whole-genome row's floor comes from 10 shuffled QUERIES instead)
+    Megaderma_spasma           AGTR2_promoter_bat_supplied floor    0 bits; observed  829  DETECTED
+    Megaderma_spasma           AGTR2_promoter_bat_recut floor    0 bits; observed  702  DETECTED
+    Megaderma_spasma           AGTR2_promoter_bat_myotis floor    0 bits; observed  838  DETECTED
+    Megaderma_spasma           AGTR2_promoter_bird_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Megaderma_spasma           AGTR2_promoter_bird_recut floor    0 bits; observed    0  NOT_DETECTED
+    Megaderma_spasma           FBP2_promoter_bat      floor    0 bits; observed  387  DETECTED
+    Megaderma_spasma           FBP2_promoter_bird     floor   57 bits; observed    0  NOT_DETECTED
+    Megaderma_spasma           FBP2_promoter_bird_noncoding floor    0 bits; observed    0  NOT_DETECTED
+    Macroderma_gigas           AGTR2_promoter_bat_supplied floor    0 bits; observed  911  DETECTED
+    Macroderma_gigas           AGTR2_promoter_bat_recut floor    0 bits; observed  818  DETECTED
+    Macroderma_gigas           AGTR2_promoter_bat_myotis floor    0 bits; observed  903  DETECTED
+    Macroderma_gigas           AGTR2_promoter_bird_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Macroderma_gigas           AGTR2_promoter_bird_recut floor    0 bits; observed    0  NOT_DETECTED
+    Macroderma_gigas           FBP2_promoter_bat      floor    0 bits; observed  376  DETECTED
+    Macroderma_gigas           FBP2_promoter_bird     floor    0 bits; observed    0  NOT_DETECTED
+    Macroderma_gigas           FBP2_promoter_bird_noncoding floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bat_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bat_recut floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bat_myotis floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bird_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bird_recut floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_ferrumequinum  FBP2_promoter_bat      floor    0 bits; observed  507  DETECTED
+    Rhinolophus_ferrumequinum  FBP2_promoter_bird     floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_ferrumequinum  FBP2_promoter_bird_noncoding floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_hipposideros   AGTR2_promoter_bat_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_hipposideros   AGTR2_promoter_bat_recut floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_hipposideros   AGTR2_promoter_bat_myotis floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_hipposideros   AGTR2_promoter_bird_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_hipposideros   AGTR2_promoter_bird_recut floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_hipposideros   FBP2_promoter_bat      floor    0 bits; observed  475  DETECTED
+    Rhinolophus_hipposideros   FBP2_promoter_bird     floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_hipposideros   FBP2_promoter_bird_noncoding floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_sinicus        AGTR2_promoter_bat_supplied floor    0 bits; observed   50  NOT_DETECTED
+    Rhinolophus_sinicus        AGTR2_promoter_bat_recut floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_sinicus        AGTR2_promoter_bat_myotis floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_sinicus        AGTR2_promoter_bird_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_sinicus        AGTR2_promoter_bird_recut floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_sinicus        FBP2_promoter_bat      floor    0 bits; observed  510  DETECTED
+    Rhinolophus_sinicus        FBP2_promoter_bird     floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_sinicus        FBP2_promoter_bird_noncoding floor   54 bits; observed    0  NOT_DETECTED
+    Rhinolophus_affinis        AGTR2_promoter_bat_supplied floor    0 bits; observed   50  NOT_DETECTED
+    Rhinolophus_affinis        AGTR2_promoter_bat_recut floor   39 bits; observed    0  NOT_DETECTED
+    Rhinolophus_affinis        AGTR2_promoter_bat_myotis floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_affinis        AGTR2_promoter_bird_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_affinis        AGTR2_promoter_bird_recut floor    0 bits; observed    0  NOT_DETECTED
+    Rhinolophus_affinis        FBP2_promoter_bat      floor    0 bits; observed  495  DETECTED
+    Rhinolophus_affinis        FBP2_promoter_bird     floor   57 bits; observed    0  NOT_DETECTED
+    Rhinolophus_affinis        FBP2_promoter_bird_noncoding floor    0 bits; observed    0  NOT_DETECTED
+    Aselliscus_stoliczkanus    AGTR2_promoter_bat_supplied floor    0 bits; observed  817  DETECTED
+    Aselliscus_stoliczkanus    AGTR2_promoter_bat_recut floor    0 bits; observed  676  DETECTED
+    Aselliscus_stoliczkanus    AGTR2_promoter_bat_myotis floor    0 bits; observed  816  DETECTED
+    Aselliscus_stoliczkanus    AGTR2_promoter_bird_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Aselliscus_stoliczkanus    AGTR2_promoter_bird_recut floor    0 bits; observed    0  NOT_DETECTED
+    Aselliscus_stoliczkanus    FBP2_promoter_bat      floor    0 bits; observed  456  DETECTED
+    Aselliscus_stoliczkanus    FBP2_promoter_bird     floor    0 bits; observed    0  NOT_DETECTED
+    Aselliscus_stoliczkanus    FBP2_promoter_bird_noncoding floor    0 bits; observed    0  NOT_DETECTED
+    Hipposideros_armiger       AGTR2_promoter_bat_supplied floor    0 bits; observed  736  DETECTED
+    Hipposideros_armiger       AGTR2_promoter_bat_recut floor    0 bits; observed  976  DETECTED
+    Hipposideros_armiger       AGTR2_promoter_bat_myotis floor    0 bits; observed  733  DETECTED
+    Hipposideros_armiger       AGTR2_promoter_bird_supplied floor    0 bits; observed    0  NOT_READABLE
+    Hipposideros_armiger       AGTR2_promoter_bird_recut floor    0 bits; observed    0  NOT_READABLE
+    Hipposideros_armiger       FBP2_promoter_bat      floor    0 bits; observed  519  DETECTED
+    Hipposideros_armiger       FBP2_promoter_bird     floor    0 bits; observed    0  NOT_DETECTED
+    Hipposideros_armiger       FBP2_promoter_bird_noncoding floor    0 bits; observed    0  NOT_DETECTED
+    Hipposideros_larvatus      AGTR2_promoter_bat_supplied floor    0 bits; observed  732  DETECTED
+    Hipposideros_larvatus      AGTR2_promoter_bat_recut floor    0 bits; observed  966  DETECTED
+    Hipposideros_larvatus      AGTR2_promoter_bat_myotis floor    0 bits; observed  731  DETECTED
+    Hipposideros_larvatus      AGTR2_promoter_bird_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Hipposideros_larvatus      AGTR2_promoter_bird_recut floor    0 bits; observed    0  NOT_DETECTED
+    Hipposideros_larvatus      FBP2_promoter_bat      floor    0 bits; observed  537  DETECTED
+    Hipposideros_larvatus      FBP2_promoter_bird     floor    0 bits; observed    0  NOT_DETECTED
+    Hipposideros_larvatus      FBP2_promoter_bird_noncoding floor    0 bits; observed    0  NOT_DETECTED
+    Myotis_myotis              AGTR2_promoter_bat_supplied floor    0 bits; observed 1681  DETECTED
+    Myotis_myotis              AGTR2_promoter_bat_recut floor    0 bits; observed 1804  DETECTED
+    Myotis_myotis              AGTR2_promoter_bat_myotis floor    0 bits; observed 1831  DETECTED
+    Myotis_myotis              AGTR2_promoter_bird_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Myotis_myotis              AGTR2_promoter_bird_recut floor    0 bits; observed    0  NOT_DETECTED
+    Myotis_myotis              FBP2_promoter_bat      floor    0 bits; observed 1804  DETECTED
+    Myotis_myotis              FBP2_promoter_bird     floor    0 bits; observed    0  NOT_DETECTED
+    Myotis_myotis              FBP2_promoter_bird_noncoding floor    0 bits; observed    0  NOT_DETECTED
+    Archilochus_colubris       AGTR2_promoter_bat_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Archilochus_colubris       AGTR2_promoter_bat_recut floor    0 bits; observed    0  NOT_DETECTED
+    Archilochus_colubris       AGTR2_promoter_bat_myotis floor    0 bits; observed    0  NOT_DETECTED
+    Archilochus_colubris       AGTR2_promoter_bird_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Archilochus_colubris       AGTR2_promoter_bird_recut floor    0 bits; observed    0  NOT_DETECTED
+    Archilochus_colubris       FBP2_promoter_bat      floor    0 bits; observed    0  NOT_DETECTED
+    Archilochus_colubris       FBP2_promoter_bird     floor    0 bits; observed  837  DETECTED
+    Archilochus_colubris       FBP2_promoter_bird_noncoding floor    0 bits; observed  645  DETECTED
+    Calypte_anna               AGTR2_promoter_bat_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Calypte_anna               AGTR2_promoter_bat_recut floor    0 bits; observed    0  NOT_DETECTED
+    Calypte_anna               AGTR2_promoter_bat_myotis floor    0 bits; observed    0  NOT_DETECTED
+    Calypte_anna               AGTR2_promoter_bird_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Calypte_anna               AGTR2_promoter_bird_recut floor    0 bits; observed    0  NOT_DETECTED
+    Calypte_anna               FBP2_promoter_bat      floor    0 bits; observed    0  NOT_DETECTED
+    Calypte_anna               FBP2_promoter_bird     floor   55 bits; observed  847  DETECTED
+    Calypte_anna               FBP2_promoter_bird_noncoding floor    0 bits; observed  655  DETECTED
+    Heliangelus_exortis        AGTR2_promoter_bat_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Heliangelus_exortis        AGTR2_promoter_bat_recut floor   36 bits; observed    0  NOT_DETECTED
+    Heliangelus_exortis        AGTR2_promoter_bat_myotis floor    0 bits; observed    0  NOT_DETECTED
+    Heliangelus_exortis        AGTR2_promoter_bird_supplied floor    0 bits; observed    0  NOT_DETECTED
+    Heliangelus_exortis        AGTR2_promoter_bird_recut floor    0 bits; observed    0  NOT_DETECTED
+    Heliangelus_exortis        FBP2_promoter_bat      floor    0 bits; observed    0  NOT_DETECTED
+    Heliangelus_exortis        FBP2_promoter_bird     floor    0 bits; observed  842  DETECTED
+    Heliangelus_exortis        FBP2_promoter_bird_noncoding floor   52 bits; observed  646  DETECTED
+    Apus_apus                  AGTR2_promoter_bat_supplied floor    0 bits; observed   51  NOT_DETECTED
+    Apus_apus                  AGTR2_promoter_bat_recut floor    0 bits; observed    0  NOT_DETECTED
+    Apus_apus                  AGTR2_promoter_bat_myotis floor    0 bits; observed   49  NOT_DETECTED
+    Apus_apus                  AGTR2_promoter_bird_supplied floor    0 bits; observed 1804  DETECTED
+    Apus_apus                  AGTR2_promoter_bird_recut floor    0 bits; observed 1804  DETECTED
+    Apus_apus                  FBP2_promoter_bat      floor    0 bits; observed    0  NOT_DETECTED
+    Apus_apus                  FBP2_promoter_bird     floor    0 bits; observed 1804  DETECTED
+    Apus_apus                  FBP2_promoter_bird_noncoding floor    0 bits; observed 1577  DETECTED
+
+DETECTION LIMIT (what a NOT_DETECTED excludes)
+    Megaderma_spasma           AGTR2_promoter_bat_supplied detected to 40% divergence
+    Megaderma_spasma           AGTR2_promoter_bat_recut detected to 60% divergence
+    Megaderma_spasma           AGTR2_promoter_bat_myotis detected to 40% divergence
+    Megaderma_spasma           AGTR2_promoter_bird_supplied detected to 30% divergence
+    Megaderma_spasma           AGTR2_promoter_bird_recut detected to 40% divergence
+    Macroderma_gigas           AGTR2_promoter_bat_supplied detected to 30% divergence
+    Macroderma_gigas           AGTR2_promoter_bat_recut detected to 30% divergence
+    Macroderma_gigas           AGTR2_promoter_bat_myotis detected to 40% divergence
+    Macroderma_gigas           AGTR2_promoter_bird_supplied detected to 30% divergence
+    Macroderma_gigas           AGTR2_promoter_bird_recut detected to 40% divergence
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bat_supplied detected to 50% divergence
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bat_recut detected to 40% divergence
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bat_myotis detected to 40% divergence
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bird_supplied detected to 30% divergence
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bird_recut detected to 40% divergence
+    Rhinolophus_hipposideros   AGTR2_promoter_bat_supplied detected to 30% divergence
+    Rhinolophus_hipposideros   AGTR2_promoter_bat_recut detected to 40% divergence
+    Rhinolophus_hipposideros   AGTR2_promoter_bat_myotis detected to 30% divergence
+    Rhinolophus_hipposideros   AGTR2_promoter_bird_supplied detected to 30% divergence
+    Rhinolophus_hipposideros   AGTR2_promoter_bird_recut detected to 40% divergence
+    Rhinolophus_sinicus        AGTR2_promoter_bat_supplied detected to 40% divergence
+    Rhinolophus_sinicus        AGTR2_promoter_bat_recut detected to 40% divergence
+    Rhinolophus_sinicus        AGTR2_promoter_bat_myotis detected to 30% divergence
+    Rhinolophus_sinicus        AGTR2_promoter_bird_supplied detected to 30% divergence
+    Rhinolophus_sinicus        AGTR2_promoter_bird_recut detected to 30% divergence
+    Rhinolophus_affinis        AGTR2_promoter_bat_supplied detected to 30% divergence
+    Rhinolophus_affinis        AGTR2_promoter_bat_recut detected to 40% divergence
+    Rhinolophus_affinis        AGTR2_promoter_bat_myotis detected to 40% divergence
+    Rhinolophus_affinis        AGTR2_promoter_bird_supplied detected to 40% divergence
+    Rhinolophus_affinis        AGTR2_promoter_bird_recut detected to 30% divergence
+    Aselliscus_stoliczkanus    AGTR2_promoter_bat_supplied detected to 40% divergence
+    Aselliscus_stoliczkanus    AGTR2_promoter_bat_recut detected to 30% divergence
+    Aselliscus_stoliczkanus    AGTR2_promoter_bat_myotis detected to 40% divergence
+    Aselliscus_stoliczkanus    AGTR2_promoter_bird_supplied detected to 40% divergence
+    Aselliscus_stoliczkanus    AGTR2_promoter_bird_recut detected to 40% divergence
+    Hipposideros_armiger       AGTR2_promoter_bat_supplied detected to 40% divergence
+    Hipposideros_armiger       AGTR2_promoter_bat_recut detected to 40% divergence
+    Hipposideros_armiger       AGTR2_promoter_bat_myotis detected to 40% divergence
+    Hipposideros_armiger       AGTR2_promoter_bird_supplied detected to 30% divergence
+    Hipposideros_armiger       AGTR2_promoter_bird_recut detected to 40% divergence
+    Hipposideros_larvatus      AGTR2_promoter_bat_supplied detected to 40% divergence
+    Hipposideros_larvatus      AGTR2_promoter_bat_recut detected to 40% divergence
+    Hipposideros_larvatus      AGTR2_promoter_bat_myotis detected to 30% divergence
+    Hipposideros_larvatus      AGTR2_promoter_bird_supplied detected to 40% divergence
+    Hipposideros_larvatus      AGTR2_promoter_bird_recut detected to 40% divergence
+    Myotis_myotis              AGTR2_promoter_bat_supplied detected to 40% divergence
+    Myotis_myotis              AGTR2_promoter_bat_recut detected to 30% divergence
+    Myotis_myotis              AGTR2_promoter_bat_myotis detected to 40% divergence
+    Myotis_myotis              AGTR2_promoter_bird_supplied detected to 40% divergence
+    Myotis_myotis              AGTR2_promoter_bird_recut detected to 40% divergence
+    Archilochus_colubris       AGTR2_promoter_bat_supplied detected to 40% divergence
+    Archilochus_colubris       AGTR2_promoter_bat_recut detected to 40% divergence
+    Archilochus_colubris       AGTR2_promoter_bat_myotis detected to 40% divergence
+    Archilochus_colubris       AGTR2_promoter_bird_supplied detected to 30% divergence
+    Archilochus_colubris       AGTR2_promoter_bird_recut detected to 40% divergence
+    Calypte_anna               AGTR2_promoter_bat_supplied detected to 40% divergence
+    Calypte_anna               AGTR2_promoter_bat_recut detected to 30% divergence
+    Calypte_anna               AGTR2_promoter_bat_myotis detected to 40% divergence
+    Calypte_anna               AGTR2_promoter_bird_supplied detected to 40% divergence
+    Calypte_anna               AGTR2_promoter_bird_recut detected to 40% divergence
+    Heliangelus_exortis        AGTR2_promoter_bat_supplied detected to 40% divergence
+    Heliangelus_exortis        AGTR2_promoter_bat_recut detected to 40% divergence
+    Heliangelus_exortis        AGTR2_promoter_bat_myotis detected to 40% divergence
+    Heliangelus_exortis        AGTR2_promoter_bird_supplied detected to 40% divergence
+    Heliangelus_exortis        AGTR2_promoter_bird_recut detected to 40% divergence
+    Apus_apus                  AGTR2_promoter_bat_supplied detected to 40% divergence
+    Apus_apus                  AGTR2_promoter_bat_recut detected to 40% divergence
+    Apus_apus                  AGTR2_promoter_bat_myotis detected to 50% divergence
+    Apus_apus                  AGTR2_promoter_bird_supplied detected to 40% divergence
+    Apus_apus                  AGTR2_promoter_bird_recut detected to 40% divergence
+
+ASSEMBLY GAPS (a promoter missing inside a gap is not a deletion)
+    Megaderma_spasma           AGTR2_promoter_bat_supplied 10000 bp interval, 0 N, longest run 0
+    Megaderma_spasma           AGTR2_promoter_bat_recut 10000 bp interval, 0 N, longest run 0
+    Megaderma_spasma           AGTR2_promoter_bat_myotis 10000 bp interval, 0 N, longest run 0
+    Megaderma_spasma           AGTR2_promoter_bird_supplied 10000 bp interval, 0 N, longest run 0
+    Megaderma_spasma           AGTR2_promoter_bird_recut 10000 bp interval, 0 N, longest run 0
+    Megaderma_spasma           FBP2_promoter_bat      0 bp interval, 0 N, longest run 0
+    Megaderma_spasma           FBP2_promoter_bird     0 bp interval, 0 N, longest run 0
+    Megaderma_spasma           FBP2_promoter_bird_noncoding 0 bp interval, 0 N, longest run 0
+    Macroderma_gigas           AGTR2_promoter_bat_supplied 10000 bp interval, 0 N, longest run 0
+    Macroderma_gigas           AGTR2_promoter_bat_recut 10000 bp interval, 0 N, longest run 0
+    Macroderma_gigas           AGTR2_promoter_bat_myotis 10000 bp interval, 0 N, longest run 0
+    Macroderma_gigas           AGTR2_promoter_bird_supplied 10000 bp interval, 0 N, longest run 0
+    Macroderma_gigas           AGTR2_promoter_bird_recut 10000 bp interval, 0 N, longest run 0
+    Macroderma_gigas           FBP2_promoter_bat      0 bp interval, 0 N, longest run 0
+    Macroderma_gigas           FBP2_promoter_bird     0 bp interval, 0 N, longest run 0
+    Macroderma_gigas           FBP2_promoter_bird_noncoding 0 bp interval, 0 N, longest run 0
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bat_supplied 352408 bp interval, 100 N, longest run 100
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bat_recut 352408 bp interval, 100 N, longest run 100
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bat_myotis 352408 bp interval, 100 N, longest run 100
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bird_supplied 352408 bp interval, 100 N, longest run 100
+    Rhinolophus_ferrumequinum  AGTR2_promoter_bird_recut 352408 bp interval, 100 N, longest run 100
+    Rhinolophus_ferrumequinum  FBP2_promoter_bat      0 bp interval, 0 N, longest run 0
+    Rhinolophus_ferrumequinum  FBP2_promoter_bird     0 bp interval, 0 N, longest run 0
+    Rhinolophus_ferrumequinum  FBP2_promoter_bird_noncoding 0 bp interval, 0 N, longest run 0
+    Rhinolophus_hipposideros   AGTR2_promoter_bat_supplied 381062 bp interval, 400 N, longest run 200
+    Rhinolophus_hipposideros   AGTR2_promoter_bat_recut 381062 bp interval, 400 N, longest run 200
+    Rhinolophus_hipposideros   AGTR2_promoter_bat_myotis 381062 bp interval, 400 N, longest run 200
+    Rhinolophus_hipposideros   AGTR2_promoter_bird_supplied 381062 bp interval, 400 N, longest run 200
+    Rhinolophus_hipposideros   AGTR2_promoter_bird_recut 381062 bp interval, 400 N, longest run 200
+    Rhinolophus_hipposideros   FBP2_promoter_bat      0 bp interval, 0 N, longest run 0
+    Rhinolophus_hipposideros   FBP2_promoter_bird     0 bp interval, 0 N, longest run 0
+    Rhinolophus_hipposideros   FBP2_promoter_bird_noncoding 0 bp interval, 0 N, longest run 0
+    Rhinolophus_sinicus        AGTR2_promoter_bat_supplied 414831 bp interval, 0 N, longest run 0
+    Rhinolophus_sinicus        AGTR2_promoter_bat_recut 414831 bp interval, 0 N, longest run 0
+    Rhinolophus_sinicus        AGTR2_promoter_bat_myotis 414831 bp interval, 0 N, longest run 0
+    Rhinolophus_sinicus        AGTR2_promoter_bird_supplied 414831 bp interval, 0 N, longest run 0
+    Rhinolophus_sinicus        AGTR2_promoter_bird_recut 414831 bp interval, 0 N, longest run 0
+    Rhinolophus_sinicus        FBP2_promoter_bat      0 bp interval, 0 N, longest run 0
+    Rhinolophus_sinicus        FBP2_promoter_bird     0 bp interval, 0 N, longest run 0
+    Rhinolophus_sinicus        FBP2_promoter_bird_noncoding 0 bp interval, 0 N, longest run 0
+    Rhinolophus_affinis        AGTR2_promoter_bat_supplied 308230 bp interval, 500 N, longest run 500
+    Rhinolophus_affinis        AGTR2_promoter_bat_recut 308230 bp interval, 500 N, longest run 500
+    Rhinolophus_affinis        AGTR2_promoter_bat_myotis 308230 bp interval, 500 N, longest run 500
+    Rhinolophus_affinis        AGTR2_promoter_bird_supplied 308230 bp interval, 500 N, longest run 500
+    Rhinolophus_affinis        AGTR2_promoter_bird_recut 308230 bp interval, 500 N, longest run 500
+    Rhinolophus_affinis        FBP2_promoter_bat      0 bp interval, 0 N, longest run 0
+    Rhinolophus_affinis        FBP2_promoter_bird     0 bp interval, 0 N, longest run 0
+    Rhinolophus_affinis        FBP2_promoter_bird_noncoding 0 bp interval, 0 N, longest run 0
+    Aselliscus_stoliczkanus    AGTR2_promoter_bat_supplied 10000 bp interval, 0 N, longest run 0
+    Aselliscus_stoliczkanus    AGTR2_promoter_bat_recut 10000 bp interval, 0 N, longest run 0
+    Aselliscus_stoliczkanus    AGTR2_promoter_bat_myotis 10000 bp interval, 0 N, longest run 0
+    Aselliscus_stoliczkanus    AGTR2_promoter_bird_supplied 10000 bp interval, 0 N, longest run 0
+    Aselliscus_stoliczkanus    AGTR2_promoter_bird_recut 10000 bp interval, 0 N, longest run 0
+    Aselliscus_stoliczkanus    FBP2_promoter_bat      0 bp interval, 0 N, longest run 0
+    Aselliscus_stoliczkanus    FBP2_promoter_bird     0 bp interval, 0 N, longest run 0
+    Aselliscus_stoliczkanus    FBP2_promoter_bird_noncoding 0 bp interval, 0 N, longest run 0
+    Hipposideros_armiger       AGTR2_promoter_bat_supplied 10000 bp interval, 2161 N, longest run 2161
+    Hipposideros_armiger       AGTR2_promoter_bat_recut 10000 bp interval, 2161 N, longest run 2161
+    Hipposideros_armiger       AGTR2_promoter_bat_myotis 10000 bp interval, 2161 N, longest run 2161
+    Hipposideros_armiger       AGTR2_promoter_bird_supplied 10000 bp interval, 2161 N, longest run 2161
+    Hipposideros_armiger       AGTR2_promoter_bird_recut 10000 bp interval, 2161 N, longest run 2161
+    Hipposideros_armiger       FBP2_promoter_bat      0 bp interval, 0 N, longest run 0
+    Hipposideros_armiger       FBP2_promoter_bird     0 bp interval, 0 N, longest run 0
+    Hipposideros_armiger       FBP2_promoter_bird_noncoding 0 bp interval, 0 N, longest run 0
+    Hipposideros_larvatus      AGTR2_promoter_bat_supplied 10000 bp interval, 0 N, longest run 0
+    Hipposideros_larvatus      AGTR2_promoter_bat_recut 10000 bp interval, 0 N, longest run 0
+    Hipposideros_larvatus      AGTR2_promoter_bat_myotis 10000 bp interval, 0 N, longest run 0
+    Hipposideros_larvatus      AGTR2_promoter_bird_supplied 10000 bp interval, 0 N, longest run 0
+    Hipposideros_larvatus      AGTR2_promoter_bird_recut 10000 bp interval, 0 N, longest run 0
+    Hipposideros_larvatus      FBP2_promoter_bat      0 bp interval, 0 N, longest run 0
+    Hipposideros_larvatus      FBP2_promoter_bird     0 bp interval, 0 N, longest run 0
+    Hipposideros_larvatus      FBP2_promoter_bird_noncoding 0 bp interval, 0 N, longest run 0
+    Myotis_myotis              AGTR2_promoter_bat_supplied 10000 bp interval, 0 N, longest run 0
+    Myotis_myotis              AGTR2_promoter_bat_recut 10000 bp interval, 0 N, longest run 0
+    Myotis_myotis              AGTR2_promoter_bat_myotis 10000 bp interval, 0 N, longest run 0
+    Myotis_myotis              AGTR2_promoter_bird_supplied 10000 bp interval, 0 N, longest run 0
+    Myotis_myotis              AGTR2_promoter_bird_recut 10000 bp interval, 0 N, longest run 0
+    Myotis_myotis              FBP2_promoter_bat      0 bp interval, 0 N, longest run 0
+    Myotis_myotis              FBP2_promoter_bird     0 bp interval, 0 N, longest run 0
+    Myotis_myotis              FBP2_promoter_bird_noncoding 0 bp interval, 0 N, longest run 0
+    Archilochus_colubris       AGTR2_promoter_bat_supplied 43129 bp interval, 0 N, longest run 0
+    Archilochus_colubris       AGTR2_promoter_bat_recut 43129 bp interval, 0 N, longest run 0
+    Archilochus_colubris       AGTR2_promoter_bat_myotis 43129 bp interval, 0 N, longest run 0
+    Archilochus_colubris       AGTR2_promoter_bird_supplied 43129 bp interval, 0 N, longest run 0
+    Archilochus_colubris       AGTR2_promoter_bird_recut 43129 bp interval, 0 N, longest run 0
+    Archilochus_colubris       FBP2_promoter_bat      0 bp interval, 0 N, longest run 0
+    Archilochus_colubris       FBP2_promoter_bird     0 bp interval, 0 N, longest run 0
+    Archilochus_colubris       FBP2_promoter_bird_noncoding 0 bp interval, 0 N, longest run 0
+    Calypte_anna               AGTR2_promoter_bat_supplied 41438 bp interval, 0 N, longest run 0
+    Calypte_anna               AGTR2_promoter_bat_recut 41438 bp interval, 0 N, longest run 0
+    Calypte_anna               AGTR2_promoter_bat_myotis 41438 bp interval, 0 N, longest run 0
+    Calypte_anna               AGTR2_promoter_bird_supplied 41438 bp interval, 0 N, longest run 0
+    Calypte_anna               AGTR2_promoter_bird_recut 41438 bp interval, 0 N, longest run 0
+    Calypte_anna               FBP2_promoter_bat      0 bp interval, 0 N, longest run 0
+    Calypte_anna               FBP2_promoter_bird     0 bp interval, 0 N, longest run 0
+    Calypte_anna               FBP2_promoter_bird_noncoding 0 bp interval, 0 N, longest run 0
+    Heliangelus_exortis        AGTR2_promoter_bat_supplied 45117 bp interval, 0 N, longest run 0
+    Heliangelus_exortis        AGTR2_promoter_bat_recut 45117 bp interval, 0 N, longest run 0
+    Heliangelus_exortis        AGTR2_promoter_bat_myotis 45117 bp interval, 0 N, longest run 0
+    Heliangelus_exortis        AGTR2_promoter_bird_supplied 45117 bp interval, 0 N, longest run 0
+    Heliangelus_exortis        AGTR2_promoter_bird_recut 45117 bp interval, 0 N, longest run 0
+    Heliangelus_exortis        FBP2_promoter_bat      0 bp interval, 0 N, longest run 0
+    Heliangelus_exortis        FBP2_promoter_bird     0 bp interval, 0 N, longest run 0
+    Heliangelus_exortis        FBP2_promoter_bird_noncoding 0 bp interval, 0 N, longest run 0
+    Apus_apus                  AGTR2_promoter_bat_supplied 10000 bp interval, 0 N, longest run 0
+    Apus_apus                  AGTR2_promoter_bat_recut 10000 bp interval, 0 N, longest run 0
+    Apus_apus                  AGTR2_promoter_bat_myotis 10000 bp interval, 0 N, longest run 0
+    Apus_apus                  AGTR2_promoter_bird_supplied 10000 bp interval, 0 N, longest run 0
+    Apus_apus                  AGTR2_promoter_bird_recut 10000 bp interval, 0 N, longest run 0
+    Apus_apus                  FBP2_promoter_bat      0 bp interval, 0 N, longest run 0
+    Apus_apus                  FBP2_promoter_bird     0 bp interval, 0 N, longest run 0
+    Apus_apus                  FBP2_promoter_bird_noncoding 0 bp interval, 0 N, longest run 0
+
+QUERY PROVENANCE
+
+    AGTR2_promoter_bat_supplied 1001 bp, md5 082c0dbaf2b4a0e4ba23d05e0f114cfb, from supplied: AGTR2_promoter_Myotis_myotis.fna (1001 bp), claimed source Myotis_myotis (header in file: AGTR2_promoter_Myotis_myotis)
+    AGTR2_promoter_bat_recut   1000 bp, md5 38fb0434f051498c62912424a110f9a4, from Myotis_myotis GCA_014108235.2 CM138265:44911757-44912756 (1000 bp upstream of AGTR2 (- strand)) (header in file: AGTR2_promoter_bat_recut)
+    AGTR2_promoter_bat_myotis  1015 bp, md5 280b8b7f4627ba5b5366379388e3fa6a, from supplied: AGTR2_promoter_Myotis_myotis_TRUE.fna (1015 bp), claimed source Myotis_myotis (header in file: AGTR2_promoter_Myotis_myotis)
+    AGTR2_promoter_bird_supplied 1000 bp, md5 b0023187d63c5a34c3787d5eee7d1bea, from supplied: AGTR2_promoter_Apus_apus.fna (1000 bp), claimed source Apus_apus (header in file: AGTR2_promoter_Apus_apus)
+    AGTR2_promoter_bird_recut  1000 bp, md5 c5dd91ff70567890a27ba2556fc3a6e0, from Apus_apus GCF_020740795.1 NC_067293:3725290-3726289 (1000 bp upstream of AGTR2 (- strand)) (header in file: AGTR2_promoter_bird_recut)
+    FBP2_promoter_bat          1000 bp, md5 74a9c2d0e17e9a6cb796e22cdc917b0d, from supplied: FBP2_promoter_Myotis_myotis.fna (1000 bp), claimed source Myotis_myotis (header in file: FBP2_promoter_Myotis_myotis)
+    FBP2_promoter_bird         1000 bp, md5 e261fdd95a8e9b30e9af12c96a05b49f, from supplied: FBP2_promoter_Apus_apus.fna (1000 bp), claimed source Apus_apus (header in file: FBP2_promoter_Apus_apus)
+    FBP2_promoter_bird_noncoding 874 bp, md5 3e97c13424fa6fecc57652cdbf7e6acb, from supplied: FBP2_promoter_Apus_apus_noncoding.fna (874 bp), claimed source Apus_apus (header in file: FBP2_promoter_Apus_apus_noncoding)
+
+ASSEMBLY PROVENANCE
+
+    Megaderma_spasma           GCA_043880595.1  <- GCA_043880595.1_ASM4388059v1_genomic.fna (from Megaderma_spasma_ncbi_dataset.zip, 659278506 bytes)
+    Macroderma_gigas           GCA_055471755.1  <- GCA_055471755.1_mMacGig1.2_20250303_genomic.fna (from Macroderma_gigas_ncbi_dataset.zip, 626128144 bytes)
+    Rhinolophus_ferrumequinum  GCF_004115265.2  <- GCF_004115265.2_mRhiFer1_v1.p_genomic.fna (from Rhinolophus_ferrumequinum_ncbi_dataset.zip, 1328488184 bytes)
+    Rhinolophus_hipposideros   GCF_964194185.1  <- GCF_964194185.1_mRhiHip2.hap1.1_genomic.fna (from Rhinolophus_hipposideros_ncbi_dataset 1.zip, 1356811590 bytes)
+    Rhinolophus_sinicus        GCF_057876585.1  <- GCF_057876585.1_RSI-T2T_genomic.fna (from Rhinolophus_sinicus_ncbi_dataset.zip, 1343095446 bytes)
+    Rhinolophus_affinis        GCA_043728065.1  <- GCA_043728065.1_ASM4372806v1_genomic.fna (from Rhinolophus_affinis_ncbi_dataset.zip, 688654566 bytes)
+    Aselliscus_stoliczkanus    GCA_043727835.1  <- GCA_043727835.1_ASM4372783v1_genomic.fna (from Aselliscus_stoliczkanus_ncbi_dataset.zip, 711195308 bytes)
+    Hipposideros_armiger       GCF_001890085.2  <- GCF_001890085.2_ASM189008v1_genomic.fna (from Hipposideros_armiger_great_roundleaf_bat_ncbi_dataset.zip, 1275083950 bytes)
+    Hipposideros_larvatus      GCA_031876335.1  <- GCA_031876335.1_mHipLar1.pri_genomic.fna (from Hipposideros_larvatus_ncbi_dataset.zip, 704309550 bytes)
+    Myotis_myotis              GCA_014108235.2  <- GCA_014108235.2_mMyoMyo1.pri_genomic.fna (from Myotis_myotis_ncbi_dataset.zip, 628495278 bytes)
+    Archilochus_colubris       GCA_023079485.1  <- GCA_023079485.1_ASM2307948v1_genomic.fna (from Archilocus_colubrus_ncbi_dataset.zip, 342409438 bytes)
+    Calypte_anna               GCF_003957555.1  <- GCF_003957555.1_bCalAnn1_v1.p_genomic.fna (from Calypte_anna_ncbi_dataset 1.zip, 657373130 bytes)
+    Heliangelus_exortis        GCF_036169615.1  <- GCF_036169615.1_bHelExo1.hap1_genomic.fna (from Heliangelus_exortis_ncbi_dataset.zip, 653592673 bytes)
+    Apus_apus                  GCF_020740795.1  <- GCF_020740795.1_bApuApu2.pri.cur_genomic.fna (from Apus_apus_ncbi_dataset.zip, 694916396 bytes)
