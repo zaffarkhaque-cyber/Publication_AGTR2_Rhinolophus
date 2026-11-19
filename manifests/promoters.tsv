@@ -1,0 +1,33 @@
+# Written by parse_design.py, md5 c4ac47b8e6ee1305ce7f046326437aee
+# Design file: <PATH>/OneDrive/Desktop/PPEF2_Nox5.txt
+#   md5 2375d572d93d047091fa8510fce94631, 609 lines, modified 2026-11-19T09:18:03
+# Parsed 2026-11-19T09:37:29
+# Nothing here is retyped: sequences come from the design file, accessions are read from
+# inside each zip, and every row can be checked back against the md5 above.
+# Promoter trim windows applied (last N bases, the start site being the 3' end): SELE=600 bp
+# role: control = expected to be found, and must be, or the negatives in its
+# clade mean nothing; claim = what the paper asserts; excluded = carried through
+# the run but used for nothing, with the reason in parse_design.py.
+# length and md5 describe the sequence actually searched. Where 'trim' is not
+# '-', that is shorter than the block in the design file, and 'block bp' and
+# 'block md5' describe the untrimmed block so the trim can be checked. The
+# start site is the 3' end of each block, so a trim keeps the last N bases.
+name	gene	kind	clade	role	source species	length	md5	file	block bp	block md5	trim	dust masked bp	dust masked %
+IL1F10_promoter_Rousettus_aegyptiacus	IL1F10	promoter	mammal	claim	Rousettus_aegyptiacus	1001	cdf5e605baa7c43bff43c592d06eec92	queries/IL1F10_promoter_Rousettus_aegyptiacus.fna	1001	cdf5e605baa7c43bff43c592d06eec92	-	0	0%
+IL1RN_promoter_Rousettus_aegyptiacus	IL1RN	promoter	mammal	claim	Rousettus_aegyptiacus	1000	7d5fddd4779f931d8be3396d0924b36e	queries/IL1RN_promoter_Rousettus_aegyptiacus.fna	1000	7d5fddd4779f931d8be3396d0924b36e	-	0	0%
+SLC36A3_promoter_Rousettus_aegyptiacus	SLC36A3	promoter	mammal	claim	Rousettus_aegyptiacus	1000	8f56db10d9d8b930051f322fa8a0a408	queries/SLC36A3_promoter_Rousettus_aegyptiacus.fna	1000	8f56db10d9d8b930051f322fa8a0a408	-	7	1%
+SLC36A1_promoter_Rousettus_aegyptiacus	SLC36A1	promoter	mammal	claim	Rousettus_aegyptiacus	1001	63a85b14ff3b585353ad8f987cfde235	queries/SLC36A1_promoter_Rousettus_aegyptiacus.fna	1001	63a85b14ff3b585353ad8f987cfde235	-	60	6%
+NOX5_promoter_Rousettus_aegyptiacus	NOX5	promoter	mammal	claim	Rousettus_aegyptiacus	1001	8cccc88e3c5d69658d4c6a693dd16465	queries/NOX5_promoter_Rousettus_aegyptiacus.fna	1001	8cccc88e3c5d69658d4c6a693dd16465	-	27	3%
+SPESP1-NOX5_promoter_Homo_sapiens	SPESP1-NOX5	promoter	mammal	claim	Homo_sapiens	1000	f2b30c33cbb013d76c898d1b0bdd34a5	queries/SPESP1-NOX5_promoter_Homo_sapiens.fna	1000	f2b30c33cbb013d76c898d1b0bdd34a5	-	7	1%
+NOX5_promoter_Apus_apus	NOX5	promoter	bird	claim	Apus_apus	1000	1f9a3dfa64830b81e114656d3d03c921	queries/NOX5_promoter_Apus_apus.fna	1000	1f9a3dfa64830b81e114656d3d03c921	-	89	9%
+PPEF2_promoter_Rousettus_aegyptiacus	PPEF2	promoter	mammal	claim	Rousettus_aegyptiacus	600	abfb4d4566dc8bd806048abafe5935b9	queries/PPEF2_promoter_Rousettus_aegyptiacus.fna	600	abfb4d4566dc8bd806048abafe5935b9	-	22	4%
+PPEF2_promoter_Calypte_anna	PPEF2	promoter	bird	claim	Calypte_anna	1000	a99e128b44f538f0a8ffd474607040a5	queries/PPEF2_promoter_Calypte_anna.fna	1000	a99e128b44f538f0a8ffd474607040a5	-	42	4%
+PPEF2_promoter_Homo_sapiens	PPEF2	promoter	mammal	claim	Homo_sapiens	1000	4d560dbf4703c8423180ba4e397a3c6a	queries/PPEF2_promoter_Homo_sapiens.fna	1000	4d560dbf4703c8423180ba4e397a3c6a	-	27	3%
+SLC36A3_promoter_Homo_sapiens	SLC36A3	promoter	mammal	claim	Homo_sapiens	1000	a7e0755bff61acc2472540ccf726cf29	queries/SLC36A3_promoter_Homo_sapiens.fna	1000	a7e0755bff61acc2472540ccf726cf29	-	8	1%
+ACE_promoter_Calypte_anna	ACE	promoter	bird	excluded	Calypte_anna	1000	1e331e6d4ed119c718054dbda8d055cb	queries/ACE_promoter_Calypte_anna.fna	1000	1e331e6d4ed119c718054dbda8d055cb	-	296	30%
+ACE_promoter_Rhinolophus_ferrumequinum	ACE	promoter	mammal	excluded	Rhinolophus_ferrumequinum	1000	221dbd52c3e6db17f50477ab9e79ea48	queries/ACE_promoter_Rhinolophus_ferrumequinum.fna	1000	221dbd52c3e6db17f50477ab9e79ea48	-	66	7%
+SELE_promoter_Rhinolophus_ferrumequinum	SELE	promoter	mammal	control	Rhinolophus_ferrumequinum	600	ecd07b6a8f4a3639003243a27dc6921b	queries/SELE_promoter_Rhinolophus_ferrumequinum.fna	1000	ab4910ace7bbfc5fa182de22a3b1627a	last 600 bp of 1000	33	6%
+SELE_promoter_Apus_apus	SELE	promoter	bird	control	Apus_apus	600	134a26d13786693a763247eae2820211	queries/SELE_promoter_Apus_apus.fna	1000	5a96d03a9e76235c4ef2091be474fafc	last 600 bp of 1000	84	14%
+SELE_promoter_Homo_sapiens	SELE	promoter	mammal	control	Homo_sapiens	600	29a98e2cee79b3c943c08413bf9a698d	queries/SELE_promoter_Homo_sapiens.fna	1000	6f7ead521f9880d314140ae9e62888d1	last 600 bp of 1000	0	0%
+AGTR2_promoter_Apus_apus	AGTR2	promoter	bird	claim	Apus_apus	1000	2dacfe48e96fca5f21a5ea707bbf20b4	queries/AGTR2_promoter_Apus_apus.fna	1000	2dacfe48e96fca5f21a5ea707bbf20b4	-	30	3%
+AGTR2_promoter_Myotis_myotis	AGTR2	promoter	mammal	claim	Myotis_myotis	1015	5af4287715a3152a3cdf6bc2e6582d0b	queries/AGTR2_promoter_Myotis_myotis.fna	1015	5af4287715a3152a3cdf6bc2e6582d0b	-	32	3%

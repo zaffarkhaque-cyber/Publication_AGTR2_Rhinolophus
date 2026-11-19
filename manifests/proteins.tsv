@@ -1,0 +1,24 @@
+# Written by parse_design.py, md5 c4ac47b8e6ee1305ce7f046326437aee
+# Design file: <PATH>/OneDrive/Desktop/PPEF2_Nox5.txt
+#   md5 2375d572d93d047091fa8510fce94631, 609 lines, modified 2026-11-19T09:18:03
+# Parsed 2026-11-19T09:37:29
+# Nothing here is retyped: sequences come from the design file, accessions are read from
+# inside each zip, and every row can be checked back against the md5 above.
+# Promoter trim windows applied (last N bases, the start site being the 3' end): SELE=600 bp
+# role: control = expected to be found, and must be, or the negatives in its
+# clade mean nothing; claim = what the paper asserts; excluded = carried through
+# the run but used for nothing, with the reason in parse_design.py.
+name	gene	kind	clade	role	source species	length	md5	file
+IL1F10_protein_Rousettus_aegyptiacus	IL1F10	protein	mammal	claim	Rousettus_aegyptiacus	152	765d41bc8bc56233602f73826747b4a4	queries/IL1F10_protein_Rousettus_aegyptiacus.fna
+IL1RN_protein_Rousettus_aegyptiacus	IL1RN	protein	mammal	claim	Rousettus_aegyptiacus	174	ef828ffd362150e02579227cba0f99a7	queries/IL1RN_protein_Rousettus_aegyptiacus.fna
+NOX5_protein_Rousettus_aegyptiacus	NOX5	protein	mammal	claim	Rousettus_aegyptiacus	800	1399dd31dff05c0988dfb54f060e8661	queries/NOX5_protein_Rousettus_aegyptiacus.fna
+NOX5_protein_Apus_apus	NOX5	protein	bird	claim	Apus_apus	760	30fdca3dd719f4aa61c0eb7719c7810f	queries/NOX5_protein_Apus_apus.fna
+SPESP1_protein_Rousettus_aegyptiacus	SPESP1	protein	mammal	claim	Rousettus_aegyptiacus	350	7d363acd78badf450fa931410f0fa5c7	queries/SPESP1_protein_Rousettus_aegyptiacus.fna
+PPEF2_protein_Rousettus_aegyptiacus	PPEF2	protein	mammal	claim	Rousettus_aegyptiacus	754	163fa811a7ab66924f399ba4ca01691f	queries/PPEF2_protein_Rousettus_aegyptiacus.fna
+PPEF2_protein_Apus_apus	PPEF2	protein	bird	claim	Apus_apus	713	54fbf79143bbe63d3ca1aaadcff8184a	queries/PPEF2_protein_Apus_apus.fna
+SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	protein	mammal	claim	Rousettus_aegyptiacus	507	3fef106a4844d5ff1872792894e11eb8	queries/SLC36A1_protein_Rousettus_aegyptiacus.fna
+SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	protein	mammal	claim	Rousettus_aegyptiacus	474	a415c5f0e72e893d481b9d3ab1b26897	queries/SLC36A3_protein_Rousettus_aegyptiacus.fna
+SELE_protein_Homo_sapiens	SELE	protein	mammal	control	Homo_sapiens	610	b7139cf745165201b27757c028ce28cb	queries/SELE_protein_Homo_sapiens.fna
+SELE_protein_Apus_apus	SELE	protein	bird	control	Apus_apus	735	58b5ee01a9fa9fad8ca9b84f066e46b8	queries/SELE_protein_Apus_apus.fna
+SELE_protein_Rhinolophus_ferrumequinum	SELE	protein	mammal	control	Rhinolophus_ferrumequinum	636	906b505630562ebc1b5925bbebb0b09e	queries/SELE_protein_Rhinolophus_ferrumequinum.fna
+ACE_protein_Homo_sapiens	ACE	protein	mammal	control	Homo_sapiens	1306	24dbb41b5e1405871d2cdb516842de5b	queries/ACE_protein_Homo_sapiens.fna

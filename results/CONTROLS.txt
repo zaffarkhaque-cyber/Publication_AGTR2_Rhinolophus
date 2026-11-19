@@ -1,0 +1,121 @@
+CONTROLS, rebuilt by make_controls.py md5 7dc1c9f6969da334b463fb55fca21647
+from PROTEINS.tsv md5 849617d40d032e5bc157744e60001335
+and  PROMOTERS.tsv md5 e81436b2bd0442ed1e04b4c3c08490a4
+These are pass/fail checks on the assay, not results. Read them before the tables.
+
+1. SELF-HIT, PROTEINS - every protein query must be intact in its own source species.
+   ACE_protein_Homo_sapiens                       Homo_sapiens               INTACT        95% coverage  PASS
+   IL1F10_protein_Rousettus_aegyptiacus           Rousettus_aegyptiacus      INTACT        91% coverage  PASS
+   IL1RN_protein_Rousettus_aegyptiacus            Rousettus_aegyptiacus      INTACT       100% coverage  PASS
+   NOX5_protein_Apus_apus                         Apus_apus                  INTACT        96% coverage  PASS
+   NOX5_protein_Rousettus_aegyptiacus             Rousettus_aegyptiacus      INTACT        83% coverage  PASS
+   PPEF2_protein_Apus_apus                        Apus_apus                  INTACT        82% coverage  PASS
+   PPEF2_protein_Rousettus_aegyptiacus            Rousettus_aegyptiacus      INTACT        95% coverage  PASS
+   SELE_protein_Apus_apus                         Apus_apus                  INTACT        89% coverage  PASS
+   SELE_protein_Homo_sapiens                      Homo_sapiens               INTACT        88% coverage  PASS
+   SELE_protein_Rhinolophus_ferrumequinum         Rhinolophus_ferrumequinum  INTACT        71% coverage  PASS
+   SLC36A1_protein_Rousettus_aegyptiacus          Rousettus_aegyptiacus      INTACT        94% coverage  PASS
+   SLC36A3_protein_Rousettus_aegyptiacus          Rousettus_aegyptiacus      INTACT        90% coverage  PASS
+   SPESP1_protein_Rousettus_aegyptiacus           Rousettus_aegyptiacus      INTACT        88% coverage  PASS
+
+2. CONTROL GENES, EVERY GENOME - a control gene is one no claim is made about, so it must
+   be found intact in every genome searched. This is the check that speaks to the
+   objection this analysis has already met once: that an absence is an assembly artefact.
+   A genome that cannot return a control gene intact is not a genome a loss can be
+   claimed in, and the losses reported for it should be withdrawn, not explained.
+   A gene counts as recovered in a genome if ANY of its queries returns it intact, and a
+   gene is only assessed in a clade it has a query from.
+   ACE        NOT ASSESSED in 6 genome(s) with no query of this gene from their clade: Apus_apus, Archilochus_colubris, Calypte_anna, Heliangelus_exortis, Loriculus_galgulus, Nymphicus_hollandicus
+   ACE        recovered intact in 17 of 17 genomes, from 1 query  PASS
+      ACE_protein_Homo_sapiens                       intact in 17 of 17
+   SELE       recovered intact in 23 of 23 genomes, from 3 queries  PASS
+      SELE_protein_Apus_apus                         intact in 18 of 23
+      SELE_protein_Homo_sapiens                      intact in 23 of 23
+      SELE_protein_Rhinolophus_ferrumequinum         intact in 22 of 23
+   Every genome returned every control gene it was assessed for.
+
+3. SELF-HIT, PROMOTERS - every promoter query must be recovered from its own source species.
+   ACE_promoter_Calypte_anna                      Calypte_anna               DETECTED     100% of query, 100% unique, 2 loci  PASS
+   ACE_promoter_Rhinolophus_ferrumequinum         Rhinolophus_ferrumequinum  DETECTED     100% of query, 100% unique, 2 loci  PASS
+   AGTR2_promoter_Apus_apus                       Apus_apus                  DETECTED     100% of query, 100% unique, 1 loci  PASS
+   AGTR2_promoter_Myotis_myotis                   Myotis_myotis              DETECTED     100% of query,  85% unique, 75 loci  PASS
+   IL1F10_promoter_Rousettus_aegyptiacus          Rousettus_aegyptiacus      DETECTED     100% of query, 100% unique, 1 loci  PASS
+   IL1RN_promoter_Rousettus_aegyptiacus           Rousettus_aegyptiacus      DETECTED     100% of query, 100% unique, 2 loci  PASS
+   NOX5_promoter_Apus_apus                        Apus_apus                  DETECTED     100% of query,  64% unique, 9049 loci  PASS
+   NOX5_promoter_Rousettus_aegyptiacus            Rousettus_aegyptiacus      DETECTED     100% of query,  89% unique, 7633 loci  PASS
+   PPEF2_promoter_Calypte_anna                    Calypte_anna               DETECTED     100% of query, 100% unique, 1 loci  PASS
+   PPEF2_promoter_Homo_sapiens                    Homo_sapiens               DETECTED     100% of query,  60% unique, 21838 loci  PASS
+   PPEF2_promoter_Rousettus_aegyptiacus           Rousettus_aegyptiacus      DETECTED     100% of query,  52% unique, 159 loci  PASS
+   SELE_promoter_Apus_apus                        Apus_apus                  DETECTED     100% of query, 100% unique, 2 loci  PASS
+   SELE_promoter_Homo_sapiens                     Homo_sapiens               DETECTED     100% of query, 100% unique, 1 loci  PASS
+   SELE_promoter_Rhinolophus_ferrumequinum        Rhinolophus_ferrumequinum  DETECTED     100% of query, 100% unique, 1 loci  PASS
+   SLC36A1_promoter_Rousettus_aegyptiacus         Rousettus_aegyptiacus      DETECTED     100% of query, 100% unique, 3 loci  PASS
+   SLC36A3_promoter_Homo_sapiens                  Homo_sapiens               DETECTED     100% of query,  78% unique, 22186 loci  PASS
+   SLC36A3_promoter_Rousettus_aegyptiacus         Rousettus_aegyptiacus      DETECTED     100% of query,  80% unique, 76 loci  PASS
+   SPESP1-NOX5_promoter_Homo_sapiens              Homo_sapiens               DETECTED     100% of query,  66% unique, 21741 loci  PASS
+
+4. CONTROL PROMOTERS - a control carries no claim. Its job is to show the assay lights up
+   in its clade at all, so that a negative elsewhere in that clade means something.
+   SCORED WITHIN ITS OWN CLADE ONLY: the bird control is never asked to be recovered from
+   a mammal, nor a mammal control from a bird. Those cells are in section 6, unscored.
+   SELE_promoter_Apus_apus
+      detected in 6 of 6 genomes of its own clade: Apus_apus, Archilochus_colubris, Calypte_anna, Heliangelus_exortis, Loriculus_galgulus, Nymphicus_hollandicus
+      detected in a genome other than its own source: yes  PASS
+   SELE_promoter_Homo_sapiens
+      detected in 16 of 17 genomes of its own clade: Aselliscus_stoliczkanus, Hipposideros_armiger, Hipposideros_larvatus, Homo_sapiens, Macroderma_gigas, Megaderma_spasma, Molossus_molossus, Myotis_myotis, Nyctalus_leisleri, Pipistrellus_kuhlii, Pteropus_alecto, Rhinolophus_affinis, Rhinolophus_ferrumequinum, Rhinolophus_hipposideros, Rhinolophus_sinicus, Rousettus_aegyptiacus
+      detected in a genome other than its own source: yes  PASS
+      not detected in: Phyllostomus_discolor
+      A promoter negative in those genomes cannot be read as loss of that promoter.
+   SELE_promoter_Rhinolophus_ferrumequinum
+      detected in 16 of 17 genomes of its own clade: Aselliscus_stoliczkanus, Hipposideros_armiger, Hipposideros_larvatus, Homo_sapiens, Macroderma_gigas, Megaderma_spasma, Molossus_molossus, Myotis_myotis, Nyctalus_leisleri, Pipistrellus_kuhlii, Pteropus_alecto, Rhinolophus_affinis, Rhinolophus_ferrumequinum, Rhinolophus_hipposideros, Rhinolophus_sinicus, Rousettus_aegyptiacus
+      detected in a genome other than its own source: yes  PASS
+      not detected in: Phyllostomus_discolor
+      A promoter negative in those genomes cannot be read as loss of that promoter.
+
+5. CLADE COVER - every clade carrying a promoter claim needs a control from that clade.
+   claims from bird     control from bird      PASS
+   claims from mammal   control from mammal    PASS
+
+6. CROSS-CLADE, EVERY QUERY - reported, not scored. A promoter from one clade searched in
+   the other. This is NOT assumed to be negative: the numbers are given instead.
+   ACE_promoter_Calypte_anna                      detected in 0 of 17, repeat-only in 0
+   ACE_promoter_Rhinolophus_ferrumequinum         detected in 0 of 6, repeat-only in 0
+   AGTR2_promoter_Apus_apus                       detected in 0 of 17, repeat-only in 0
+   AGTR2_promoter_Myotis_myotis                   detected in 0 of 6, repeat-only in 0
+   IL1F10_promoter_Rousettus_aegyptiacus          detected in 0 of 6, repeat-only in 0
+   IL1RN_promoter_Rousettus_aegyptiacus           detected in 0 of 6, repeat-only in 0
+   NOX5_promoter_Apus_apus                        detected in 0 of 17, repeat-only in 0
+   NOX5_promoter_Rousettus_aegyptiacus            detected in 1 of 6, repeat-only in 0: Archilochus_colubris
+   PPEF2_promoter_Calypte_anna                    detected in 0 of 17, repeat-only in 0
+   PPEF2_promoter_Homo_sapiens                    detected in 4 of 6, repeat-only in 1: Archilochus_colubris, Calypte_anna, Heliangelus_exortis, Loriculus_galgulus
+   PPEF2_promoter_Rousettus_aegyptiacus           detected in 0 of 6, repeat-only in 0
+   SELE_promoter_Apus_apus                        detected in 0 of 17, repeat-only in 0
+   SELE_promoter_Homo_sapiens                     detected in 0 of 6, repeat-only in 0
+   SELE_promoter_Rhinolophus_ferrumequinum        detected in 0 of 6, repeat-only in 0
+   SLC36A1_promoter_Rousettus_aegyptiacus         detected in 0 of 6, repeat-only in 0
+   SLC36A3_promoter_Homo_sapiens                  detected in 0 of 6, repeat-only in 0
+   SLC36A3_promoter_Rousettus_aegyptiacus         detected in 0 of 6, repeat-only in 0
+   SPESP1-NOX5_promoter_Homo_sapiens              detected in 0 of 6, repeat-only in 1
+
+7. REPEAT ACCOUNTING - calls that rest on interspersed repeat rather than on sequence held
+   at one place. These would all have been DETECTED on aligned length and E-value alone.
+   45 of 414 promoter cells are REPEAT_ONLY.
+      PPEF2_promoter_Rousettus_aegyptiacus in Hipposideros_armiger        63% of query but   6% unique,    214 loci
+      PPEF2_promoter_Rousettus_aegyptiacus in Hipposideros_larvatus       63% of query but   6% unique,    222 loci
+      PPEF2_promoter_Rousettus_aegyptiacus in Aselliscus_stoliczkanus     38% of query but   6% unique,    185 loci
+      PPEF2_promoter_Rousettus_aegyptiacus in Rhinolophus_ferrumequinum   38% of query but   7% unique,    201 loci
+      PPEF2_promoter_Rousettus_aegyptiacus in Rhinolophus_hipposideros    38% of query but   9% unique,    194 loci
+      NOX5_promoter_Apus_apus        in Loriculus_galgulus          33% of query but   0% unique,  11676 loci
+      NOX5_promoter_Apus_apus        in Heliangelus_exortis         33% of query but   0% unique,   8610 loci
+      PPEF2_promoter_Rousettus_aegyptiacus in Rhinolophus_affinis         33% of query but   5% unique,    201 loci
+      PPEF2_promoter_Rousettus_aegyptiacus in Rhinolophus_sinicus         33% of query but   2% unique,    216 loci
+      NOX5_promoter_Apus_apus        in Calypte_anna                33% of query but   0% unique,   8782 loci
+      NOX5_promoter_Apus_apus        in Archilochus_colubris        33% of query but   0% unique,   9131 loci
+      NOX5_promoter_Apus_apus        in Nymphicus_hollandicus       32% of query but   0% unique,   4497 loci
+      PPEF2_promoter_Rousettus_aegyptiacus in Homo_sapiens                32% of query but   2% unique,    243 loci
+      SPESP1-NOX5_promoter_Homo_sapiens in Nymphicus_hollandicus       30% of query but   0% unique,    266 loci
+      PPEF2_promoter_Homo_sapiens    in Nymphicus_hollandicus       28% of query but   0% unique,    240 loci
+   25 cell(s) reached the BLAST hit cap, so their locus counts are a floor, not a measurement.
+
+VERDICT: ALL CONTROLS PASSED
+   NOTE: control gene ACE was not assessed in 6 genome(s): Apus_apus, Archilochus_colubris, Calypte_anna, Heliangelus_exortis, Loriculus_galgulus, Nymphicus_hollandicus

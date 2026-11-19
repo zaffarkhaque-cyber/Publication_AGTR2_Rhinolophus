@@ -1,0 +1,33 @@
+# Written by parse_design.py, md5 c4ac47b8e6ee1305ce7f046326437aee
+# Design file: <PATH>/OneDrive/Desktop/PPEF2_Nox5.txt
+#   md5 2375d572d93d047091fa8510fce94631, 609 lines, modified 2026-11-19T09:18:03
+# Parsed 2026-11-19T09:37:29
+# Nothing here is retyped: sequences come from the design file, accessions are read from
+# inside each zip, and every row can be checked back against the md5 above.
+# Promoter trim windows applied (last N bases, the start site being the 3' end): SELE=600 bp
+# clade decides which reference proteome judges a model: a bird gene judged against a
+# mammal proteome is how an annotated Calypte anna PPEF2 was reported as absent.
+species	clade	role	accession	path
+Nymphicus_hollandicus	bird	test	GCA_009823435.2	<PATH>\OneDrive\Desktop\BATCH GENOMES\BIRD GENOMES\Nymphicus_hollandicus_Opsinova_ncbi_dataset.zip
+Loriculus_galgulus	bird	test	GCA_046563285.1	<PATH>\OneDrive\Desktop\BATCH GENOMES\BIRD GENOMES\Loriculus_galgulus_opsinova_ncbi_dataset.zip
+Aselliscus_stoliczkanus	mammal	test	GCA_043727835.1	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group 2\Aselliscus_stoliczkanus_ncbi_dataset.zip
+Hipposideros_armiger	mammal	test	GCF_001890085.2	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group 5\Hipposideros_armiger_great_roundleaf_bat_ncbi_dataset.zip
+Hipposideros_larvatus	mammal	test	GCA_031876335.1	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group 5\Hipposideros_larvatus_ncbi_dataset.zip
+Heliangelus_exortis	bird	test	GCF_036169615.1	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group 5\Heliangelus_exortis_ncbi_dataset.zip
+Macroderma_gigas	mammal	test	GCA_055471755.1	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group6\Macroderma_gigas_ncbi_dataset.zip
+Megaderma_spasma	mammal	test	GCA_043880595.1	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group6\Megaderma_spasma_ncbi_dataset.zip
+Molossus_molossus	mammal	test	GCA_014108415.2	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group6\Molossus_Molossus_ncbi_dataset.zip
+Myotis_myotis	mammal	test	GCA_014108235.2	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group7\Myotis_myotis_ncbi_dataset.zip
+Nyctalus_leisleri	mammal	test	GCA_964264875.2	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group7\Nyctalus_leisleri_lesser_noctule_ncbi_dataset.zip
+Pipistrellus_kuhlii	mammal	test	GCA_014108245.2	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group8\Pipistrellus_kuhlii_ncbi_dataset.zip
+Phyllostomus_discolor	mammal	test	GCF_004126475.2	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group8\Phyllostomus_discolor_ncbi_dataset.zip
+Rhinolophus_affinis	mammal	test	GCA_043728065.1	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group9\Rhinolophus_affinis_ncbi_dataset.zip
+Rhinolophus_ferrumequinum	mammal	test	GCF_004115265.2	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group9\Rhinolophus_ferrumequinum_ncbi_dataset.zip
+Rhinolophus_hipposideros	mammal	test	GCF_964194185.1	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group9\Rhinolophus_hipposideros_ncbi_dataset 1.zip
+Pteropus_alecto	mammal	test	GCF_000325575.1	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group9\Pteropus_alecto_ncbi_dataset 1.zip
+Rousettus_aegyptiacus	mammal	test	GCF_014176215.1	<PATH>\Downloads\Rousettus_aegyptiacius_whole_ncbi_dataset.zip
+Homo_sapiens	mammal	test	GCF_000001405.40	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group 12\COMPLETE_Homo-Sapiens_ncbi_dataset.zip
+Rhinolophus_sinicus	mammal	test	GCF_057876585.1	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group 12\COMPLETE_Rhinolophus_Sinicus_ncbi_dataset.zip
+Apus_apus	bird	test	GCF_020740795.1	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group 12\Apus_apus_ncbi_dataset.zip
+Calypte_anna	bird	test	GCF_003957555.1	<PATH>\Downloads\Calypte_anna_total_ncbi_dataset.zip
+Archilochus_colubris	bird	test	GCA_023079485.1	<PATH>\OneDrive\Desktop\BATCH GENOMES\Group1\Archilocus_colubrus_ncbi_dataset.zip

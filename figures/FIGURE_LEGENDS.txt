@@ -1,0 +1,49 @@
+FIGURE LEGENDS AND EXCLUSIONS
+============================================================================
+
+GENOMES SEARCHED BUT NOT ASSESSABLE
+----------------------------------------------------------------------------
+  Seventeen genomes were searched. 15 are reported. The 2 below carry ambiguous
+  sequence (N) across the loci examined, so neither can say whether a gene is
+  present there, and neither is reported.
+
+  Hipposideros armiger       PPEF2 18,861 N (longest run 6,200 bp); NOX5 2,322 N; IL1F10 70 N
+  Pteropus alecto            IL1F10 394 N (two runs over 100 bp); PPEF2 43 N
+
+  This discards evidence that supports the argument: Hipposideros armiger
+  returns PPEF2 INTACT and Pteropus alecto returns IL1F10 INTACT. Neither is
+  used. A genome whose gaps make a negative untrustworthy cannot be cited for a
+  positive. Counts are from results/LOCUS_GAPS.tsv.
+
+EXCLUSION RULE
+----------------------------------------------------------------------------
+  A genome is excluded when any locus drawn carries at least one ambiguous base
+  (N) across the gene and 20 kb either side. The criterion is a property of the
+  assembly, it is applied identically to all 15 genomes, and no call is consulted
+  in applying it.
+
+  0 of 15 genomes excluded.
+
+POSITIVE CONTROL
+----------------------------------------------------------------------------
+  ACE carries no claim in this paper. It is intact in 15 of 15 genomes
+  shown. If it were not, no absence reported in that genome could be
+  believed.
+
+GENOMES SHOWN (15)
+----------------------------------------------------------------------------
+  Rhinolophus ferrumequinum  Rhinolophidae
+  Rhinolophus sinicus        Rhinolophidae
+  Rhinolophus affinis        Rhinolophidae
+  Rhinolophus hipposideros   Rhinolophidae
+  Aselliscus stoliczkanus    Hipposideridae
+  Hipposideros larvatus      Hipposideridae
+  Megaderma spasma           Megadermatidae
+  Macroderma gigas           Megadermatidae
+  Rousettus aegyptiacus      Pteropodidae
+  Myotis myotis              Vespertilionidae
+  Nyctalus leisleri          Vespertilionidae
+  Pipistrellus kuhlii        Vespertilionidae
+  Molossus molossus          Molossidae
+  Phyllostomus discolor      Phyllostomidae
+  Homo sapiens               Outgroup

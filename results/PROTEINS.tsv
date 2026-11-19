@@ -1,0 +1,300 @@
+species	genome clade	accession	query	gene	query clade	self-hit	call	identity %	coverage	pieces	confident stops	location	reference calls	chains examined
+Nymphicus_hollandicus	bird	GCA_009823435.2	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	38.3	52%	2	0	WTXV02021836:5939-6302	AV=LOC127394693	2
+Nymphicus_hollandicus	bird	GCA_009823435.2	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		ABSENT	47.2	40%	1	0	WTXV02021836:6135-6320	AV=LOC127394693	2
+Nymphicus_hollandicus	bird	GCA_009823435.2	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		FRAGMENT	79.4	22%	4	0	WTXV02037002:33466-35436	AV=NOX5	10
+Nymphicus_hollandicus	bird	GCA_009823435.2	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	87.8	27%	5	0	WTXV02037002:33466-35436	AV=NOX5	10
+Nymphicus_hollandicus	bird	GCA_009823435.2	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		ABSENT	-	-	0	0	-	-	0
+Nymphicus_hollandicus	bird	GCA_009823435.2	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	68.0	75%	10	0	WTXV02000420:24975-35676	AV=PPEF2	10
+Nymphicus_hollandicus	bird	GCA_009823435.2	PPEF2_protein_Apus_apus	PPEF2	bird		INTACT	81.4	95%	11	0	WTXV02000420:24975-35679	AV=PPEF2	7
+Nymphicus_hollandicus	bird	GCA_009823435.2	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		ABSENT	73.2	82%	9	0	WTXV02044886:7630-21982	AV=LOC127389948	5
+Nymphicus_hollandicus	bird	GCA_009823435.2	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		ABSENT	54.5	49%	4	0	WTXV02044886:8978-19489	AV=LOC127389948	3
+Nymphicus_hollandicus	bird	GCA_009823435.2	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	48.3	61%	6	0	WTXV02026466:68437-71228	AV=SELE	10
+Nymphicus_hollandicus	bird	GCA_009823435.2	SELE_protein_Apus_apus	SELE	bird		FRAGMENT	82.6	56%	7	0	WTXV02026466:68437-71460	AV=SELE	10
+Nymphicus_hollandicus	bird	GCA_009823435.2	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		FRAGMENT	48.5	58%	6	0	WTXV02026466:68437-71228	AV=SELE	10
+Nymphicus_hollandicus	bird	GCA_009823435.2	ACE_protein_Homo_sapiens	ACE	mammal		FRAGMENT	62.4	44%	10	0	WTXV02010194:436-5613	AV=ACE	10
+Loriculus_galgulus	bird	GCA_046563285.1	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	-	-	0	0	-	-	0
+Loriculus_galgulus	bird	GCA_046563285.1	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		ABSENT	34.4	80%	2	0	JBEXBZ010000045:158458-159112	AV=LOC127394693	1
+Loriculus_galgulus	bird	GCA_046563285.1	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		INTACT	62.0	81%	10	0	JBEXBZ010000013:1239753-1248592	AV=NOX5	8
+Loriculus_galgulus	bird	GCA_046563285.1	NOX5_protein_Apus_apus	NOX5	bird		INTACT	76.3	82%	11	0	JBEXBZ010000013:1239753-1248589	AV=NOX5	5
+Loriculus_galgulus	bird	GCA_046563285.1	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		ABSENT	-	-	0	0	-	-	0
+Loriculus_galgulus	bird	GCA_046563285.1	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	62.1	75%	9	0	JBEXBZ010000006:4150898-4161327	AV=PPEF2	9
+Loriculus_galgulus	bird	GCA_046563285.1	PPEF2_protein_Apus_apus	PPEF2	bird		INTACT	77.7	87%	10	0	JBEXBZ010000006:4150895-4161330	AV=PPEF2	7
+Loriculus_galgulus	bird	GCA_046563285.1	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		ABSENT	68.7	93%	9	0	JBEXBZ010000014:6001575-6017219	AV=LOC127389948	3
+Loriculus_galgulus	bird	GCA_046563285.1	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		ABSENT	56.9	54%	5	0	JBEXBZ010000014:6003802-6014388	AV=LOC127389948	2
+Loriculus_galgulus	bird	GCA_046563285.1	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	50.8	84%	7	0	JBEXBZ010000008:20573514-20577745	AV=SELE	10
+Loriculus_galgulus	bird	GCA_046563285.1	SELE_protein_Apus_apus	SELE	bird		INTACT	86.0	75%	8	0	JBEXBZ010000008:20573538-20577745	AV=SELE	10
+Loriculus_galgulus	bird	GCA_046563285.1	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	50.8	81%	7	0	JBEXBZ010000008:20573493-20577745	AV=SELE	10
+Loriculus_galgulus	bird	GCA_046563285.1	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	65.5	80%	17	0	JBEXBZ010000029:4872495-4885380	AV=ACE	9
+Aselliscus_stoliczkanus	mammal	GCA_043727835.1	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	36.0	56%	1	0	CM093050:593702-594034	HS=IL1RN; M2=IL1RN	1
+Aselliscus_stoliczkanus	mammal	GCA_043727835.1	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	83.8	77%	3	0	CM093050:590459-594037	HS=IL1RN; M2=IL1RN	4
+Aselliscus_stoliczkanus	mammal	GCA_043727835.1	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		FRAGMENT	77.9	20%	3	0	CM093053:118253628-118266032	HS=NOX5; M2=NOX5	6
+Aselliscus_stoliczkanus	mammal	GCA_043727835.1	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	73.3	14%	2	0	CM093053:118253664-118266032	HS=SPESP1-NOX5; M2=NOX5	6
+Aselliscus_stoliczkanus	mammal	GCA_043727835.1	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	72.7	88%	1	0	CM093053:118243758-118244678	HS=SPESP1; M2=SPESP1	1
+Aselliscus_stoliczkanus	mammal	GCA_043727835.1	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	86.9	95%	13	0	CM093054:65550213-65570529	HS=PPEF2; M2=PPEF2	10
+Aselliscus_stoliczkanus	mammal	GCA_043727835.1	PPEF2_protein_Apus_apus	PPEF2	bird		ABSENT	73.0	80%	12	0	CM093054:65550288-65570493	HS=PPEF1; M2=PPEF1	10
+Aselliscus_stoliczkanus	mammal	GCA_043727835.1	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	84.8	99%	10	0	CM093052:21801960-21831162	HS=SLC36A1; M2=SLC36A1	7
+Aselliscus_stoliczkanus	mammal	GCA_043727835.1	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		INTACT	84.4	90%	9	0	CM093052:21910170-21931129	HS=SLC36A3; M2=SLC36A3	7
+Aselliscus_stoliczkanus	mammal	GCA_043727835.1	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	67.1	86%	6	0	CM093057:49416529-49421163	HS=SELE; M2=SELE	10
+Aselliscus_stoliczkanus	mammal	GCA_043727835.1	SELE_protein_Apus_apus	SELE	bird		INTACT	46.9	69%	7	0	CM093057:49335097-49421133	HS=SELE; M2=SELE	10
+Aselliscus_stoliczkanus	mammal	GCA_043727835.1	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	70.4	83%	5	0	CM093057:49416529-49421181	HS=SELE; M2=SELE	10
+Aselliscus_stoliczkanus	mammal	GCA_043727835.1	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	81.4	93%	23	0	CM093057:13809526-13828582	HS=ACE; M2=ACE	9
+Hipposideros_armiger	mammal	GCF_001890085.2	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	34.1	74%	2	0	NW_017731660:1867512-1867950	HS=IL36RN; M2=IL36RN	2
+Hipposideros_armiger	mammal	GCF_001890085.2	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	82.0	77%	3	0	NW_017731660:1830310-1833855	HS=IL1RN; M2=IL1RN	3
+Hipposideros_armiger	mammal	GCF_001890085.2	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		FRAGMENT	57.8	23%	3	1	NW_017731460:3296574-3304038	HS=NOX5; M2=NOX5	8
+Hipposideros_armiger	mammal	GCF_001890085.2	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	63.5	14%	3	0	NW_017731460:3298777-3304038	HS=NOX5; M2=NOX5	6
+Hipposideros_armiger	mammal	GCF_001890085.2	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	72.7	88%	1	0	NW_017731460:3281033-3281959	HS=SPESP1; M2=SPESP1	1
+Hipposideros_armiger	mammal	GCF_001890085.2	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	83.9	70%	9	0	NW_017731902:1120282-1148035	HS=PPEF2; M2=PPEF2	7
+Hipposideros_armiger	mammal	GCF_001890085.2	PPEF2_protein_Apus_apus	PPEF2	bird		FRAGMENT	73.2	58%	9	0	NW_017731902:1120306-1150166	HS=PPEF2; M2=PPEF2	7
+Hipposideros_armiger	mammal	GCF_001890085.2	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	86.0	95%	9	0	NW_017732075:550745-580390	HS=SLC36A1; M2=SLC36A1	7
+Hipposideros_armiger	mammal	GCF_001890085.2	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		FRAGMENT	83.6	54%	5	0	NW_017732075:652390-669882	HS=SLC36A3; M2=SLC36A3	8
+Hipposideros_armiger	mammal	GCF_001890085.2	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	69.7	78%	6	0	NW_017731356:2302934-2307241	HS=SELE; M2=SELE	10
+Hipposideros_armiger	mammal	GCF_001890085.2	SELE_protein_Apus_apus	SELE	bird		INTACT	42.6	78%	5	0	NW_017731356:2302553-2307214	HS=SELE; M2=SELE	10
+Hipposideros_armiger	mammal	GCF_001890085.2	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	63.7	69%	5	0	NW_017731356:2302922-2307238	HS=SELE; M2=SELE	10
+Hipposideros_armiger	mammal	GCF_001890085.2	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	81.2	89%	21	0	NW_017731384:1862544-1881804	HS=ACE; M2=ACE	9
+Hipposideros_larvatus	mammal	GCA_031876335.1	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	37.8	56%	1	0	CM063092:82245914-82246246	HS=IL1RN; M2=IL1RN	1
+Hipposideros_larvatus	mammal	GCA_031876335.1	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	82.0	77%	3	0	CM063092:82245911-82249441	HS=IL1RN; M2=IL1RN	3
+Hipposideros_larvatus	mammal	GCA_031876335.1	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		FRAGMENT	62.1	23%	4	0	CM063093:44471193-44478653	HS=SPESP1-NOX5; M2=NOX5	7
+Hipposideros_larvatus	mammal	GCA_031876335.1	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	71.2	8%	1	0	CM063093:44471193-44471369	HS=NOX5; M2=NOX5	6
+Hipposideros_larvatus	mammal	GCA_031876335.1	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	72.0	88%	1	0	CM063093:44495376-44496302	HS=SPESP1; M2=SPESP1	1
+Hipposideros_larvatus	mammal	GCA_031876335.1	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	86.8	89%	12	0	CM063088:56353953-56374216	HS=PPEF2; M2=PPEF2	7
+Hipposideros_larvatus	mammal	GCA_031876335.1	PPEF2_protein_Apus_apus	PPEF2	bird		FRAGMENT	49.1	8%	1	0	CM063088:56368520-56368690	HS=PPEF2; M2=PPEF2	7
+Hipposideros_larvatus	mammal	GCA_031876335.1	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	86.1	93%	9	0	CM063097:21794811-21823416	HS=SLC36A1; M2=SLC36A1	6
+Hipposideros_larvatus	mammal	GCA_031876335.1	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		INTACT	83.8	82%	8	0	CM063097:21892870-21911223	HS=SLC36A3; M2=SLC36A3	6
+Hipposideros_larvatus	mammal	GCA_031876335.1	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	71.5	78%	6	0	CM063102:56854196-56858494	HS=SELE; M2=SELE	10
+Hipposideros_larvatus	mammal	GCA_031876335.1	SELE_protein_Apus_apus	SELE	bird		FRAGMENT	50.8	59%	6	0	CM063102:56854223-56937374	HS=SELE; M2=SELE	10
+Hipposideros_larvatus	mammal	GCA_031876335.1	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	59.4	80%	4	0	CM063102:56854199-56858878	HS=SELE; M2=SELE	10
+Hipposideros_larvatus	mammal	GCA_031876335.1	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	81.2	92%	23	0	CM063097:91244033-91263372	HS=ACE; M2=ACE	9
+Heliangelus_exortis	bird	GCF_036169615.1	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	41.1	48%	1	0	NC_092451:3838974-3839192	AV=LOC127394693	1
+Heliangelus_exortis	bird	GCF_036169615.1	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		ABSENT	48.6	40%	1	0	NC_092451:185990-186175	AV=LOC127394693	3
+Heliangelus_exortis	bird	GCF_036169615.1	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		ABSENT	27.4	28%	1	0	NC_092422:83348568-83349233	AV=LOC127379907	5
+Heliangelus_exortis	bird	GCF_036169615.1	NOX5_protein_Apus_apus	NOX5	bird		ABSENT	36.5	25%	2	0	NC_092435:7085063-7085798	AV=NOX1	4
+Heliangelus_exortis	bird	GCF_036169615.1	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		ABSENT	-	-	0	0	-	-	0
+Heliangelus_exortis	bird	GCF_036169615.1	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	68.1	72%	9	0	NC_092425:42627279-42638298	AV=PPEF2	10
+Heliangelus_exortis	bird	GCF_036169615.1	PPEF2_protein_Apus_apus	PPEF2	bird		INTACT	79.7	91%	10	0	NC_092425:42627336-42638346	AV=PPEF2	7
+Heliangelus_exortis	bird	GCF_036169615.1	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		ABSENT	68.6	90%	9	0	NC_092436:5429492-5441940	AV=LOC127389948	3
+Heliangelus_exortis	bird	GCF_036169615.1	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		ABSENT	55.5	54%	5	0	NC_092436:5430974-5439599	AV=LOC127389948	2
+Heliangelus_exortis	bird	GCF_036169615.1	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	42.3	89%	5	0	NC_092429:30223177-30227086	AV=SELE	10
+Heliangelus_exortis	bird	GCF_036169615.1	SELE_protein_Apus_apus	SELE	bird		INTACT	63.5	74%	5	0	NC_092429:30223174-30227062	AV=SELE	10
+Heliangelus_exortis	bird	GCF_036169615.1	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	47.5	72%	6	0	NC_092429:30223561-30227104	AV=SELE	10
+Heliangelus_exortis	bird	GCF_036169615.1	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	66.5	80%	18	0	NC_092450:2690234-2707672	AV=ACE	7
+Macroderma_gigas	mammal	GCA_055471755.1	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	45.9	48%	1	0	JBQVVY010000007:43841115-43841336	HS=IL1RN; M2=IL1RN	2
+Macroderma_gigas	mammal	GCA_055471755.1	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	81.0	98%	4	0	JBQVVY010000007:43837354-43841339	HS=IL1RN; M2=IL1RN	3
+Macroderma_gigas	mammal	GCA_055471755.1	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		INTACT	71.7	91%	14	1	JBQVVY010000002:40194937-40221254	HS=NOX5; M2=NOX5	8
+Macroderma_gigas	mammal	GCA_055471755.1	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	67.9	43%	6	1	JBQVVY010000002:40196155-40221251	HS=NOX5; M2=NOX5	7
+Macroderma_gigas	mammal	GCA_055471755.1	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	70.7	88%	1	0	JBQVVY010000002:40262152-40263078	HS=SPESP1; M2=SPESP1	1
+Macroderma_gigas	mammal	GCA_055471755.1	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	90.4	77%	12	0	JBQVVY010000009:30749144-30770635	HS=PPEF2; M2=PPEF2	7
+Macroderma_gigas	mammal	GCA_055471755.1	PPEF2_protein_Apus_apus	PPEF2	bird		ABSENT	75.6	78%	12	0	JBQVVY010000009:30749162-30770566	HS=PPEF1; M2=PPEF1	6
+Macroderma_gigas	mammal	GCA_055471755.1	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	84.5	100%	10	0	JBQVVY010000010:20661023-20689017	HS=SLC36A1; M2=SLC36A1	4
+Macroderma_gigas	mammal	GCA_055471755.1	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		INTACT	77.2	89%	8	0	JBQVVY010000010:20584148-20599156	HS=SLC36A3; M2=SLC36A3	5
+Macroderma_gigas	mammal	GCA_055471755.1	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	63.4	88%	8	0	JBQVVY010000014:48305121-48397052	HS=SELE; M2=SELE	10
+Macroderma_gigas	mammal	GCA_055471755.1	SELE_protein_Apus_apus	SELE	bird		INTACT	50.8	76%	8	0	JBQVVY010000014:48306320-48397022	HS=SELE; M2=SELE	10
+Macroderma_gigas	mammal	GCA_055471755.1	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	75.6	71%	6	0	JBQVVY010000014:48392513-48397049	HS=SELE; M2=SELE	10
+Macroderma_gigas	mammal	GCA_055471755.1	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	80.3	89%	22	0	JBQVVY010000011:87015618-87034153	HS=ACE; M2=ACE	8
+Megaderma_spasma	mammal	GCA_043880595.1	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	42.7	58%	1	0	CM093780:140267976-140268224	HS=IL1RN; M2=IL1RN	2
+Megaderma_spasma	mammal	GCA_043880595.1	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	75.2	91%	3	0	CM093780:140264203-140268227	HS=IL1RN; M2=IL1RN	5
+Megaderma_spasma	mammal	GCA_043880595.1	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		INTACT	82.7	96%	14	0	CM093781:138190416-138217577	HS=NOX5; M2=NOX5	8
+Megaderma_spasma	mammal	GCA_043880595.1	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	71.0	60%	8	0	CM093781:138192211-138217577	HS=SPESP1-NOX5; M2=NOX5	7
+Megaderma_spasma	mammal	GCA_043880595.1	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	66.2	88%	1	0	CM093781:138157696-138158616	HS=SPESP1; M2=SPESP1	1
+Megaderma_spasma	mammal	GCA_043880595.1	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		FRAGMENT	87.7	33%	5	0	CM093788:32479325-32488079	HS=PPEF2; M2=PPEF2	7
+Megaderma_spasma	mammal	GCA_043880595.1	PPEF2_protein_Apus_apus	PPEF2	bird		FRAGMENT	71.2	32%	5	0	CM093788:32479325-32488010	HS=PPEF2; M2=PPEF2	6
+Megaderma_spasma	mammal	GCA_043880595.1	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	85.7	94%	9	0	CM093787:24317710-24345648	HS=SLC36A1; M2=SLC36A1	5
+Megaderma_spasma	mammal	GCA_043880595.1	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		INTACT	79.1	87%	8	0	CM093787:24239281-24254714	HS=SLC36A3; M2=SLC36A3	6
+Megaderma_spasma	mammal	GCA_043880595.1	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	78.5	78%	7	0	CM093792:20974872-20979395	HS=SELE; M2=SELE	10
+Megaderma_spasma	mammal	GCA_043880595.1	SELE_protein_Apus_apus	SELE	bird		INTACT	48.9	76%	8	0	CM093792:20974902-21064025	HS=SELE; M2=SELE	10
+Megaderma_spasma	mammal	GCA_043880595.1	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	79.5	82%	8	0	CM093792:20974875-20979758	HS=SELE; M2=SELE	10
+Megaderma_spasma	mammal	GCA_043880595.1	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	76.7	89%	20	0	CM093789:79590553-79609344	HS=ACE; M2=ACE	9
+Molossus_molossus	mammal	GCA_014108415.2	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		INTACT	82.3	74%	2	0	CM138279:68732176-68732802	HS=IL1F10; M2=IL1F10	3
+Molossus_molossus	mammal	GCA_014108415.2	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	80.8	82%	3	0	CM138279:68692650-68696723	HS=IL1RN; M2=IL1RN	5
+Molossus_molossus	mammal	GCA_014108415.2	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		INTACT	84.7	91%	14	0	CM138266:208848466-208887007	HS=NOX5; M2=NOX5	6
+Molossus_molossus	mammal	GCA_014108415.2	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	71.8	59%	9	0	CM138266:208848484-208887007	HS=NOX5; M2=NOX5	6
+Molossus_molossus	mammal	GCA_014108415.2	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	67.1	80%	2	0	CM138266:208800843-208801961	HS=SPESP1; M2=SPESP1	1
+Molossus_molossus	mammal	GCA_014108415.2	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	81.2	97%	12	0	CM138266:55570184-55594126	HS=PPEF2; M2=PPEF2	10
+Molossus_molossus	mammal	GCA_014108415.2	PPEF2_protein_Apus_apus	PPEF2	bird		AMBIGUOUS	71.9	78%	11	0	CM138266:55570256-55594081	HS=PPEF1; M2=PPEF2	10
+Molossus_molossus	mammal	GCA_014108415.2	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	85.1	99%	10	0	CM138268:21898761-21926173	HS=SLC36A1; M2=SLC36A1	6
+Molossus_molossus	mammal	GCA_014108415.2	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		INTACT	84.2	84%	8	0	CM138268:22016978-22040895	HS=SLC36A3; M2=SLC36A3	6
+Molossus_molossus	mammal	GCA_014108415.2	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	55.2	79%	6	0	CM138285:50979237-51056128	HS=SELE; M2=SELE	10
+Molossus_molossus	mammal	GCA_014108415.2	SELE_protein_Apus_apus	SELE	bird		INTACT	45.9	77%	6	0	CM138285:50979273-51056122	HS=SELE; M2=SELE	10
+Molossus_molossus	mammal	GCA_014108415.2	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	63.9	68%	6	0	CM138285:50979249-51002311	HS=SELE; M2=SELE	10
+Molossus_molossus	mammal	GCA_014108415.2	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	79.2	93%	22	0	CM138283:13321348-13340733	HS=ACE; M2=ACE	8
+Myotis_myotis	mammal	GCA_014108235.2	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		INTACT	77.9	92%	3	0	CM138255:55273422-55274359	HS=IL1F10; M2=IL1F10	3
+Myotis_myotis	mammal	GCA_014108235.2	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	81.9	97%	4	0	CM138255:55234912-55238875	HS=IL1RN; M2=IL1RN	5
+Myotis_myotis	mammal	GCA_014108235.2	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		INTACT	85.4	87%	14	0	CM138244:185426022-185456900	HS=NOX5; M2=NOX5	9
+Myotis_myotis	mammal	GCA_014108235.2	NOX5_protein_Apus_apus	NOX5	bird		INTACT	74.0	61%	9	0	CM138244:185426022-185456900	HS=SPESP1-NOX5; M2=NOX5	6
+Myotis_myotis	mammal	GCA_014108235.2	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	58.8	88%	1	0	CM138244:185399461-185400495	HS=SPESP1; M2=SPESP1	1
+Myotis_myotis	mammal	GCA_014108235.2	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	81.7	91%	12	0	CM138244:49060928-49080160	HS=PPEF2; M2=PPEF2	10
+Myotis_myotis	mammal	GCA_014108235.2	PPEF2_protein_Apus_apus	PPEF2	bird		AMBIGUOUS	69.7	80%	12	0	CM138244:49060988-49080163	HS=PPEF1; M2=PPEF2	10
+Myotis_myotis	mammal	GCA_014108235.2	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	86.1	99%	10	0	CM138248:88403753-88433521	HS=SLC36A1; M2=SLC36A1	4
+Myotis_myotis	mammal	GCA_014108235.2	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		INTACT	83.4	85%	8	0	CM138248:88320854-88339510	HS=SLC36A3; M2=SLC36A3	4
+Myotis_myotis	mammal	GCA_014108235.2	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	64.4	83%	7	0	CM138261:4420052-4425877	HS=SELE; M2=SELE	10
+Myotis_myotis	mammal	GCA_014108235.2	SELE_protein_Apus_apus	SELE	bird		INTACT	49.7	68%	7	0	CM138261:4336981-4425826	HS=SELE; M2=SELE	10
+Myotis_myotis	mammal	GCA_014108235.2	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	69.8	77%	7	0	CM138261:4420052-4425850	HS=SELE; M2=SELE	10
+Myotis_myotis	mammal	GCA_014108235.2	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	80.1	92%	23	0	CM138260:32179130-32197561	HS=ACE; M2=ACE	7
+Nyctalus_leisleri	mammal	GCA_964264875.2	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		INTACT	79.4	92%	3	0	OZ183636:16845569-16846514	HS=IL1F10; M2=IL1F10	3
+Nyctalus_leisleri	mammal	GCA_964264875.2	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	74.6	100%	4	0	OZ183636:16882662-16886652	HS=IL1RN; M2=IL1RN	4
+Nyctalus_leisleri	mammal	GCA_964264875.2	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		INTACT	84.6	94%	15	0	OZ183624:45171716-45205260	HS=SPESP1-NOX5; M2=NOX5	7
+Nyctalus_leisleri	mammal	GCA_964264875.2	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	75.1	59%	9	0	OZ183624:45171716-45205260	HS=NOX5; M2=NOX5	6
+Nyctalus_leisleri	mammal	GCA_964264875.2	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	53.7	88%	1	0	OZ183624:45221460-45222521	HS=SPESP1; M2=SPESP1	1
+Nyctalus_leisleri	mammal	GCA_964264875.2	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	89.9	93%	12	0	OZ183624:186964780-186984658	HS=PPEF2; M2=PPEF2	10
+Nyctalus_leisleri	mammal	GCA_964264875.2	PPEF2_protein_Apus_apus	PPEF2	bird		AMBIGUOUS	73.8	77%	12	0	OZ183624:186964804-186984598	HS=PPEF1; M2=PPEF2	10
+Nyctalus_leisleri	mammal	GCA_964264875.2	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	86.9	100%	10	0	OZ183629:18401080-18428061	HS=SLC36A1; M2=SLC36A1	6
+Nyctalus_leisleri	mammal	GCA_964264875.2	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		INTACT	77.1	84%	7	0	OZ183629:18487473-18505503	HS=SLC36A3; M2=SLC36A3	5
+Nyctalus_leisleri	mammal	GCA_964264875.2	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	53.7	86%	6	0	OZ183642:6928769-6934617	HS=SELE; M2=SELE	10
+Nyctalus_leisleri	mammal	GCA_964264875.2	SELE_protein_Apus_apus	SELE	bird		INTACT	31.6	65%	3	0	OZ183642:6911291-6933310	HS=SELE; M2=SELE	10
+Nyctalus_leisleri	mammal	GCA_964264875.2	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	60.3	86%	7	0	OZ183642:6928769-6934617	HS=SELE; M2=SELE	10
+Nyctalus_leisleri	mammal	GCA_964264875.2	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	72.6	89%	20	0	OZ183639:36466169-36484084	HS=ACE; M2=ACE	9
+Pipistrellus_kuhlii	mammal	GCA_014108245.2	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		INTACT	78.7	92%	3	0	CM133210:50071939-50072890	HS=IL1F10; M2=IL1F10	3
+Pipistrellus_kuhlii	mammal	GCA_014108245.2	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	68.2	90%	3	0	CM133210:50032497-50036800	HS=IL1RN; M2=IL1RN	5
+Pipistrellus_kuhlii	mammal	GCA_014108245.2	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		INTACT	83.2	90%	14	0	CM133199:38593817-38624558	HS=SPESP1-NOX5; M2=NOX5	8
+Pipistrellus_kuhlii	mammal	GCA_014108245.2	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	74.6	59%	9	0	CM133199:38593817-38624558	HS=SPESP1-NOX5; M2=NOX5	6
+Pipistrellus_kuhlii	mammal	GCA_014108245.2	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	57.7	88%	1	0	CM133199:38644818-38645852	HS=SPESP1; M2=SPESP1	1
+Pipistrellus_kuhlii	mammal	GCA_014108245.2	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	89.1	92%	12	0	CM133199:163057191-163076698	HS=PPEF2; M2=PPEF2	10
+Pipistrellus_kuhlii	mammal	GCA_014108245.2	PPEF2_protein_Apus_apus	PPEF2	bird		INTACT	71.5	72%	10	0	CM133199:163057215-163076638	HS=PPEF2; M2=PPEF2	10
+Pipistrellus_kuhlii	mammal	GCA_014108245.2	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	84.3	100%	10	0	CM133203:18372252-18400531	HS=SLC36A1; M2=SLC36A1	5
+Pipistrellus_kuhlii	mammal	GCA_014108245.2	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		INTACT	78.0	84%	7	0	CM133203:18460559-18478637	HS=SLC36A3; M2=SLC36A3	5
+Pipistrellus_kuhlii	mammal	GCA_014108245.2	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	59.0	89%	8	0	CM133216:36019765-36025465	HS=SELE; M2=SELE	10
+Pipistrellus_kuhlii	mammal	GCA_014108245.2	SELE_protein_Apus_apus	SELE	bird		FRAGMENT	39.9	47%	5	0	CM133216:36022283-36097305	HS=SELE; M2=SELE	10
+Pipistrellus_kuhlii	mammal	GCA_014108245.2	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	63.9	86%	8	0	CM133216:36019765-36025465	HS=SELE; M2=SELE	10
+Pipistrellus_kuhlii	mammal	GCA_014108245.2	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	74.3	91%	21	0	CM133214:17849194-17867626	HS=ACE; M2=ACE	7
+Phyllostomus_discolor	mammal	GCF_004126475.2	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		INTACT	84.1	74%	2	0	NC_040908:63221947-63222584	HS=IL1F10; M2=IL1F10	3
+Phyllostomus_discolor	mammal	GCF_004126475.2	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	71.3	91%	3	0	NC_040908:63176220-63180374	HS=IL1RN; M2=IL1RN	6
+Phyllostomus_discolor	mammal	GCF_004126475.2	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		INTACT	81.8	91%	14	0	NC_040903:177685562-177716678	HS=NOX5; M2=NOX5	8
+Phyllostomus_discolor	mammal	GCF_004126475.2	NOX5_protein_Apus_apus	NOX5	bird		INTACT	71.9	60%	9	0	NC_040903:177685565-177716678	HS=NOX5; M2=NOX5	6
+Phyllostomus_discolor	mammal	GCF_004126475.2	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	64.4	87%	1	0	NC_040903:177647837-177648751	HS=SPESP1; M2=SPESP1	1
+Phyllostomus_discolor	mammal	GCF_004126475.2	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	83.0	96%	13	0	NC_040903:47498568-47517290	HS=PPEF2; M2=PPEF2	10
+Phyllostomus_discolor	mammal	GCF_004126475.2	PPEF2_protein_Apus_apus	PPEF2	bird		ABSENT	69.3	81%	12	0	NC_040903:47498643-47517293	HS=PPEF1; M2=PPEF1	10
+Phyllostomus_discolor	mammal	GCF_004126475.2	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	84.1	100%	10	0	NC_040915:21730482-21760144	HS=SLC36A1; M2=SLC36A1	6
+Phyllostomus_discolor	mammal	GCF_004126475.2	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		INTACT	82.8	90%	9	0	NC_040915:21660555-21680977	HS=SLC36A3; M2=SLC36A3	6
+Phyllostomus_discolor	mammal	GCF_004126475.2	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	63.6	78%	7	0	NC_040916:24029775-24112339	HS=SELE; M2=SELE	10
+Phyllostomus_discolor	mammal	GCF_004126475.2	SELE_protein_Apus_apus	SELE	bird		INTACT	49.8	73%	8	0	NC_040916:24029808-24116742	HS=SELE; M2=SELE	10
+Phyllostomus_discolor	mammal	GCF_004126475.2	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	54.1	61%	4	0	NC_040916:24029781-24034974	HS=SELE; M2=SELE	10
+Phyllostomus_discolor	mammal	GCF_004126475.2	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	76.6	91%	20	0	NC_040910:90239912-90259439	HS=ACE; M2=ACE	7
+Rhinolophus_affinis	mammal	GCA_043728065.1	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	45.7	45%	1	0	CM093074:630926-631135	HS=IL1RN; M2=IL1RN	1
+Rhinolophus_affinis	mammal	GCA_043728065.1	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	79.8	97%	4	0	CM093074:627672-631138	HS=IL1RN; M2=IL1RN	3
+Rhinolophus_affinis	mammal	GCA_043728065.1	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		FRAGMENT	73.6	26%	6	0	CM093067:59745907-59756317	HS=NOX5; M2=NOX5	7
+Rhinolophus_affinis	mammal	GCA_043728065.1	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	61.9	15%	2	0	CM093067:59750133-59755107	HS=NOX5; M2=NOX5	6
+Rhinolophus_affinis	mammal	GCA_043728065.1	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	74.3	88%	1	0	CM093067:59734119-59735045	HS=SPESP1; M2=SPESP1	1
+Rhinolophus_affinis	mammal	GCA_043728065.1	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		ABSENT	57.0	39%	5	0	CM093093:12811015-12854346	HS=PPEF1; M2=PPEF1	6
+Rhinolophus_affinis	mammal	GCA_043728065.1	PPEF2_protein_Apus_apus	PPEF2	bird		ABSENT	58.5	32%	4	0	CM093093:12828124-12854346	HS=PPEF1; M2=PPEF1	6
+Rhinolophus_affinis	mammal	GCA_043728065.1	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	86.9	94%	9	0	CM093083:21420620-21448200	HS=SLC36A1; M2=SLC36A1	5
+Rhinolophus_affinis	mammal	GCA_043728065.1	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		FRAGMENT	62.5	53%	4	1	CM093083:21526129-21533091	HS=SLC36A3; M2=SLC36A3	6
+Rhinolophus_affinis	mammal	GCA_043728065.1	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	72.5	79%	6	0	CM093089:4081300-4086278	HS=SELE; M2=SELE	10
+Rhinolophus_affinis	mammal	GCA_043728065.1	SELE_protein_Apus_apus	SELE	bird		INTACT	48.0	76%	7	0	CM093089:4005727-4086236	HS=SELE; M2=SELE	10
+Rhinolophus_affinis	mammal	GCA_043728065.1	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	82.2	91%	8	0	CM093089:4081285-4086957	HS=SELE; M2=SELE	10
+Rhinolophus_affinis	mammal	GCA_043728065.1	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	77.9	89%	22	0	CM093080:13442271-13461459	HS=ACE; M2=ACE	10
+Rhinolophus_ferrumequinum	mammal	GCF_004115265.2	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	43.0	56%	1	0	NW_022680356:3191786-3192037	HS=IL1RN; M2=IL1RN	1
+Rhinolophus_ferrumequinum	mammal	GCF_004115265.2	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	79.7	97%	4	0	NW_022680356:3191783-3195248	HS=IL1RN; M2=IL1RN	3
+Rhinolophus_ferrumequinum	mammal	GCF_004115265.2	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		FRAGMENT	71.4	6%	1	0	NC_046289:42519952-42520086	HS=NOX5; M2=NOX5	7
+Rhinolophus_ferrumequinum	mammal	GCF_004115265.2	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	59.2	6%	1	0	NC_046289:42519952-42520086	HS=NOX5; M2=NOX5	6
+Rhinolophus_ferrumequinum	mammal	GCF_004115265.2	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	72.7	88%	1	0	NC_046289:42533176-42534102	HS=SPESP1; M2=SPESP1	1
+Rhinolophus_ferrumequinum	mammal	GCF_004115265.2	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		ABSENT	48.9	81%	2	0	NC_046298:36648907-36650781	HS=PPEF1; M2=PPEF1	7
+Rhinolophus_ferrumequinum	mammal	GCF_004115265.2	PPEF2_protein_Apus_apus	PPEF2	bird		ABSENT	49.3	86%	2	0	NC_046298:36648907-36650781	HS=PPEF1; M2=PPEF1	6
+Rhinolophus_ferrumequinum	mammal	GCF_004115265.2	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	79.2	89%	8	0	NC_046307:23264541-23291674	HS=SLC36A1; M2=SLC36A1	5
+Rhinolophus_ferrumequinum	mammal	GCF_004115265.2	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		INTACT	62.2	76%	5	1	NC_046307:23176629-23211428	HS=SLC36A3; M2=SLC36A3	5
+Rhinolophus_ferrumequinum	mammal	GCF_004115265.2	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	61.9	88%	6	0	NC_046305:6418891-6423844	HS=SELE; M2=SELE	10
+Rhinolophus_ferrumequinum	mammal	GCF_004115265.2	SELE_protein_Apus_apus	SELE	bird		INTACT	46.5	77%	7	0	NC_046305:6341534-6423820	HS=SELE; M2=SELE	10
+Rhinolophus_ferrumequinum	mammal	GCF_004115265.2	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal	SELF-HIT	INTACT	88.1	71%	7	0	NC_046305:6346520-6424538	HS=SELE; M2=SELE	10
+Rhinolophus_ferrumequinum	mammal	GCF_004115265.2	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	77.6	89%	20	0	NC_046304:42156839-42176591	HS=ACE; M2=ACE	10
+Rhinolophus_hipposideros	mammal	GCF_964194185.1	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	46.8	51%	1	0	NC_138058:197282-197506	HS=IL1RN; M2=IL1RN	1
+Rhinolophus_hipposideros	mammal	GCF_964194185.1	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	79.9	97%	4	0	NC_138058:194034-197509	HS=IL1RN; M2=IL1RN	3
+Rhinolophus_hipposideros	mammal	GCF_964194185.1	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		FRAGMENT	70.8	24%	5	0	NC_138051:59889533-59899911	HS=NOX5; M2=NOX5	8
+Rhinolophus_hipposideros	mammal	GCF_964194185.1	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	67.7	9%	1	0	NC_138051:59893735-59893920	HS=SPESP1-NOX5; M2=NOX5	6
+Rhinolophus_hipposideros	mammal	GCF_964194185.1	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	72.8	88%	1	0	NC_138051:59880594-59881523	HS=SPESP1; M2=SPESP1	1
+Rhinolophus_hipposideros	mammal	GCF_964194185.1	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		ABSENT	56.0	39%	5	0	NC_138046:114972457-115014901	HS=PPEF1; M2=PPEF1	5
+Rhinolophus_hipposideros	mammal	GCF_964194185.1	PPEF2_protein_Apus_apus	PPEF2	bird		ABSENT	59.4	39%	5	0	NC_138046:114972457-115014895	HS=PPEF1; M2=PPEF1	5
+Rhinolophus_hipposideros	mammal	GCF_964194185.1	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	86.1	99%	10	0	NC_138069:24177108-24204232	HS=SLC36A1; M2=SLC36A1	3
+Rhinolophus_hipposideros	mammal	GCF_964194185.1	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		FRAGMENT	70.7	34%	4	0	NC_138069:24104256-24108015	HS=SLC36A3; M2=SLC36A3	5
+Rhinolophus_hipposideros	mammal	GCF_964194185.1	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	70.4	89%	7	0	NC_138065:50356582-50361562	HS=SELE; M2=SELE	10
+Rhinolophus_hipposideros	mammal	GCF_964194185.1	SELE_protein_Apus_apus	SELE	bird		INTACT	47.6	76%	7	0	NC_138065:50356663-50439404	HS=SELE; M2=SELE	10
+Rhinolophus_hipposideros	mammal	GCF_964194185.1	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	85.3	77%	6	0	NC_138065:50356639-50361260	HS=SELE; M2=SELE	10
+Rhinolophus_hipposideros	mammal	GCF_964194185.1	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	72.3	91%	20	0	NC_138066:40601598-40620868	HS=ACE; M2=ACE	7
+Pteropus_alecto	mammal	GCF_000325575.1	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		INTACT	68.2	92%	2	0	NW_006434441:3454503-3455359	HS=IL1F10; M2=IL1F10	2
+Pteropus_alecto	mammal	GCF_000325575.1	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	92.9	100%	4	0	NW_006434441:3484416-3487830	HS=IL1RN; M2=IL1RN	4
+Pteropus_alecto	mammal	GCF_000325575.1	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		INTACT	90.0	80%	12	0	NW_006442109:7240756-7265686	HS=NOX5; M2=NOX5	8
+Pteropus_alecto	mammal	GCF_000325575.1	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	73.6	56%	8	0	NW_006442109:7240756-7265686	HS=NOX5; M2=NOX5	7
+Pteropus_alecto	mammal	GCF_000325575.1	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	90.3	88%	1	0	NW_006442109:7304280-7305197	HS=SPESP1; M2=SPESP1	1
+Pteropus_alecto	mammal	GCF_000325575.1	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	94.5	94%	13	1	NW_006432943:8807156-8827854	HS=PPEF2; M2=PPEF2	8
+Pteropus_alecto	mammal	GCF_000325575.1	PPEF2_protein_Apus_apus	PPEF2	bird		ABSENT	73.0	74%	11	0	NW_006432943:8807174-8827779	HS=PPEF1; M2=PPEF1	7
+Pteropus_alecto	mammal	GCF_000325575.1	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	86.3	87%	8	0	NW_006431919:2756038-2785380	HS=SLC36A1; M2=SLC36A1	6
+Pteropus_alecto	mammal	GCF_000325575.1	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		INTACT	92.3	89%	9	0	NW_006431919:2653353-2674711	HS=SLC36A3; M2=SLC36A3	7
+Pteropus_alecto	mammal	GCF_000325575.1	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	78.6	78%	7	0	NW_006432945:16403988-16410725	HS=SELE; M2=SELE	10
+Pteropus_alecto	mammal	GCF_000325575.1	SELE_protein_Apus_apus	SELE	bird		INTACT	48.5	80%	8	0	NW_006432945:16404009-16474461	HS=SELE; M2=SELE	10
+Pteropus_alecto	mammal	GCF_000325575.1	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	77.4	85%	8	0	NW_006432945:16403982-16410725	HS=SELE; M2=SELE	10
+Pteropus_alecto	mammal	GCF_000325575.1	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	83.3	87%	22	0	NW_006436283:12670591-12689451	HS=ACE; M2=ACE	9
+Rousettus_aegyptiacus	mammal	GCF_014176215.1	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal	SELF-HIT	INTACT	55.9	91%	2	0	NW_023416310:65746761-65778785	HS=IL1F10; M2=IL1F10	3
+Rousettus_aegyptiacus	mammal	GCF_014176215.1	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal	SELF-HIT	INTACT	86.7	100%	4	0	NW_023416310:65746758-65749116	HS=IL1RN; M2=IL1RN	4
+Rousettus_aegyptiacus	mammal	GCF_014176215.1	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal	SELF-HIT	INTACT	92.1	83%	12	0	NW_023416306:135415676-135442315	HS=NOX5; M2=NOX5	8
+Rousettus_aegyptiacus	mammal	GCF_014176215.1	NOX5_protein_Apus_apus	NOX5	bird		INTACT	72.4	61%	9	0	NW_023416306:135415682-135442315	HS=SPESP1-NOX5; M2=NOX5	6
+Rousettus_aegyptiacus	mammal	GCF_014176215.1	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal	SELF-HIT	INTACT	100.0	88%	1	0	NW_023416306:135386982-135387902	HS=SPESP1; M2=SPESP1	1
+Rousettus_aegyptiacus	mammal	GCF_014176215.1	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal	SELF-HIT	INTACT	94.7	95%	13	0	NW_023416285:49703894-49724081	HS=PPEF2; M2=PPEF2	7
+Rousettus_aegyptiacus	mammal	GCF_014176215.1	PPEF2_protein_Apus_apus	PPEF2	bird		AMBIGUOUS	72.7	77%	12	0	NW_023416285:49703930-49724003	HS=PPEF1; M2=PPEF2	7
+Rousettus_aegyptiacus	mammal	GCF_014176215.1	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal	SELF-HIT	INTACT	89.2	94%	9	0	NW_023416310:89205266-89231564	HS=SLC36A1; M2=SLC36A1	5
+Rousettus_aegyptiacus	mammal	GCF_014176215.1	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal	SELF-HIT	INTACT	95.2	90%	9	0	NW_023416310:89308759-89327384	HS=SLC36A3; M2=SLC36A3	6
+Rousettus_aegyptiacus	mammal	GCF_014176215.1	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	72.4	89%	8	0	NW_023416292:20764208-20768854	HS=SELE; M2=SELE	10
+Rousettus_aegyptiacus	mammal	GCF_014176215.1	SELE_protein_Apus_apus	SELE	bird		INTACT	53.8	67%	7	0	NW_023416292:20764232-20783395	HS=SELE; M2=SELE	10
+Rousettus_aegyptiacus	mammal	GCF_014176215.1	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	74.4	84%	8	0	NW_023416292:20764205-20768839	HS=SELE; M2=SELE	10
+Rousettus_aegyptiacus	mammal	GCF_014176215.1	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	78.4	92%	22	0	NW_023416309:103597100-103615615	HS=ACE; M2=ACE	9
+Homo_sapiens	mammal	GCF_000001405.40	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		INTACT	80.5	74%	2	0	NC_000002:113074722-113075361	HS=IL1F10; M2=IL1F10	3
+Homo_sapiens	mammal	GCF_000001405.40	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	75.9	62%	2	0	NC_000002:113131044-113132865	HS=IL1RN; M2=IL1RN	4
+Homo_sapiens	mammal	GCF_000001405.40	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		INTACT	85.5	84%	13	0	NC_000015:69026529-69056693	HS=NOX5; M2=NOX5	7
+Homo_sapiens	mammal	GCF_000001405.40	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	76.0	58%	9	0	NC_000015:69026532-69056693	HS=NOX5; M2=NOX5	6
+Homo_sapiens	mammal	GCF_000001405.40	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	58.7	87%	1	0	NC_000015:68945601-68946557	HS=SPESP1; M2=SPESP1	1
+Homo_sapiens	mammal	GCF_000001405.40	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	81.7	93%	12	0	NC_000004:75860673-75891979	HS=PPEF2; M2=PPEF2	8
+Homo_sapiens	mammal	GCF_000001405.40	PPEF2_protein_Apus_apus	PPEF2	bird		FRAGMENT	81.1	7%	2	0	NC_000012:97679877-97680060	HS=PPEF2; M2=PPEF2	9
+Homo_sapiens	mammal	GCF_000001405.40	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	84.7	100%	10	0	NC_000005:151458700-151488248	HS=SLC36A1; M2=SLC36A1	7
+Homo_sapiens	mammal	GCF_000001405.40	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		INTACT	84.2	83%	8	0	NC_000005:151277396-151298685	HS=SLC36A3; M2=SLC36A3	7
+Homo_sapiens	mammal	GCF_000001405.40	SELE_protein_Homo_sapiens	SELE	mammal	SELF-HIT	INTACT	86.1	88%	8	0	NC_000001:169594690-169733008	HS=SELE; M2=SELE	10
+Homo_sapiens	mammal	GCF_000001405.40	SELE_protein_Apus_apus	SELE	bird		FRAGMENT	42.8	48%	5	0	NC_000001:169609499-169730618	HS=SELE; M2=SELE	10
+Homo_sapiens	mammal	GCF_000001405.40	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	68.4	76%	6	0	NC_000001:169612176-169732999	HS=SELE; M2=SELE	10
+Homo_sapiens	mammal	GCF_000001405.40	ACE_protein_Homo_sapiens	ACE	mammal	SELF-HIT	INTACT	93.6	95%	22	0	NC_000017:63477095-63497363	HS=ACE; M2=ACE	10
+Rhinolophus_sinicus	mammal	GCF_057876585.1	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	44.7	59%	1	0	NC_142502:113028412-113028687	HS=IL1RN; M2=IL1RN	1
+Rhinolophus_sinicus	mammal	GCF_057876585.1	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		INTACT	79.8	97%	4	0	NC_142502:113025206-113028690	HS=IL1RN; M2=IL1RN	3
+Rhinolophus_sinicus	mammal	GCF_057876585.1	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		FRAGMENT	71.3	18%	3	0	NC_142503:159577353-159583488	HS=NOX5; M2=NOX5	8
+Rhinolophus_sinicus	mammal	GCF_057876585.1	NOX5_protein_Apus_apus	NOX5	bird		FRAGMENT	64.0	21%	3	0	NC_142503:159577350-159583488	HS=NOX5; M2=NOX5	6
+Rhinolophus_sinicus	mammal	GCF_057876585.1	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		INTACT	74.6	88%	1	0	NC_142503:159561429-159562355	HS=SPESP1; M2=SPESP1	1
+Rhinolophus_sinicus	mammal	GCF_057876585.1	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		ABSENT	58.4	32%	4	0	NC_142518:12190232-12214666	HS=PPEF1; M2=PPEF1	6
+Rhinolophus_sinicus	mammal	GCF_057876585.1	PPEF2_protein_Apus_apus	PPEF2	bird		ABSENT	61.3	32%	4	0	NC_142518:12190232-12214666	HS=PPEF1; M2=PPEF1	6
+Rhinolophus_sinicus	mammal	GCF_057876585.1	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		INTACT	86.6	99%	10	0	NC_142505:90568330-90595959	HS=SLC36A1; M2=SLC36A1	4
+Rhinolophus_sinicus	mammal	GCF_057876585.1	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		INTACT	65.4	65%	5	1	NC_142505:90484289-90492949	HS=SLC36A3; M2=SLC36A3	6
+Rhinolophus_sinicus	mammal	GCF_057876585.1	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	70.5	89%	7	0	NC_142511:4026058-4031047	HS=SELE; M2=SELE	10
+Rhinolophus_sinicus	mammal	GCF_057876585.1	SELE_protein_Apus_apus	SELE	bird		FRAGMENT	36.8	54%	4	0	NC_142511:4026037-4028649	HS=SELE; M2=SELE	10
+Rhinolophus_sinicus	mammal	GCF_057876585.1	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	83.7	80%	6	0	NC_142511:4026058-4031014	HS=SELE; M2=SELE	10
+Rhinolophus_sinicus	mammal	GCF_057876585.1	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	76.6	92%	22	0	NC_142512:44655580-44673056	HS=ACE; M2=ACE	8
+Apus_apus	bird	GCF_020740795.1	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	-	-	0	0	-	-	0
+Apus_apus	bird	GCF_020740795.1	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		ABSENT	45.8	40%	1	0	NC_067307:5387517-5387702	AV=LOC127394693	1
+Apus_apus	bird	GCF_020740795.1	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		INTACT	69.0	66%	9	0	NC_067291:20523892-20530984	AV=NOX5	8
+Apus_apus	bird	GCF_020740795.1	NOX5_protein_Apus_apus	NOX5	bird	SELF-HIT	INTACT	90.7	96%	14	0	NC_067291:20523919-20531196	AV=NOX5	6
+Apus_apus	bird	GCF_020740795.1	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		ABSENT	-	-	0	0	-	-	0
+Apus_apus	bird	GCF_020740795.1	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	73.3	73%	12	0	NC_067285:38581185-38592061	AV=PPEF2	6
+Apus_apus	bird	GCF_020740795.1	PPEF2_protein_Apus_apus	PPEF2	bird	SELF-HIT	INTACT	97.0	82%	10	0	NC_067285:38582944-38592064	AV=PPEF2	5
+Apus_apus	bird	GCF_020740795.1	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		ABSENT	68.8	87%	8	0	NC_067294:6006377-6017870	AV=LOC127389948	2
+Apus_apus	bird	GCF_020740795.1	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		ABSENT	58.1	57%	5	0	NC_067294:6007010-6014794	AV=LOC127389948	2
+Apus_apus	bird	GCF_020740795.1	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	51.7	89%	8	0	NC_067288:5520693-5524854	AV=SELE	10
+Apus_apus	bird	GCF_020740795.1	SELE_protein_Apus_apus	SELE	bird	SELF-HIT	INTACT	96.6	89%	10	0	NC_067288:5520693-5524815	AV=SELE	10
+Apus_apus	bird	GCF_020740795.1	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	52.3	85%	8	0	NC_067288:5520693-5524857	AV=SELE	10
+Apus_apus	bird	GCF_020740795.1	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	64.3	90%	20	0	NC_067306:3473916-3487753	AV=ACE	7
+Calypte_anna	bird	GCF_003957555.1	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	-	-	0	0	-	-	0
+Calypte_anna	bird	GCF_003957555.1	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		ABSENT	48.6	40%	1	0	NC_044267:96288-96473	AV=LOC127394693	1
+Calypte_anna	bird	GCF_003957555.1	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		INTACT	69.6	66%	10	0	NC_044256:20734544-20745332	AV=NOX5	5
+Calypte_anna	bird	GCF_003957555.1	NOX5_protein_Apus_apus	NOX5	bird		INTACT	80.8	70%	10	0	NC_044256:20734538-20745332	AV=NOX5	6
+Calypte_anna	bird	GCF_003957555.1	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		ABSENT	-	-	0	0	-	-	0
+Calypte_anna	bird	GCF_003957555.1	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	72.7	70%	10	0	NC_044248:1704295-1714851	AV=PPEF2	7
+Calypte_anna	bird	GCF_003957555.1	PPEF2_protein_Apus_apus	PPEF2	bird		INTACT	85.7	85%	11	0	NC_044248:1704295-1714854	AV=PPEF2	5
+Calypte_anna	bird	GCF_003957555.1	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		ABSENT	70.3	84%	8	0	NC_044259:11800214-11812672	AV=LOC127389948	3
+Calypte_anna	bird	GCF_003957555.1	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		ABSENT	58.8	61%	6	0	NC_044259:11800818-11810313	AV=LOC127389948	2
+Calypte_anna	bird	GCF_003957555.1	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	47.0	79%	6	0	NC_044254:1209149-1212621	AV=SELE	10
+Calypte_anna	bird	GCF_003957555.1	SELE_protein_Apus_apus	SELE	bird		INTACT	81.9	63%	6	0	NC_044254:1208694-1212597	AV=SELE	10
+Calypte_anna	bird	GCF_003957555.1	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	48.8	80%	7	0	NC_044254:1208694-1212639	AV=SELE	10
+Calypte_anna	bird	GCF_003957555.1	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	65.2	74%	16	0	NC_044272:2810447-2824606	AV=ACE	8
+Archilochus_colubris	bird	GCA_023079485.1	IL1F10_protein_Rousettus_aegyptiacus	IL1F10	mammal		ABSENT	39.7	48%	1	0	CM041106:4713490-4713708	AV=LOC127394693	1
+Archilochus_colubris	bird	GCA_023079485.1	IL1RN_protein_Rousettus_aegyptiacus	IL1RN	mammal		ABSENT	47.7	63%	2	0	CM041106:4713490-4714273	AV=LOC127394693	2
+Archilochus_colubris	bird	GCA_023079485.1	NOX5_protein_Rousettus_aegyptiacus	NOX5	mammal		INTACT	62.4	63%	8	0	CM041095:20540378-20550563	AV=NOX5	6
+Archilochus_colubris	bird	GCA_023079485.1	NOX5_protein_Apus_apus	NOX5	bird		INTACT	72.1	71%	9	0	CM041095:20540378-20550563	AV=NOX5	6
+Archilochus_colubris	bird	GCA_023079485.1	SPESP1_protein_Rousettus_aegyptiacus	SPESP1	mammal		ABSENT	-	-	0	0	-	-	0
+Archilochus_colubris	bird	GCA_023079485.1	PPEF2_protein_Rousettus_aegyptiacus	PPEF2	mammal		INTACT	72.7	66%	9	0	CM041087:1737437-1747929	AV=PPEF2	9
+Archilochus_colubris	bird	GCA_023079485.1	PPEF2_protein_Apus_apus	PPEF2	bird		INTACT	84.8	81%	10	0	CM041087:1737434-1747932	AV=PPEF2	7
+Archilochus_colubris	bird	GCA_023079485.1	SLC36A1_protein_Rousettus_aegyptiacus	SLC36A1	mammal		ABSENT	71.5	82%	8	0	CM041098:11897528-11909931	AV=LOC127389948	3
+Archilochus_colubris	bird	GCA_023079485.1	SLC36A3_protein_Rousettus_aegyptiacus	SLC36A3	mammal		ABSENT	54.9	54%	5	0	CM041098:11898957-11907551	AV=LOC127389948	2
+Archilochus_colubris	bird	GCA_023079485.1	SELE_protein_Homo_sapiens	SELE	mammal		INTACT	49.3	80%	6	0	CM041093:1546529-1550020	AV=SELE	10
+Archilochus_colubris	bird	GCA_023079485.1	SELE_protein_Apus_apus	SELE	bird		INTACT	81.1	63%	6	0	CM041093:1546110-1549996	AV=SELE	10
+Archilochus_colubris	bird	GCA_023079485.1	SELE_protein_Rhinolophus_ferrumequinum	SELE	mammal		INTACT	48.9	80%	7	0	CM041093:1546110-1550038	AV=SELE	10
+Archilochus_colubris	bird	GCA_023079485.1	ACE_protein_Homo_sapiens	ACE	mammal		INTACT	64.6	85%	18	0	CM041111:2904756-2919892	AV=ACE	8

@@ -1,0 +1,92 @@
+====================================================================================================
+IL1F10
+====================================================================================================
+family           species                    call        ident%  cov    pieces  stops  ref match
+Rhinolophidae    Rhinolophus ferrumequinum  ABSENT      43.0    56%    1       0      HS=IL1RN; M2=IL1RN
+Rhinolophidae    Rhinolophus sinicus        ABSENT      44.7    59%    1       0      HS=IL1RN; M2=IL1RN
+Rhinolophidae    Rhinolophus affinis        ABSENT      45.7    45%    1       0      HS=IL1RN; M2=IL1RN
+Rhinolophidae    Rhinolophus hipposideros   ABSENT      46.8    51%    1       0      HS=IL1RN; M2=IL1RN
+Hipposideridae   Aselliscus stoliczkanus    ABSENT      36.0    56%    1       0      HS=IL1RN; M2=IL1RN
+Hipposideridae   Hipposideros larvatus      ABSENT      37.8    56%    1       0      HS=IL1RN; M2=IL1RN
+Megadermatidae   Megaderma spasma           ABSENT      42.7    58%    1       0      HS=IL1RN; M2=IL1RN
+Megadermatidae   Macroderma gigas           ABSENT      45.9    48%    1       0      HS=IL1RN; M2=IL1RN
+Pteropodidae     Rousettus aegyptiacus      INTACT      55.9    91%    2       0      HS=IL1F10; M2=IL1F10
+Vespertilionidae Myotis myotis              INTACT      77.9    92%    3       0      HS=IL1F10; M2=IL1F10
+Vespertilionidae Nyctalus leisleri          INTACT      79.4    92%    3       0      HS=IL1F10; M2=IL1F10
+Vespertilionidae Pipistrellus kuhlii        INTACT      78.7    92%    3       0      HS=IL1F10; M2=IL1F10
+Molossidae       Molossus molossus          INTACT      82.3    74%    2       0      HS=IL1F10; M2=IL1F10
+Phyllostomidae   Phyllostomus discolor      INTACT      84.1    74%    2       0      HS=IL1F10; M2=IL1F10
+Outgroup         Homo sapiens               INTACT      80.5    74%    2       0      HS=IL1F10; M2=IL1F10
+
+====================================================================================================
+NOX5
+====================================================================================================
+family           species                    call        ident%  cov    pieces  stops  ref match
+Rhinolophidae    Rhinolophus ferrumequinum  FRAGMENT    71.4    6%     1       0      HS=NOX5; M2=NOX5
+Rhinolophidae    Rhinolophus sinicus        FRAGMENT    71.3    18%    3       0      HS=NOX5; M2=NOX5
+Rhinolophidae    Rhinolophus affinis        FRAGMENT    73.6    26%    6       0      HS=NOX5; M2=NOX5
+Rhinolophidae    Rhinolophus hipposideros   FRAGMENT    70.8    24%    5       0      HS=NOX5; M2=NOX5
+Hipposideridae   Aselliscus stoliczkanus    FRAGMENT    77.9    20%    3       0      HS=NOX5; M2=NOX5
+Hipposideridae   Hipposideros larvatus      FRAGMENT    62.1    23%    4       0      HS=SPESP1-NOX5; M2=NOX5
+Megadermatidae   Megaderma spasma           INTACT      82.7    96%    14      0      HS=NOX5; M2=NOX5
+Megadermatidae   Macroderma gigas           INTACT      71.7    91%    14      1      HS=NOX5; M2=NOX5
+Pteropodidae     Rousettus aegyptiacus      INTACT      92.1    83%    12      0      HS=NOX5; M2=NOX5
+Vespertilionidae Myotis myotis              INTACT      85.4    87%    14      0      HS=NOX5; M2=NOX5
+Vespertilionidae Nyctalus leisleri          INTACT      84.6    94%    15      0      HS=SPESP1-NOX5; M2=NOX5
+Vespertilionidae Pipistrellus kuhlii        INTACT      83.2    90%    14      0      HS=SPESP1-NOX5; M2=NOX5
+Molossidae       Molossus molossus          INTACT      84.7    91%    14      0      HS=NOX5; M2=NOX5
+Phyllostomidae   Phyllostomus discolor      INTACT      81.8    91%    14      0      HS=NOX5; M2=NOX5
+Outgroup         Homo sapiens               INTACT      85.5    84%    13      0      HS=NOX5; M2=NOX5
+
+====================================================================================================
+PPEF2
+====================================================================================================
+family           species                    call        ident%  cov    pieces  stops  ref match
+Rhinolophidae    Rhinolophus ferrumequinum  ABSENT      48.9    81%    2       0      HS=PPEF1; M2=PPEF1
+Rhinolophidae    Rhinolophus sinicus        ABSENT      58.4    32%    4       0      HS=PPEF1; M2=PPEF1
+Rhinolophidae    Rhinolophus affinis        ABSENT      57.0    39%    5       0      HS=PPEF1; M2=PPEF1
+Rhinolophidae    Rhinolophus hipposideros   ABSENT      56.0    39%    5       0      HS=PPEF1; M2=PPEF1
+Hipposideridae   Aselliscus stoliczkanus    INTACT      86.9    95%    13      0      HS=PPEF2; M2=PPEF2
+Hipposideridae   Hipposideros larvatus      INTACT      86.8    89%    12      0      HS=PPEF2; M2=PPEF2
+Megadermatidae   Megaderma spasma           FRAGMENT    87.7    33%    5       0      HS=PPEF2; M2=PPEF2
+Megadermatidae   Macroderma gigas           INTACT      90.4    77%    12      0      HS=PPEF2; M2=PPEF2
+Pteropodidae     Rousettus aegyptiacus      INTACT      94.7    95%    13      0      HS=PPEF2; M2=PPEF2
+Vespertilionidae Myotis myotis              INTACT      81.7    91%    12      0      HS=PPEF2; M2=PPEF2
+Vespertilionidae Nyctalus leisleri          INTACT      89.9    93%    12      0      HS=PPEF2; M2=PPEF2
+Vespertilionidae Pipistrellus kuhlii        INTACT      89.1    92%    12      0      HS=PPEF2; M2=PPEF2
+Molossidae       Molossus molossus          INTACT      81.2    97%    12      0      HS=PPEF2; M2=PPEF2
+Phyllostomidae   Phyllostomus discolor      INTACT      83.0    96%    13      0      HS=PPEF2; M2=PPEF2
+Outgroup         Homo sapiens               INTACT      81.7    93%    12      0      HS=PPEF2; M2=PPEF2
+
+====================================================================================================
+WHAT THIS TABLE SUPPORTS, AND WHAT IT DOES NOT
+====================================================================================================
+
+PPEF2  Absent in all four Rhinolophus. The best model is 48.9-58.4%% identity and is named
+       PPEF1 by BOTH mammal reference proteomes, in all eight query-by-species combinations.
+       Every species that retains PPEF2 gives >=81%% identity in 9-13 pieces, named PPEF2.
+       The distributions do not overlap. Hipposideros armiger carries BOTH loci - PPEF2 at
+       79.8%% over 687 aa and PPEF1 at 56.7%% over 318 aa - while R. hipposideros carries
+       only the 57.6%%/318 aa PPEF1 signature, recovered by the same query in the same run.
+       SAY: absent / not recoverable.   DO NOT SAY: pseudogenised (1 confident stops).
+
+IL1F10 Absent in all nine rhinolophoids, including both megadermatids. The best model is
+       34-47%% identity and is named IL1RN - the adjacent paralogue - by both references.
+       Every other bat gives 56-84%% named IL1F10. IL1RN itself is intact in all 17 mammals,
+       which is the internal control: the neighbour is recovered where the gene is not.
+       SAY: IL-38 / IL1F10.   DO NOT SAY: IL-36. IL1F10 is IL-38; the IL-36 cytokines are
+       IL1F6, IL1F8 and IL1F9, which were not tested here.
+
+NOX5   Fragmentary in all four Rhinolophus AND all three Hipposideridae; intact in both
+       megadermatids and every other bat. Only 6-26%% of the protein is recoverable, in 1-6
+       pieces at ~71%% identity, against 80-96%% in 12-15 pieces where it is intact.
+       SAY: fragmentary / not recoverable as an intact gene, in Rhinolophidae AND
+       Hipposideridae.
+       DO NOT SAY: pseudogenised. That requires disrupting mutations, and the clade-matched
+       queries carry 2 confident stop(s) across all seven species. Do not say it is
+       Rhinolophus-specific either: the Hipposideridae are equally affected.
+
+NONE OF THE ABOVE  tests a phenotype. There is no expression data, no pulmonary challenge
+       and no measured inflammatory response in this analysis. Gene loss is what was
+       measured; a role in the fibroinflammatory response is a hypothesis the losses make
+       worth testing. Stating it as a demonstration is the claim a reviewer will attack.

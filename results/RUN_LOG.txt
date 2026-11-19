@@ -1,0 +1,73 @@
+interrogate.py md5 42b7a5c79d6a89634c121fdde93f396f
+TABLE1.py md5 e650cc4ea99dad08ce3a2cc039ef7cda
+command: interrogate.py --mammal-reference <PATH>/OneDrive/Desktop/BATCH GENOMES/Group 12/COMPLETE_Homo-Sapiens_ncbi_dataset.zip --mammal-reference2 <PATH>/Downloads/Rousettus_aegyptiacius_whole_ncbi_dataset.zip --bird-reference <PATH>/Downloads/WHOLE_Apus_apus_ncbi_dataset.zip --db-dir <PATH>/bat_promoter_blast_databases --out <PATH>/OneDrive/Desktop/NOX5_PPEF2_Genome_Interrogation/results
+
+inputs by md5
+  genomes.tsv                  81440989aefbd682bf80bc3bde0918be
+  proteins.tsv                 6e5b8c4bc23ee268fb8f76c262e92ab5
+  promoters.tsv                92b4d4d53ddea5fe9c5420f289c3fef3
+  IL1F10_protein_Rousettus_aegyptiacus ac2ce4f20e620cb3899c365fe544c376  claim
+  IL1RN_protein_Rousettus_aegyptiacus a131ba34416a617a57058cd406a52d6a  claim
+  NOX5_protein_Rousettus_aegyptiacus b6222ec43ae8e646fe1304c7ed177520  claim
+  NOX5_protein_Apus_apus       f03c6ce97d536844256494bfb700a7f8  claim
+  SPESP1_protein_Rousettus_aegyptiacus 3c013035f1689a4499400215bb68e1e5  claim
+  PPEF2_protein_Rousettus_aegyptiacus d0d98ae277e59b0cf08a191c727af170  claim
+  PPEF2_protein_Apus_apus      1335e1730a0faa3c18d33f222ef51592  claim
+  SLC36A1_protein_Rousettus_aegyptiacus 9c2a9c8c0840805631d44a8d52ab9aa2  claim
+  SLC36A3_protein_Rousettus_aegyptiacus 7e8968616687d797898852519b526cfe  claim
+  SELE_protein_Homo_sapiens    219d4423d699b11ebcb9e26769930c8f  control
+  SELE_protein_Apus_apus       8449c0b4aeba23ac82c9c393a7af938a  control
+  SELE_protein_Rhinolophus_ferrumequinum 150686a72e652f5defe31592b209fc50  control
+  ACE_protein_Homo_sapiens     984d8eb19a225f39b52e61cfc572e76e  control
+  IL1F10_promoter_Rousettus_aegyptiacus afdebf628d193701e69ededf793f3180  claim
+  IL1RN_promoter_Rousettus_aegyptiacus 68fd70346547fb9ee98ac4d7f13822f9  claim
+  SLC36A3_promoter_Rousettus_aegyptiacus 577acc51c8802641bd174956e126c070  claim
+  SLC36A1_promoter_Rousettus_aegyptiacus 8161e17ae99beace917fb8e9a363e10a  claim
+  NOX5_promoter_Rousettus_aegyptiacus 1c38cd8a3c15ed10e9f49d10ee05239f  claim
+  SPESP1-NOX5_promoter_Homo_sapiens 3f0439ac4429d617f778d487f03a3427  claim
+  NOX5_promoter_Apus_apus      66c23d0d24dfe4ee62f10c5ed3a8e47a  claim
+  PPEF2_promoter_Rousettus_aegyptiacus 55a1666b656966e0d8e0283f793ab6d4  claim
+  PPEF2_promoter_Calypte_anna  7a75b772eaccc4070f8f203c8e281bf0  claim
+  PPEF2_promoter_Homo_sapiens  26c1a68007c802590345671de31fa6ae  claim
+  SLC36A3_promoter_Homo_sapiens 8d3f1a0a192cf8a3f9c57176b3541378  claim
+  ACE_promoter_Calypte_anna    51dcfd1cc89dd2c9a438ab211e068f95  excluded
+  ACE_promoter_Rhinolophus_ferrumequinum 7bc0726ac064777c65a4c0dcdb4c949f  excluded
+  SELE_promoter_Rhinolophus_ferrumequinum 8142a4045b26dc96e4a22c27bc8106cb  control
+  SELE_promoter_Apus_apus      e5c9f23ec6970c356b149ab750d88f4a  control
+  SELE_promoter_Homo_sapiens   1bf29bb306990be19b2baf93033941e4  control
+  AGTR2_promoter_Apus_apus     5754fc1f13da4fd3f5db02d66d5e1812  claim
+  AGTR2_promoter_Myotis_myotis a082448f30a8eb0f90fd4b4e07a7d484  claim
+  from Written by parse_design.py, md5 c4ac47b8e6ee1305ce7f046326437aee
+  from Design file: <PATH>/OneDrive/Desktop/PPEF2_Nox5.txt
+  from md5 2375d572d93d047091fa8510fce94631, 609 lines, modified 2026-11-19T09:18:03
+  from Nothing here is retyped: sequences come from the design file, accessions are read from
+  from inside each zip, and every row can be checked back against the md5 above.
+
+seed 20261118, 10 genome shuffles, min coverage 0.60, min stops 2
+promoter call needs bits > floor, E < 1e-05, and >= 10% of the query recovered from sequence held at fewer than 10 loci
+repeat accounting: locus gap 10000 bp, max_target_seqs 2000, max_hsps 500
+references: mammal HS, M2; bird AV
+started 2026-11-19T11:17:42, finished 2026-11-19T12:02:27
+Nymphicus_hollandicus        bird    GCA_009823435.2
+Loriculus_galgulus           bird    GCA_046563285.1
+Aselliscus_stoliczkanus      mammal  GCA_043727835.1
+Hipposideros_armiger         mammal  GCF_001890085.2
+Hipposideros_larvatus        mammal  GCA_031876335.1
+Heliangelus_exortis          bird    GCF_036169615.1
+Macroderma_gigas             mammal  GCA_055471755.1
+Megaderma_spasma             mammal  GCA_043880595.1
+Molossus_molossus            mammal  GCA_014108415.2
+Myotis_myotis                mammal  GCA_014108235.2
+Nyctalus_leisleri            mammal  GCA_964264875.2
+Pipistrellus_kuhlii          mammal  GCA_014108245.2
+Phyllostomus_discolor        mammal  GCF_004126475.2
+Rhinolophus_affinis          mammal  GCA_043728065.1
+Rhinolophus_ferrumequinum    mammal  GCF_004115265.2
+Rhinolophus_hipposideros     mammal  GCF_964194185.1
+Pteropus_alecto              mammal  GCF_000325575.1
+Rousettus_aegyptiacus        mammal  GCF_014176215.1
+Homo_sapiens                 mammal  GCF_000001405.40
+Rhinolophus_sinicus          mammal  GCF_057876585.1
+Apus_apus                    bird    GCF_020740795.1
+Calypte_anna                 bird    GCF_003957555.1
+Archilochus_colubris         bird    GCA_023079485.1
